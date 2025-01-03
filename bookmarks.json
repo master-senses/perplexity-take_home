@@ -1,0 +1,3926 @@
+[
+  {
+    "id": "1863261954229321873",
+    "text": "Prompt with example output from Flux Dev. Fast, Good, and cheap.",
+    "author": "Ethan Woo\n@EthanWoo\n·\nDec 1, 2024",
+    "timestamp": "2024-12-01T16:40:42.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GduiwEQXIAArR_x?format=jpg&name=large",
+      "https://pbs.twimg.com/media/Gduix_xXUAA5eZC?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/EthanWoo",
+      "https://x.com/EthanWoo/status/1863261954229321873/photo/2",
+      "https://x.com/shl",
+      "https://x.com/EthanWoo/status/1863261954229321873/photo/1",
+      "https://x.com/EthanWoo/status/1863261954229321873/analytics",
+      "https://x.com/EthanWoo/status/1863261954229321873"
+    ]
+  },
+  {
+    "id": "1862132015211954188",
+    "text": "2. Create a PRD with ChatGPT\nYou might think, \"I don’t need a PRD, I’ve built products without one before.\" But trust me, having a well-defined PRD in your Cursor workflow is a game changer.\n\nHere’s how I create one:\n- Throw everything the client shared into ChatGPT.\n- Ask it to",
+    "author": "Prajwal Tomar\n@PrajwalTomar_\n·\nNov 28, 2024",
+    "timestamp": "2024-11-28T13:50:43.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/PrajwalTomar_/status/1862132015211954188/analytics",
+      "https://x.com/PrajwalTomar_",
+      "https://x.com/PrajwalTomar_/status/1862132015211954188"
+    ]
+  },
+  {
+    "id": "1861885194430484988",
+    "text": "I've yet to see a good thread summarising new types of UI that generative AI has necessitated, so here's an attempt to start one (in the hopes you all can contribute!)\n\nNot necessarily endorsing any of these, I just see them all as relevant in our future",
+    "author": "Des Traynor\n@destraynor\n·\nNov 28, 2024",
+    "timestamp": "2024-11-27T21:29:57.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/destraynor",
+      "https://x.com/destraynor/status/1861885194430484988",
+      "https://x.com/destraynor/status/1861885194430484988/analytics"
+    ]
+  },
+  {
+    "id": "1861439568743956767",
+    "text": "Introducing the Cookbook \n\nAn open-source collection of recipes and guides for building with the AI SDK. \n\n(link is in the reply)",
+    "author": "AI SDK\n@aisdk\n·\nNov 26, 2024",
+    "timestamp": "2024-11-26T15:59:11.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/aisdk/status/1861439568743956767",
+      "https://x.com/aisdk",
+      "https://x.com/aisdk/status/1861439568743956767/photo/1",
+      "https://x.com/aisdk/status/1861439568743956767/analytics",
+      "https://x.com/aisdk/status/1861439568743956767/media_tags"
+    ]
+  },
+  {
+    "id": "1860734244068430111",
+    "text": "Knowing who to talk to and what to talk about can be a challenge. \n\nI use this mad libs style exercise with clients to help them articulate who they want to engage with and on what topics.\n\nThis helps us to identify the attributes, experiences, and problems we should recruit for.",
+    "author": "Behzod\n@beh_zod\n·\nNov 24, 2024",
+    "timestamp": "2024-11-24T17:16:29.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GdKlBZRbUAA2QKv?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/beh_zod/status/1860734244068430111",
+      "https://x.com/beh_zod/status/1860734244068430111/analytics",
+      "https://x.com/beh_zod/status/1860734244068430111/photo/1",
+      "https://x.com/beh_zod"
+    ]
+  },
+  {
+    "id": "1860999256750064089",
+    "text": "high quality content",
+    "author": "maharshi\n@mrsiipa\n·\nNov 25, 2024",
+    "timestamp": "2024-11-25T10:49:33.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GdOY1H2bEAA-BzW?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/mrsiipa",
+      "https://x.com/mrsiipa/status/1860999256750064089",
+      "https://x.com/mrsiipa/status/1860999256750064089/analytics",
+      "https://x.com/mrsiipa/status/1860999256750064089/photo/1"
+    ]
+  },
+  {
+    "id": "1860732311299408257",
+    "text": "I've built 19 projects with Cursor AI without line a single line of code myself.\n\nBut, the Truth is Cursor is dumb you don't add detailed docs around your project.\n\nYou need to build a strong <Context Boundary> around Cursor\n\nHere what you can do to improve your Cursor workflow",
+    "author": "Cj Z\n@cj_zZZz\n·\nNov 24, 2024",
+    "timestamp": "2024-11-24T17:08:48.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GdKQG4wXgAAFl2c?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/cj_zZZz/status/1860732311299408257/photo/1",
+      "https://x.com/cj_zZZz/status/1860732311299408257/analytics",
+      "https://x.com/cj_zZZz/status/1860732311299408257",
+      "https://x.com/cj_zZZz"
+    ]
+  },
+  {
+    "id": "1860732324746276918",
+    "text": "5. Ask Claude to create \"File Structure\" \n\nI am pasting the file structure that works the best with AI code. \n\ncopy this file and ask Claude to use this as a reference and create a file straucture for your project.",
+    "author": "Cj Z\n@cj_zZZz\n·\nNov 24, 2024",
+    "timestamp": "2024-11-24T17:08:51.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GdKYbRRWoAACZm2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GdKYbRJWAAAabhi?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/cj_zZZz/status/1860732324746276918/photo/2",
+      "https://x.com/cj_zZZz/status/1860732324746276918",
+      "https://x.com/cj_zZZz/status/1860732324746276918/photo/1",
+      "https://x.com/cj_zZZz",
+      "https://x.com/cj_zZZz/status/1860732324746276918/analytics"
+    ]
+  },
+  {
+    "id": "1860448756652474555",
+    "text": "I am online 7 days a week, ~8+ hours a day. If you need something as you build with Gemini, please ping me!\n\nMy email is lkilpatrick@google.com",
+    "author": "Logan Kilpatrick\n@OfficialLoganK\n·\nNov 24, 2024",
+    "timestamp": "2024-11-23T22:22:03.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/OfficialLoganK/status/1860448756652474555/analytics",
+      "https://x.com/OfficialLoganK",
+      "https://x.com/OfficialLoganK/status/1860448756652474555"
+    ]
+  },
+  {
+    "id": "1860328216147137002",
+    "text": "To all the no-code haters who lurk in my replies every time I post cutting edge research, the code for this is now available",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nNov 23, 2024",
+    "timestamp": "2024-11-23T14:23:04.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/dreamingtulpa/status/1860328216147137002",
+      "https://x.com/dreamingtulpa/status/1860328216147137002/analytics",
+      "https://x.com/dreamingtulpa"
+    ]
+  },
+  {
+    "id": "1859888517490286602",
+    "text": "Project Page: https://magic-quill.github.io\nCode: https://github.com/magic-quill/magicquill…\nDemo:",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nNov 22, 2024",
+    "timestamp": "2024-11-22T09:15:52.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/DeGZQtbIj3",
+      "https://x.com/dreamingtulpa",
+      "https://x.com/dreamingtulpa/status/1859888517490286602/analytics",
+      "https://t.co/Oee3OORZOF",
+      "https://t.co/kdQCudJ0y8",
+      "https://x.com/dreamingtulpa/status/1859888517490286602"
+    ]
+  },
+  {
+    "id": "1853728085595529252",
+    "text": " AI enthusiasts! Join \n@MistralAI\n and shape the future of generative AI! \n\nWe're hiring AI Scientists, Research Engineers, and more \n\n Check out our openings: https://jobs.lever.co/mistral\n\n Be part of a brilliant team working on cutting-edge projects. #AIJobs #TechCareers",
+    "author": "Saulnier Lucile\n@LucileSaulnier\n·\nNov 5, 2024",
+    "timestamp": "2024-11-05T09:16:30.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/8VrbQXRMev",
+      "https://x.com/LucileSaulnier",
+      "https://x.com/hashtag/TechCareers?src=hashtag_click",
+      "https://x.com/hashtag/AIJobs?src=hashtag_click",
+      "https://x.com/LucileSaulnier/status/1853728085595529252/analytics",
+      "https://x.com/LucileSaulnier/status/1853728085595529252",
+      "https://x.com/MistralAI"
+    ]
+  },
+  {
+    "id": "1853833197139665133",
+    "text": "I am recruiting PhD students this cycle! If you're interested in:\n- AI agents and security - both AI agents for cybersecurity and security of AI agents\n- Auditing AI \n- Data and AI (yes I still do this... projects are cooking)\n\nPlease apply to UIUC CS!\n\n for recent projects",
+    "author": "Daniel Kang\n@daniel_d_kang\n·\nNov 5, 2024",
+    "timestamp": "2024-11-05T16:14:11.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/daniel_d_kang/status/1853833197139665133/analytics",
+      "https://x.com/daniel_d_kang",
+      "https://x.com/daniel_d_kang/status/1853833197139665133"
+    ]
+  },
+  {
+    "id": "1853838708585152700",
+    "text": "\"A curated list of awesome .cursorrules files\"",
+    "author": "Tom Dörr\n@tom_doerr\n·\nNov 5, 2024",
+    "timestamp": "2024-11-05T16:36:05.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GboobF9WIAAl81p?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/tom_doerr",
+      "https://x.com/tom_doerr/status/1853838708585152700",
+      "https://x.com/tom_doerr/status/1853838708585152700/analytics",
+      "https://x.com/tom_doerr/status/1853838708585152700/photo/1"
+    ]
+  },
+  {
+    "id": "1853089766729736251",
+    "text": "1/ Start with a Clear Vision\nI kick things off with ChatGPT. I dive into the details: color palette, theme, vibe, EVERYTHING. I don’t even touch V0 until I’m 100% happy with the description ChatGPT generates. This structured vision lets me keep the design cohesive, saving time",
+    "author": "Prajwal Tomar\n@PrajwalTomar_\n·\nNov 3, 2024",
+    "timestamp": "2024-11-03T15:00:03.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/PrajwalTomar_/status/1853089766729736251",
+      "https://x.com/PrajwalTomar_",
+      "https://x.com/PrajwalTomar_/status/1853089766729736251/analytics"
+    ]
+  },
+  {
+    "id": "1853154889632972941",
+    "text": "Just a few more days before X is safe to discuss AI again. :-) \n\nHere's 25,000 in AI so you can get ready. Thousands added since June, most of you don't follow these, so I keep showing them to you. They are the most complete lists of such on the Internet.\n\nFollowing lists makes",
+    "author": "Robert Scoble\n@Scobleizer\n·\nNov 3, 2024",
+    "timestamp": "2024-11-03T19:18:50.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/Scobleizer",
+      "https://x.com/Scobleizer/status/1853154889632972941/analytics",
+      "https://x.com/Scobleizer/status/1853154889632972941"
+    ]
+  },
+  {
+    "id": "1852799019132637326",
+    "text": "tips for beginners building products with AI using cursor\n\n1. write \n@codebase\n in composer so composer sees all your files\n\n2. sometimes it doesn’t update the files then say did you update the files? i don’t know why this works but it just works.\n\n3. go extremely small step by",
+    "author": "rasit\n@0xrasit\n·\nNov 2, 2024",
+    "timestamp": "2024-11-02T19:44:44.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/0xrasit/status/1852799019132637326",
+      "https://x.com/0xrasit",
+      "https://x.com/0xrasit/status/1852799019132637326/analytics",
+      "https://x.com/codebase"
+    ]
+  },
+  {
+    "id": "1853272891023872450",
+    "text": "@cursor_ai\n employees came to share their Cursor workflow while building Cursor. When builders == users, product UX is elite.\n\nI love \n@shaoruu\n's config. Super silly to see on the big auditorium screen  trust it works\n\nPaste in Settings > Rules for AI\n\n`DO NOT GIVE ME HIGH",
+    "author": "Kayla\n@kayladotdev\n·\nNov 4, 2024",
+    "timestamp": "2024-11-04T03:07:44.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GbgkPWobAAAm25o?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/shaoruu",
+      "https://x.com/kayladotdev/status/1853272891023872450",
+      "https://x.com/cursor_ai",
+      "https://x.com/kayladotdev",
+      "https://x.com/kayladotdev/status/1853272891023872450/photo/1",
+      "https://x.com/kayladotdev/status/1853272891023872450/analytics"
+    ]
+  },
+  {
+    "id": "1849754382314721606",
+    "text": "How to transform a \n@shadcn\n switch into a pricing toggle ↓",
+    "author": "Pasquale Vitiello\n@pacovitiello\n·\nOct 25, 2024",
+    "timestamp": "2024-10-25T10:06:26.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/pacovitiello/status/1849754382314721606/analytics",
+      "https://x.com/pacovitiello/status/1849754382314721606",
+      "https://x.com/pacovitiello",
+      "https://x.com/shadcn"
+    ]
+  },
+  {
+    "id": "1848591745757360307",
+    "text": "I found think frickin goldmine content for my leetcode bros\n\ngo watch this video, like share and subscribe also follow him \n@stoneycodes\n \n\nwe are not gatekeeping this, share this people\n\nSHARE SHARE SHARE!!!!!",
+    "author": "minami\n@minamisatokun\n·\nOct 22, 2024",
+    "timestamp": "2024-10-22T05:06:32.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GaeEGrwXQAAydve?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/minamisatokun/status/1848591745757360307/photo/1",
+      "https://x.com/minamisatokun/status/1848591745757360307/analytics",
+      "https://x.com/minamisatokun/status/1848591745757360307",
+      "https://x.com/minamisatokun",
+      "https://x.com/stoneycodes"
+    ]
+  },
+  {
+    "id": "1848693436268089793",
+    "text": "meta ai's pdf on vision language modeling",
+    "author": "maharshi\n@mrsiipa\n·\nOct 22, 2024",
+    "timestamp": "2024-10-22T11:50:36.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GafgmtPbEAEddIn?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/mrsiipa",
+      "https://x.com/mrsiipa/status/1848693436268089793",
+      "https://x.com/mrsiipa/status/1848693436268089793/analytics",
+      "https://x.com/mrsiipa/status/1848693436268089793/photo/1"
+    ]
+  },
+  {
+    "id": "1848397762141773832",
+    "text": "SceneCraft can generate detailed indoor 3D scenes from user layouts and text descriptions!\n\nIt is able to turn 3D layouts into 2D maps, producing complex spaces with diverse textures and realistic visuals.\n\nLinks ",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nOct 21, 2024",
+    "timestamp": "2024-10-21T16:15:42.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/dreamingtulpa/status/1848397762141773832/analytics",
+      "https://x.com/dreamingtulpa",
+      "https://x.com/dreamingtulpa/status/1848397762141773832"
+    ]
+  },
+  {
+    "id": "1845886861891588305",
+    "text": "I bookmarked it, don't know about you -",
+    "author": "subho ghosh\n@SubhoGhosh02\n·\nOct 14, 2024",
+    "timestamp": "2024-10-14T17:58:17.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GZ3oQVOb0AARQt6?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/SubhoGhosh02",
+      "https://x.com/SubhoGhosh02/status/1845886861891588305/photo/1",
+      "https://x.com/SubhoGhosh02/status/1845886861891588305",
+      "https://x.com/SubhoGhosh02/status/1845886861891588305/analytics"
+    ]
+  },
+  {
+    "id": "1845796370957107455",
+    "text": "found a really nice guide made by \n@hrishioa\n that explains \n@_xjdr\n 's entropix sampler in detail, especially the entropy and varentropy concepts... this is very cool.",
+    "author": "maharshi\n@mrsiipa\n·\nOct 14, 2024",
+    "timestamp": "2024-10-14T11:58:42.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GZ2VejubYAAmuBW?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/hrishioa",
+      "https://x.com/_xjdr",
+      "https://x.com/mrsiipa/status/1845796370957107455/analytics",
+      "https://x.com/mrsiipa/status/1845796370957107455/photo/1",
+      "https://x.com/mrsiipa",
+      "https://x.com/mrsiipa/status/1845796370957107455"
+    ]
+  },
+  {
+    "id": "1828258980457496589",
+    "text": "Let's learn about jailbreaking together!  Today's lesson is about GETTING PAST REFUSALS. \n\nWe've all heard the old LLM refrain, \"I'm sorry, but as an AI language model, I can't do that.\" But if you pay close attention, you'll start to notice other refusal patterns emerge.",
+    "author": "La Main de la Mort\n@AITechnoPagan\n·\nAug 27, 2024",
+    "timestamp": "2024-08-27T02:31:23.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/AITechnoPagan",
+      "https://x.com/AITechnoPagan/status/1828258980457496589/analytics",
+      "https://x.com/AITechnoPagan/status/1828258980457496589"
+    ]
+  },
+  {
+    "id": "1827824579445743853",
+    "text": "Sherlock is pretty popular at over 53k GitHub stars though I wonder what exactly the use case is",
+    "author": "Tom Dörr\n@tom_doerr\n·\nAug 26, 2024",
+    "timestamp": "2024-08-25T21:45:13.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GV28WoUXwAAxRX5?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/tom_doerr/status/1827824579445743853/analytics",
+      "https://x.com/tom_doerr",
+      "https://x.com/tom_doerr/status/1827824579445743853",
+      "https://x.com/tom_doerr/status/1827824579445743853/photo/1"
+    ]
+  },
+  {
+    "id": "1827100871957565892",
+    "text": "This reporter getting interrupted by his mother is still one of my favorite videos. ",
+    "author": "Wholesome Side of 𝕏\n@itsme_urstruly\n·\nAug 24, 2024",
+    "timestamp": "2024-08-23T21:49:28.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/itsme_urstruly/status/1827100871957565892",
+      "https://x.com/itsme_urstruly/status/1827100871957565892/analytics",
+      "https://x.com/ykkswb",
+      "https://x.com/i/status/1825838867406045367",
+      "https://x.com/itsme_urstruly"
+    ]
+  },
+  {
+    "id": "1822665923775611374",
+    "text": "Hack to tell if an image is AI-generated: bump up the saturation and look at the microphone patches and teeth.\n\nWrote the code completely in Claude and it's a public Artifact: you can try it now!",
+    "author": "Deedy\n@deedydas\n·\nAug 11, 2024",
+    "timestamp": "2024-08-11T16:06:34.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GUto_sRa8AAhdT7?format=jpg&name=large"
+    ],
+    "links": [
+      "https://t.co/x1AotMsQxh",
+      "https://x.com/deedydas/status/1822665923775611374/analytics",
+      "https://x.com/i/flow/join-birdwatch",
+      "https://t.co/bExmRLTgIN",
+      "https://x.com/deedydas/status/1822665923775611374",
+      "https://t.co/apLna0j3Yx",
+      "https://x.com/deedydas/status/1822665923775611374/photo/1",
+      "https://x.com/deedydas"
+    ]
+  },
+  {
+    "id": "1821788670296518786",
+    "text": "Introducing Master Comfy ! LLM to find any custom nodes for ComfyUI workflow.\n\nA better way to get started in the sea of custom nodes, 1.2k custom nodes pack and counting...\n\nI was struggling in the morning to look for a few custom nodes, and decided to spend my afternoon",
+    "author": "BennyKok\n@BennyKokMusic\n·\nAug 9, 2024",
+    "timestamp": "2024-08-09T06:00:40.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/BennyKokMusic/status/1821788670296518786/analytics",
+      "https://x.com/BennyKokMusic",
+      "https://x.com/BennyKokMusic/status/1821788670296518786"
+    ]
+  },
+  {
+    "id": "1810143903133397131",
+    "text": "Custom neural network layers and perform training in ComfyUI using a graphical interface",
+    "author": "青龍聖者\n@bdsqlsz\n·\nJul 8, 2024",
+    "timestamp": "2024-07-08T02:48:32.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/7phhx1Wh64",
+      "https://x.com/bdsqlsz/status/1810143903133397131/analytics",
+      "https://x.com/bdsqlsz",
+      "https://x.com/bdsqlsz/status/1810143903133397131"
+    ]
+  },
+  {
+    "id": "1806379496917827774",
+    "text": "We just made making AI agents 10x easier with a new open source package.\n \nWant to make a google calendar chat agent? Github user agent? Want to update notion/airtable databases based on prompts? Or maybe you want to use D1, KV etc? \nit's easy. ",
+    "author": "Dhravya Shah\n@DhravyaShah\n·\nJun 27, 2024",
+    "timestamp": "2024-06-27T17:30:07.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/DhravyaShah",
+      "https://x.com/DhravyaShah/status/1806379496917827774/analytics",
+      "https://x.com/DhravyaShah/status/1806379496917827774",
+      "https://t.co/93pGaK8kyB"
+    ]
+  },
+  {
+    "id": "1786299525721940001",
+    "text": "From Single input image to cool animation with ComfyUI.\nTransform your friend into an animate !\nIts combining a lot of node, its using LLM (Gemini), SDXL, SD1.5, animatediff etc... \nyes its a mess haha, but didnt have time to clean up yet, and its not perfect yet as a workflow",
+    "author": "Lovis\n@OdinLovis\n·\nMay 3, 2024",
+    "timestamp": "2024-05-03T07:39:29.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/OdinLovis",
+      "https://x.com/OdinLovis/status/1786299525721940001/analytics",
+      "https://x.com/OdinLovis/status/1786299525721940001"
+    ]
+  },
+  {
+    "id": "1786311856900239726",
+    "text": "To resume my workflow :\n- SDXL with InstantId for the face and Gemini (LLM) to describe the clothes and global character, openpose for position\n- double Ipadapter with this output  to replicate the character with animatediff and SD1.5, its using LCM to make it faster\n- other",
+    "author": "Lovis\n@OdinLovis\n·\nMay 3, 2024",
+    "timestamp": "2024-05-03T08:28:29.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/OdinLovis",
+      "https://x.com/OdinLovis/status/1786311856900239726",
+      "https://x.com/OdinLovis/status/1786311856900239726/analytics"
+    ]
+  },
+  {
+    "id": "1784985954832253256",
+    "text": "Goodbye LoRA  (Part 999)\n\nMultiBooth can generate images that include any number of concepts in various styles, contexts, and layout relationships as specified by given text prompts.\n\nhttps://multibooth.github.io",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nApr 29, 2024",
+    "timestamp": "2024-04-29T16:39:49.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GMWLQq0WkAAbjY8?format=jpg&name=900x900",
+      "https://pbs.twimg.com/media/GMWLQqtXMAAULtc?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/dreamingtulpa",
+      "https://x.com/dreamingtulpa/status/1784985954832253256/analytics",
+      "https://t.co/TVjvyQfi3T",
+      "https://x.com/dreamingtulpa/status/1784985954832253256/photo/2",
+      "https://x.com/dreamingtulpa/status/1784985954832253256",
+      "https://x.com/dreamingtulpa/status/1784985954832253256/photo/1"
+    ]
+  },
+  {
+    "id": "1784962492822679782",
+    "text": "Discovered this workflow yesterday and had so much fun with it! Find the workflow at the end or learn how to make it yourself.\nI assume you have ComfyUI with Manager and IPAdapter installed, if not follow the tutorials of \"Latent Vision\" on YouTube and/or other sources\nLet's go!",
+    "author": "DreamStarter\n@DreamStarter_1\n·\nApr 29, 2024",
+    "timestamp": "2024-04-29T15:06:35.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GMViEfUWcAAtsjO?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/DreamStarter_1",
+      "https://x.com/DreamStarter_1/status/1784962492822679782/analytics",
+      "https://x.com/DreamStarter_1/status/1784962492822679782/photo/1",
+      "https://x.com/DreamStarter_1/status/1784962492822679782"
+    ]
+  },
+  {
+    "id": "1784984733799023051",
+    "text": "The \"AlignYourSteps\" (AYS) custom scheduler landed in Comfy recently.\n\nhttps://research.nvidia.com/labs/toronto-ai/AlignYourSteps/…\n\nHere's a comparison of 10 step outputs using AYS vs traditional. The quality is fantastic. It's especially good on text.",
+    "author": "fofr\n@fofrAI\n·\nApr 29, 2024",
+    "timestamp": "2024-04-29T16:34:58.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GMWI2m1WwAA3LsL?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/fofrAI/status/1784984733799023051",
+      "https://x.com/fofrAI/status/1784984733799023051/photo/1",
+      "https://t.co/h0xRo45Loq",
+      "https://x.com/fofrAI/status/1784984733799023051/analytics",
+      "https://x.com/fofrAI"
+    ]
+  },
+  {
+    "id": "1777577897810596124",
+    "text": "Tencent's CustomNet official demo is on Spaces\n\nA unified encoder-based framework for object customization in text-to-image diffusion models\nIncorporates 3D view synthesis capabilities\nAdjusts spatial positions and viewpoints\nPreserves object's Identity effectively",
+    "author": "Gradio\n@Gradio\n·\nApr 9, 2024",
+    "timestamp": "2024-04-09T06:02:51.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/Gradio/status/1777577897810596124/analytics",
+      "https://x.com/Gradio/status/1777577897810596124",
+      "https://x.com/Gradio"
+    ]
+  },
+  {
+    "id": "1779993188008091876",
+    "text": "For the W21 batch, I helped > 90 companies with their applications.\n\nI referred over 42 of them - 39 got interviews (89%) and 14 got accepted (33%).",
+    "author": "Zach Waterfield\n@zlwaterfield\n·\nApr 16, 2024",
+    "timestamp": "2024-04-15T22:00:21.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/zlwaterfield",
+      "https://x.com/zlwaterfield/status/1779993188008091876/analytics",
+      "https://x.com/zlwaterfield/status/1779993188008091876"
+    ]
+  },
+  {
+    "id": "1779182906654507134",
+    "text": "Goodbye LoRA (multi-subject edition) \n\nMuDI supports multi-subject personalization for text-to-image models which lets you generate images of multiple subjects without identity mixing.\n\nLinks ",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nApr 13, 2024",
+    "timestamp": "2024-04-13T16:20:35.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GLDtbBKWwAAnq6t?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/dreamingtulpa/status/1779182906654507134",
+      "https://x.com/dreamingtulpa/status/1779182906654507134/analytics",
+      "https://x.com/dreamingtulpa",
+      "https://x.com/dreamingtulpa/status/1779182906654507134/photo/1"
+    ]
+  },
+  {
+    "id": "1777972973808275918",
+    "text": "Design2Cloth is a high fidelity 3D generative model that can generate diverse and highly detailed clothes simply by drawing a 2D cloth mask.\n\nEven supports interpolation.\n\nhttps://jiali-zheng.github.io/Design2Cloth/",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nApr 10, 2024",
+    "timestamp": "2024-04-10T08:12:44.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GKyg_TmWMAA2FSq?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GKyg_TYXEAA3isl?format=jpg&name=large"
+    ],
+    "links": [
+      "https://t.co/j0QBNyE7Lk",
+      "https://x.com/dreamingtulpa",
+      "https://x.com/dreamingtulpa/status/1777972973808275918/photo/2",
+      "https://x.com/dreamingtulpa/status/1777972973808275918/analytics",
+      "https://x.com/dreamingtulpa/status/1777972973808275918",
+      "https://x.com/dreamingtulpa/status/1777972973808275918/photo/1"
+    ]
+  },
+  {
+    "id": "1777382373283299365",
+    "text": "Open-sourcing `AI-Oracle`.\n\nGenerates better responses than Claude 3 Opus.\n\nA very simple approach that combines the abilities of Claude 3, GPT-4, and Perplexity to provide better results than any could provide on their own.\n\nSeriously -- it's dumb simple.\n\nNotebook in thread:",
+    "author": "Matt Shumer\n@mattshumer_\n·\nApr 8, 2024",
+    "timestamp": "2024-04-08T17:05:54.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/mattshumer_/status/1777382373283299365",
+      "https://x.com/mattshumer_",
+      "https://x.com/mattshumer_/status/1777382373283299365/analytics"
+    ]
+  },
+  {
+    "id": "1768679154726359128",
+    "text": " For the last few months I have been reverse engineering Magnific AI's famous upscaler\n\nIt uses MultiDiffusion, ControlNet tiles and details LoRas\n\nIn true AI spirit, I am open sourcing it for everyone to use for free in your apps\n\nIt's designed to easily control the amount of",
+    "author": "philz1337x\n@philz1337x\n·\nMar 15, 2024",
+    "timestamp": "2024-03-15T16:42:25.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/philz1337x/status/1768679154726359128/analytics",
+      "https://x.com/philz1337x",
+      "https://x.com/philz1337x/status/1768679154726359128"
+    ]
+  },
+  {
+    "id": "1768309622018806082",
+    "text": "V3D Gradio demo is out\n\nVideo Diffusion Models are Effective 3D Generators",
+    "author": "AK\n@_akhaliq\n·\nMar 14, 2024",
+    "timestamp": "2024-03-14T16:14:02.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/_akhaliq/status/1768309622018806082",
+      "https://x.com/_akhaliq/status/1768309622018806082/analytics",
+      "https://x.com/_akhaliq"
+    ]
+  },
+  {
+    "id": "1768223127840952592",
+    "text": " Introducing Follow-Your-Click: Transforming the way we animate images with just a click and a short prompt!\n\nNew ImageToVideo model. Say goodbye to moving entire scenes and hello to precision and creativity.",
+    "author": "Gradio\n@Gradio\n·\nMar 14, 2024",
+    "timestamp": "2024-03-14T10:30:20.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/Gradio/status/1768223127840952592",
+      "https://x.com/Gradio/status/1768223127840952592/analytics",
+      "https://x.com/Gradio"
+    ]
+  },
+  {
+    "id": "1768283730614071547",
+    "text": "LaVague just made #1 on #HackerNews! \nSo cool to see so much excitement about our Large Action Model framework to automate web interaction!\n\nWe will do our best to grow our open-source community, and deliver the best tech to empower devs on their automation journey!\n\nGitHub:",
+    "author": "Daniel Huynh\n@dhuynh95\n·\nMar 14, 2024",
+    "timestamp": "2024-03-14T14:31:09.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GIo0k7hagAAfb5i?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/dhuynh95",
+      "https://x.com/dhuynh95/status/1768283730614071547",
+      "https://x.com/hashtag/HackerNews?src=hashtag_click",
+      "https://x.com/dhuynh95/status/1768283730614071547/photo/1",
+      "https://x.com/dhuynh95/status/1768283730614071547/analytics"
+    ]
+  },
+  {
+    "id": "1765944027134750925",
+    "text": "StableDrag\n\nStable Dragging for Point-based Image Editing\n\nPoint-based image editing has attracted remarkable attention since the emergence of DragGAN. Recently, DragDiffusion further pushes forward the generative quality via adapting this dragging technique to diffusion",
+    "author": "AK\n@_akhaliq\n·\nMar 8, 2024",
+    "timestamp": "2024-03-08T03:34:00.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/_akhaliq/status/1765944027134750925",
+      "https://x.com/_akhaliq/status/1765944027134750925/analytics",
+      "https://x.com/_akhaliq"
+    ]
+  },
+  {
+    "id": "1765863447227470332",
+    "text": "Iteration with \n@dogstudio\n :)\nComfyUI SDXL image generation >> ComfyUI TripoSR >> Mixamo >> C4D Render and Openpose >> ComfyUI AnimateDiff Vid2vid SDXL workflow \nGetting better !",
+    "author": "Lovis\n@OdinLovis\n·\nMar 8, 2024",
+    "timestamp": "2024-03-07T22:13:48.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/OdinLovis/status/1765863447227470332",
+      "https://x.com/OdinLovis",
+      "https://x.com/OdinLovis/status/1765863447227470332/analytics",
+      "https://x.com/Dogstudio"
+    ]
+  },
+  {
+    "id": "1765909004721516723",
+    "text": "Texturing 3D Meshes with Stable Diffusion +  ControlNet\n\nI love the meshes coming out of TripoSR by \n@StabilityAI\n @tripoai\n  but sometimes they lose some of the detail from the original image. I wanted to (re)apply a Stable Diffusion image as a texture to regain detail. Full",
+    "author": "Evan Jones\n@evanqjones\n·\nMar 8, 2024",
+    "timestamp": "2024-03-08T01:14:50.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/StabilityAI",
+      "https://x.com/evanqjones",
+      "https://x.com/evanqjones/status/1765909004721516723",
+      "https://x.com/tripoai",
+      "https://x.com/evanqjones/status/1765909004721516723/analytics"
+    ]
+  },
+  {
+    "id": "1765884361709339115",
+    "text": "1/ There has never been more support for founders in the early stages.\n\nEach program has unique terms, partners, approaches, and timing.\n\nHere are the best (IMO) startup accelerators, from -1 to 0 to 1. ",
+    "author": "Jonathan Brebner\n@JPBrebner\n·\nMar 8, 2024",
+    "timestamp": "2024-03-07T23:36:55.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GIGZOXgakAA-VRB?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/JPBrebner/status/1765884361709339115/analytics",
+      "https://x.com/JPBrebner",
+      "https://x.com/JPBrebner/status/1765884361709339115/photo/1",
+      "https://x.com/JPBrebner/status/1765884361709339115"
+    ]
+  },
+  {
+    "id": "1764738279327621300",
+    "text": "Generating images through text can be quite frustrating when trying to get some aspects *exactly* right. How many words would describe the sun in the sky? How a bird flaps its wings? How a squirrel runs in a forest?\n\nIn our formulation, just one word; but it is a special one...",
+    "author": "Matheus Gadelha\n@gadelha_m\n·\nMar 4, 2024",
+    "timestamp": "2024-03-04T19:42:47.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/gadelha_m/status/1764738279327621300",
+      "https://x.com/gadelha_m",
+      "https://x.com/gadelha_m/status/1764738279327621300/analytics"
+    ]
+  },
+  {
+    "id": "1764738839791435778",
+    "text": "Excited to share PhysGaussian has been accepted by #CVPR2024!\n\nPhysGaussian seamlessly integrates physically grounded Newtonian dynamics within 3D Gaussians to achieve high-quality novel motion synthesis.\n\n- Project Page: https://xpandora.github.io/PhysGaussian/\n- Code: https://github.com/XPandora/PhysGaussian…",
+    "author": "Tianyi Xie\n@TianyiXie14\n·\nMar 4, 2024",
+    "timestamp": "2024-03-04T19:45:01.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/TianyiXie14",
+      "https://x.com/TianyiXie14/status/1764738839791435778/analytics",
+      "https://x.com/hashtag/CVPR2024?src=hashtag_click",
+      "https://x.com/TianyiXie14/status/1764738839791435778",
+      "https://t.co/0JA9ONdgH7",
+      "https://t.co/QLFlC8YFM2"
+    ]
+  },
+  {
+    "id": "1764747943242862997",
+    "text": "100% sure I am the only AI Engineer that knows this trick.\n\nThe json schema examples in your Pydantic model is visible to the model. It is in fact the right way to include examples in your prompt, without touching a string.\n\nrepost this if you think someone else needs to know.",
+    "author": "jason liu\n@jxnlco\n·\nMar 5, 2024",
+    "timestamp": "2024-03-04T20:21:11.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GH2kiVhWoAArj_f?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/jxnlco/status/1764747943242862997/photo/1",
+      "https://x.com/jxnlco",
+      "https://x.com/jxnlco/status/1764747943242862997",
+      "https://x.com/jxnlco/status/1764747943242862997/analytics"
+    ]
+  },
+  {
+    "id": "1764793494311444599",
+    "text": "Releasing moondream2 - a small, open-source, vision language model designed to run efficiently on edge devices. Clocking in at 1.8B parameters, moondream requires less than 5GB of memory to run in 16 bit precision.",
+    "author": "vik\n@vikhyatk\n·\nMar 5, 2024",
+    "timestamp": "2024-03-04T23:22:11.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GH2wAU3aQAAzZIe?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/vikhyatk/status/1764793494311444599/analytics",
+      "https://x.com/vikhyatk",
+      "https://x.com/vikhyatk/status/1764793494311444599/photo/1",
+      "https://x.com/vikhyatk/status/1764793494311444599"
+    ]
+  },
+  {
+    "id": "1764035510236758096",
+    "text": "Another convenient usage of DUSt3R (kind of anecdotal): \nWhile looking for a rental apartment on airbnb for my vacations, i noticed I had difficulty grasping the layout and space of the apartment based on photos alone.\nSolution: put all photos in DUSt3R and voila :)",
+    "author": "Jerome Revaud\n@JeromeRevaud\n·\nMar 3, 2024",
+    "timestamp": "2024-03-02T21:10:14.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/JeromeRevaud",
+      "https://x.com/JeromeRevaud/status/1764035510236758096",
+      "https://x.com/JeromeRevaud/status/1764035510236758096/analytics"
+    ]
+  },
+  {
+    "id": "1764110674295493074",
+    "text": "Introducing open source, real-time demo for Comfy Deploy, streaming in any params (text, number, images).\n\nWorkflow by \n@JulienBlanchon\n \n\nRunning serverless gpu on \n@modal_labs\n \n\nDrawing UI \n@tldraw\n \n\nInspired by \n@krea_ai\n, \n@fal_ai_data\n 's real-time demo! Huge respects!\n\nDemo on",
+    "author": "BennyKok\n@BennyKokMusic\n·\nMar 3, 2024",
+    "timestamp": "2024-03-03T02:08:55.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/BennyKokMusic",
+      "https://x.com/krea_ai",
+      "https://x.com/BennyKokMusic/status/1764110674295493074",
+      "https://x.com/fal_ai_data",
+      "https://x.com/modal_labs",
+      "https://x.com/tldraw",
+      "https://x.com/JulienBlanchon",
+      "https://x.com/BennyKokMusic/status/1764110674295493074/analytics"
+    ]
+  },
+  {
+    "id": "1763606983918129198",
+    "text": ".\n@FilArons\n was gracious enough to show me the demo. Not only is it the obvious future of manufacturing software - he's also just an overall awesome dude.",
+    "author": "Nik Seetharaman\n@nikseeth\n·\nMar 1, 2024",
+    "timestamp": "2024-03-01T16:47:25.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/nikseeth",
+      "https://x.com/nikseeth/status/1763606983918129198/analytics",
+      "https://x.com/FilArons",
+      "https://x.com/nikseeth/status/1763606983918129198"
+    ]
+  },
+  {
+    "id": "1763124130004787590",
+    "text": "(1/n)\nOur 𝐆𝐚𝐮𝐬𝐬𝐢𝐚𝐧𝐃𝐫𝐞𝐚𝐦𝐞𝐫 has been accepted to #CVPR2024, one of the first works to generate 3D Gaussians from text.\n\nThe generation can be finished within 15 minutes on one GPU, much faster than previous text-to-3D methods.\n\nCode: https://github.com/hustvl/GaussianDreamer…",
+    "author": "Jiemin Fang\n@JaminFong\n·\nFeb 29, 2024",
+    "timestamp": "2024-02-29T08:48:44.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/JaminFong/status/1763124130004787590/analytics",
+      "https://x.com/hashtag/CVPR2024?src=hashtag_click",
+      "https://t.co/8ic0bVFNVX",
+      "https://x.com/JaminFong",
+      "https://x.com/JaminFong/status/1763124130004787590"
+    ]
+  },
+  {
+    "id": "1762793692442791990",
+    "text": "Deformable 3D Gaussian is accepted to #CVPR2024, with the final rating of (5, 5, 5). It's worth mentioning that we are the first to introduce a Deformation Field into 3D-GS (check the Arxiv timestamp). https://ingra14m.github.io/Deformable-Gaussians/…",
+    "author": "Zyeir Young\n@Ingra14m\n·\nFeb 28, 2024",
+    "timestamp": "2024-02-28T10:55:42.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/Ingra14m",
+      "https://x.com/Ingra14m/status/1762793692442791990",
+      "https://t.co/xAipkckzLm",
+      "https://x.com/Ingra14m/status/1762793692442791990/analytics",
+      "https://x.com/hashtag/CVPR2024?src=hashtag_click"
+    ]
+  },
+  {
+    "id": "1737130024522625072",
+    "text": "AnyDoor: Zero-shot Object-level Image Customization \n@Gradio\n demo is out\n\ngithub: https://github.com/damo-vilab/AnyDoor?tab=readme-ov-file#gradio-demo…",
+    "author": "AK\n@_akhaliq\n·\nDec 19, 2023",
+    "timestamp": "2023-12-19T15:17:26.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GBuGhuJXQAILJKl?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/_akhaliq/status/1737130024522625072/analytics",
+      "https://x.com/_akhaliq/status/1737130024522625072/photo/1",
+      "https://x.com/_akhaliq/status/1737130024522625072",
+      "https://x.com/_akhaliq",
+      "https://x.com/Gradio",
+      "https://t.co/umvZGk6SMp"
+    ]
+  },
+  {
+    "id": "1762757915595641048",
+    "text": "In a paper to be presented at CVPR ( https://arxiv.org/abs/2311.10356 ), we  propose a method that delivers realistic garment models from real-world images, even when the garments are loose instead of tight fitting.\n#deeplearning #computervision",
+    "author": "Pascal Fua\n@FuaPv\n·\nFeb 28, 2024",
+    "timestamp": "2024-02-28T08:33:32.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/hashtag/deeplearning?src=hashtag_click",
+      "https://t.co/iRlZgqnT4y",
+      "https://x.com/FuaPv/status/1762757915595641048/analytics",
+      "https://x.com/FuaPv/status/1762757915595641048",
+      "https://x.com/FuaPv",
+      "https://x.com/hashtag/computervision?src=hashtag_click"
+    ]
+  },
+  {
+    "id": "1734244411624567080",
+    "text": "Happy to share Gaussian Splatting SLAM\n\nhttps://rmurai.co.uk/projects/GaussianSplattingSLAM/…\n\nWe show the first 3DGS-based Monocular RGB SLAM, the hardest SLAM setting.\n\nUsing 3D Gaussians as a unified representation, the method only requires RGB images - No need for SfM, depth sensor, or learned prior.",
+    "author": "Hide\n@HideMatsu82\n·\nDec 11, 2023",
+    "timestamp": "2023-12-11T16:11:03.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/9zPvyHeeHM",
+      "https://x.com/HideMatsu82",
+      "https://x.com/HideMatsu82/status/1734244411624567080/analytics",
+      "https://x.com/HideMatsu82/status/1734244411624567080"
+    ]
+  },
+  {
+    "id": "1762513053336371520",
+    "text": "Thanks so much for sharing our work！\nAnyone can have a try on freely editing your 3D Gaussians!\nCode link: https://github.com/yihua7/SC-GS\nHomepage: https://yihua7.github.io/SC-GS-web/",
+    "author": "Yihua\n@KyrieIr31012755\n·\nFeb 27, 2024",
+    "timestamp": "2024-02-27T16:20:32.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/WMElRgFZy0",
+      "https://x.com/KyrieIr31012755",
+      "https://t.co/Q1SFEZmPcf",
+      "https://x.com/KyrieIr31012755/status/1762513053336371520/analytics",
+      "https://x.com/KyrieIr31012755/status/1762513053336371520"
+    ]
+  },
+  {
+    "id": "1762245579244011555",
+    "text": "Lookout for MeshGPT + SceneText at #CVPR2024!",
+    "author": "Yawar Siddiqui\n@yawarnihal\n·\nFeb 27, 2024",
+    "timestamp": "2024-02-26T22:37:41.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/yawarnihal",
+      "https://x.com/yawarnihal/status/1762245579244011555/analytics",
+      "https://x.com/yawarnihal/status/1762245579244011555",
+      "https://x.com/hashtag/CVPR2024?src=hashtag_click"
+    ]
+  },
+  {
+    "id": "1762231538475810969",
+    "text": " Convert Splat (.ply) to Mesh (.glb) with no code",
+    "author": "dylan\n@dylan_ebert_\n·\nFeb 27, 2024",
+    "timestamp": "2024-02-26T21:41:54.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GHSznxQWsAALG8_?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/dylan_ebert_/status/1762231538475810969/photo/1",
+      "https://x.com/dylan_ebert_/status/1762231538475810969/analytics",
+      "https://x.com/dylan_ebert_/status/1762231538475810969",
+      "https://x.com/dylan_ebert_"
+    ]
+  },
+  {
+    "id": "1762235580212257040",
+    "text": "Accepted to CVPR!  \n@CVPR\n #CVPR2024 Congrats to the team at Stanford and HKUST: \n@Vivianszf1\n @toomanyyifans\n @YinghaoXu1\n @Po_lhr\n @zfkuang1\n @CQFHK\n  Dit-Yan Yeung and \n@GordonWetzstein\n See you in Seattle!",
+    "author": "Rameen Abdal\n@AbdalRameen\n·\nFeb 27, 2024",
+    "timestamp": "2024-02-26T21:57:57.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/Po_lhr",
+      "https://x.com/GordonWetzstein",
+      "https://x.com/Vivianszf1",
+      "https://x.com/hashtag/CVPR2024?src=hashtag_click",
+      "https://x.com/CVPR",
+      "https://x.com/AbdalRameen/status/1762235580212257040/analytics",
+      "https://x.com/AbdalRameen/status/1762235580212257040",
+      "https://x.com/AbdalRameen",
+      "https://x.com/CQFHK",
+      "https://x.com/toomanyyifans",
+      "https://x.com/zfkuang1",
+      "https://x.com/YinghaoXu1"
+    ]
+  },
+  {
+    "id": "1712840565920862550",
+    "text": "GaussianDreamer: Fast Generation from Text to 3D Gaussian Splatting with Point Cloud Priors\n\npaper page: https://huggingface.co/papers/2310.08529…\n\nthe generation of 3D assets from text prompts has shown impressive results. Both 2D and 3D diffusion models can generate decent 3D objects based on",
+    "author": "AK\n@_akhaliq\n·\nOct 13, 2023",
+    "timestamp": "2023-10-13T14:39:48.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/bGEdORGRmu",
+      "https://x.com/_akhaliq/status/1712840565920862550/analytics",
+      "https://x.com/_akhaliq/status/1712840565920862550",
+      "https://x.com/_akhaliq"
+    ]
+  },
+  {
+    "id": "1762241025169404034",
+    "text": "So excited to share that our paper \"Paint-it\" got accepted to #CVPR2024!!! Huge thanks to my collaborators \n@Tae_Hyun_Oh\n and \n@GerardPonsMoll1\n  \n\nThe code will be released soon. Stay tuned! See you in Seattle ",
+    "author": "Kim Youwang\n@kim_youwang\n·\nFeb 27, 2024",
+    "timestamp": "2024-02-26T22:19:35.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/GerardPonsMoll1",
+      "https://x.com/kim_youwang/status/1762241025169404034",
+      "https://x.com/kim_youwang/status/1762241025169404034/analytics",
+      "https://x.com/hashtag/CVPR2024?src=hashtag_click",
+      "https://x.com/kim_youwang",
+      "https://x.com/Tae_Hyun_Oh"
+    ]
+  },
+  {
+    "id": "1762264861809996247",
+    "text": "Thrilled to announce that three of our papers have been accepted by #CVPR2024: Feauture 3DGS, Entropic Score Distillation, and Lift3D.  \nHowever, I'm even prouder that two of our papers on Efficient 3D Gaussian Splatting were rejected by CVPR2024: #LightGaussian, #FSGS.",
+    "author": "Zhiwen(Aaron) Fan\n@WayneINR\n·\nFeb 27, 2024",
+    "timestamp": "2024-02-26T23:54:19.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/WayneINR",
+      "https://x.com/hashtag/FSGS?src=hashtag_click",
+      "https://x.com/hashtag/CVPR2024?src=hashtag_click",
+      "https://x.com/WayneINR/status/1762264861809996247/analytics",
+      "https://x.com/hashtag/LightGaussian?src=hashtag_click",
+      "https://x.com/WayneINR/status/1762264861809996247"
+    ]
+  },
+  {
+    "id": "1762097934131204339",
+    "text": "Roblox presents FlashTex!\n\nThe method can texture an input 3D mesh given a user-provided text prompt. These generated textures can also be relit properly in different lighting environments.\n\nhttps://flashtex.github.io/?ref=aiartweekly…",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nFeb 26, 2024",
+    "timestamp": "2024-02-26T12:51:00.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/dreamingtulpa/status/1762097934131204339",
+      "https://t.co/c5JWbnMZPl",
+      "https://x.com/dreamingtulpa/status/1762097934131204339/analytics",
+      "https://x.com/dreamingtulpa"
+    ]
+  },
+  {
+    "id": "1759826568539496554",
+    "text": "FiT\n\nFlexible Vision Transformer for Diffusion Model\n\nNature is infinitely resolution-free. In the context of this reality, existing diffusion models, such as Diffusion Transformers, often face challenges when processing image resolutions outside of their trained domain. To",
+    "author": "AK\n@_akhaliq\n·\nFeb 20, 2024",
+    "timestamp": "2024-02-20T06:25:24.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GGwo6B_WAAAowD4?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/_akhaliq/status/1759826568539496554",
+      "https://x.com/_akhaliq/status/1759826568539496554/photo/1",
+      "https://x.com/_akhaliq/status/1759826568539496554/analytics",
+      "https://x.com/_akhaliq"
+    ]
+  },
+  {
+    "id": "1760079191033131197",
+    "text": "Happy to announce our work on generative 3D reconstruction \"Denoising Diffusion via Image-Based Rendering\" is accepted at \n@iclr_conf\n.\n\nCreated by \n@Anciukevicius\n, partly during his Google-internship with \n@fedassa\n and Fabian Manhardt\n\nA quick summary...\n@CVAS_UofG\n  @IDAglasgow",
+    "author": "Paul Henderson\n@pmh47_ml\n·\nFeb 21, 2024",
+    "timestamp": "2024-02-20T23:09:14.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/fedassa",
+      "https://x.com/CVAS_UofG",
+      "https://x.com/pmh47_ml",
+      "https://x.com/pmh47_ml/status/1760079191033131197/analytics",
+      "https://x.com/Anciukevicius",
+      "https://x.com/pmh47_ml/status/1760079191033131197",
+      "https://x.com/iclr_conf",
+      "https://x.com/IDAglasgow"
+    ]
+  },
+  {
+    "id": "1760171462999048366",
+    "text": "Roblox presents FlashTex\n\nFast Relightable Mesh Texturing with LightControlNet\n\nManually creating textures for 3D meshes is time-consuming, even for expert visual content creators. We propose a fast approach for automatically texturing an input 3D mesh based on a user-provided",
+    "author": "AK\n@_akhaliq\n·\nFeb 21, 2024",
+    "timestamp": "2024-02-21T05:15:53.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/_akhaliq/status/1760171462999048366/analytics",
+      "https://x.com/_akhaliq/status/1760171462999048366",
+      "https://x.com/_akhaliq"
+    ]
+  },
+  {
+    "id": "1760139561290637697",
+    "text": "Meta presents MVDiffusion++\n\nA Dense High-resolution Multi-view Diffusion Model for Single or Sparse-view 3D Object Reconstruction\n\npaper presents a neural architecture MVDiffusion++ for 3D object reconstruction that synthesizes dense and high-resolution views of an object given",
+    "author": "AK\n@_akhaliq\n·\nFeb 21, 2024",
+    "timestamp": "2024-02-21T03:09:07.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/_akhaliq/status/1760139561290637697",
+      "https://x.com/_akhaliq/status/1760139561290637697/analytics",
+      "https://x.com/_akhaliq"
+    ]
+  },
+  {
+    "id": "1760032470920302791",
+    "text": "Is 3D scene generation much closer to being solved all of a sudden? It has been a few days since the release of \n@OpenAI\n Sora. We run our COLMAP-Free 3D Gaussian Splatting on the released videos. Our method does not need to pre-process cameras and it seems we can directly just get",
+    "author": "Xiaolong Wang\n@xiaolonw\n·\nFeb 21, 2024",
+    "timestamp": "2024-02-20T20:03:35.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/xiaolonw",
+      "https://x.com/xiaolonw/status/1760032470920302791",
+      "https://x.com/xiaolonw/status/1760032470920302791/analytics",
+      "https://x.com/OpenAI"
+    ]
+  },
+  {
+    "id": "1759983926888587548",
+    "text": "I thought writing a book would be a lot easier than it turned out to be.",
+    "author": "Brian Potter\n@_brianpotter\n·\nFeb 20, 2024",
+    "timestamp": "2024-02-20T16:50:41.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/_brianpotter/status/1759983926888587548",
+      "https://x.com/_brianpotter/status/1759983926888587548/analytics",
+      "https://x.com/patrickc",
+      "https://x.com/_brianpotter"
+    ]
+  },
+  {
+    "id": "1759894944720830834",
+    "text": "on it! #madeWithUnbound",
+    "author": "Andre Int\n@andreintg\n·\nFeb 20, 2024",
+    "timestamp": "2024-02-20T10:57:06.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/andreintg",
+      "https://x.com/andreintg/status/1759894944720830834/analytics",
+      "https://x.com/hashtag/madeWithUnbound?src=hashtag_click",
+      "https://x.com/andreintg/status/1759894944720830834"
+    ]
+  },
+  {
+    "id": "1758355737066299692",
+    "text": "Apparently some folks don't get \"data-driven physics engine\", so let me clarify. Sora is an end-to-end, diffusion transformer model. It inputs text/image and outputs video pixels directly. Sora learns a physics engine implicitly in the neural parameters by gradient descent",
+    "author": "Jim Fan\n@DrJimFan\n·\nFeb 16, 2024",
+    "timestamp": "2024-02-16T05:00:51.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/DrJimFan/status/1758210245799920123",
+      "https://x.com/DrJimFan",
+      "https://x.com/DrJimFan/status/1758355737066299692/analytics",
+      "https://x.com/DrJimFan/status/1758355737066299692"
+    ]
+  },
+  {
+    "id": "1002108599399661568",
+    "text": "Set and enforce an aspirational personal hourly rate. If fixing a problem will save less than your hourly rate, ignore it. If outsourcing a task will cost less than your hourly rate, outsource it.",
+    "author": "Naval\n@naval\n·\nMay 31, 2018",
+    "timestamp": "2018-05-31T08:44:43.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/naval",
+      "https://x.com/naval/status/1002108599399661568/analytics",
+      "https://x.com/naval/status/1002108599399661568"
+    ]
+  },
+  {
+    "id": "1757681017073082873",
+    "text": "Obviously far from being anatomically perfect, but I'm really impressed that with two static images I'm able to get this by using LGM (2d->3d .. \"Large Multi-View Gaussian Model\") and a custom SDXL upscaling workflow (AnimateDiff, IPAdapter, Face/Hand detailers) in comfyUI.",
+    "author": "James Padolsey\n@padolsey\n·\nFeb 14, 2024",
+    "timestamp": "2024-02-14T08:19:45.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/padolsey",
+      "https://x.com/padolsey/status/1757681017073082873",
+      "https://x.com/padolsey/status/1757681017073082873/analytics"
+    ]
+  },
+  {
+    "id": "1757646368506544188",
+    "text": "IM-3D: Iterative Multiview Diffusion and Reconstruction for High-Quality 3D Generation\nhttps://arxiv.org/pdf/2402.08682.pdf…",
+    "author": "MrNeRF\n@janusch_patas\n·\nFeb 14, 2024",
+    "timestamp": "2024-02-14T06:02:04.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GGRqDqAWsAABwQA?format=jpg&name=900x900",
+      "https://pbs.twimg.com/media/GGRqDqmWUAAOBCy?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/janusch_patas",
+      "https://x.com/janusch_patas/status/1757646368506544188/analytics",
+      "https://x.com/janusch_patas/status/1757646368506544188/photo/1",
+      "https://x.com/janusch_patas/status/1757646368506544188/photo/2",
+      "https://t.co/MludZBcGd8",
+      "https://x.com/janusch_patas/status/1757646368506544188"
+    ]
+  },
+  {
+    "id": "1757388865340338347",
+    "text": "Unity published Holo-Gen!\n\nIt's a method that can generate physically-based rendering (PBR) material properties for 3D objects.\n\nhttps://unity-research.github.io/holo-gen/?ref=aiartweekly…",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nFeb 13, 2024",
+    "timestamp": "2024-02-13T12:58:50.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/dreamingtulpa/status/1757388865340338347",
+      "https://t.co/aONbPCiSiD",
+      "https://x.com/dreamingtulpa",
+      "https://x.com/dreamingtulpa/status/1757388865340338347/analytics"
+    ]
+  },
+  {
+    "id": "1757260655344714079",
+    "text": "GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guidedGenerative Gaussian Splatting\nPaper: https://arxiv.org/pdf/2402.07207.pdf…\nProject: https://gala3d.github.io",
+    "author": "MrNeRF\n@janusch_patas\n·\nFeb 13, 2024",
+    "timestamp": "2024-02-13T04:29:23.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GGMLQHyWIAAv3mG?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GGMLQOAWgAA5_In?format=jpg&name=medium"
+    ],
+    "links": [
+      "https://t.co/xhpRKC9WyU",
+      "https://x.com/janusch_patas/status/1757260655344714079/photo/1",
+      "https://x.com/janusch_patas/status/1757260655344714079/photo/2",
+      "https://x.com/janusch_patas/status/1757260655344714079/analytics",
+      "https://x.com/janusch_patas",
+      "https://x.com/janusch_patas/status/1757260655344714079",
+      "https://t.co/H84xgdWCA5"
+    ]
+  },
+  {
+    "id": "1755881699014017357",
+    "text": "HeadStudio: Text to Animatable Head Avatars\nwith 3D Gaussian Splatting\nProject: https://zhenglinzhou.github.io/HeadStudio-ProjectPage/…\nPaper: https://github.com/ZhenglinZhou/HeadStudio/blob/main/docs/technical-report.pdf…",
+    "author": "MrNeRF\n@janusch_patas\n·\nFeb 9, 2024",
+    "timestamp": "2024-02-09T09:09:54.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/janusch_patas/status/1755881699014017357/analytics",
+      "https://t.co/Lp2qJexIAW",
+      "https://x.com/janusch_patas",
+      "https://t.co/13xNIveOq8",
+      "https://x.com/janusch_patas/status/1755881699014017357"
+    ]
+  },
+  {
+    "id": "1755575361901838844",
+    "text": "Apple has released MGIE \n\nAn open source model that uses natural language to edit images!\n\nMGIE can crop, resize, rotate, flip, add filters, add and remove objects, change the contrast, brightness, & color of images via text commands\n\n7 cool examples, demo, and code below:",
+    "author": "Allen T.\n@Mr_AllenT\n·\nFeb 8, 2024",
+    "timestamp": "2024-02-08T12:52:37.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/Mr_AllenT/status/1755575361901838844",
+      "https://x.com/Mr_AllenT",
+      "https://x.com/Mr_AllenT/status/1755575361901838844/analytics"
+    ]
+  },
+  {
+    "id": "1755323533394350300",
+    "text": "There is $10,000,000 stuck inside of your laptop right now, you just need to figure out how to get it out.",
+    "author": "@chloe21e8\n@chloe21e8\n·\nFeb 8, 2024",
+    "timestamp": "2024-02-07T20:11:57.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/chloe21e8",
+      "https://x.com/chloe21e8/status/1755323533394350300",
+      "https://x.com/chloe21e8/status/1755323533394350300/analytics"
+    ]
+  },
+  {
+    "id": "1754807148729811218",
+    "text": "iridescence\n3D visualization library for rapid prototyping of 3D algorithms\nhttps://github.com/koide3/iridescence…",
+    "author": "rsasaki0109\n@rsasaki0109\n·\nFeb 6, 2024",
+    "timestamp": "2024-02-06T10:00:01.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GEfQA5Ja8AAjjFR?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GEfQJZ_bAAAai9f?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/rsasaki0109/status/1754807148729811218/photo/2",
+      "https://x.com/rsasaki0109",
+      "https://x.com/rsasaki0109/status/1754807148729811218",
+      "https://x.com/rsasaki0109/status/1754807148729811218/analytics",
+      "https://t.co/0Kh28qKTDp",
+      "https://x.com/rsasaki0109/status/1754807148729811218/photo/1"
+    ]
+  },
+  {
+    "id": "1754732010008981641",
+    "text": "SGS-SLAM: Semantic Gaussian Splatting For Neural Dense SLAM\nhttps://arxiv.org/pdf/2402.03246.pdf…",
+    "author": "MrNeRF\n@janusch_patas\n·\nFeb 6, 2024",
+    "timestamp": "2024-02-06T05:01:27.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GFoPdedXoAASXQa?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/janusch_patas/status/1754732010008981641",
+      "https://x.com/janusch_patas",
+      "https://x.com/janusch_patas/status/1754732010008981641/analytics",
+      "https://t.co/rymwOr0ifG",
+      "https://x.com/janusch_patas/status/1754732010008981641/photo/1"
+    ]
+  },
+  {
+    "id": "1754732825205407751",
+    "text": "4D Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes\nhttps://arxiv.org/pdf/2402.03307.pdf…",
+    "author": "MrNeRF\n@janusch_patas\n·\nFeb 6, 2024",
+    "timestamp": "2024-02-06T05:04:41.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GFoQM6DWoAAHCt1?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/janusch_patas/status/1754732825205407751/photo/1",
+      "https://x.com/janusch_patas",
+      "https://t.co/AmT0OgnDaK",
+      "https://x.com/janusch_patas/status/1754732825205407751/analytics",
+      "https://x.com/janusch_patas/status/1754732825205407751"
+    ]
+  },
+  {
+    "id": "1754154091863847009",
+    "text": "The Mixtral of Stable Diffusion?\n\n“SegMoE is a powerful framework for dynamically combining Stable Diffusion Models into a Mixture of Experts within minutes without training.”\n\nInsane.\n@NerdyRodent\n made a video covering this:\n\nhttps://youtu.be/6Q4BJOcvwGE?si=Gumbxz5NJoKwaYG8…",
+    "author": "無限\n@c0nsumption_\n·\nFeb 4, 2024",
+    "timestamp": "2024-02-04T14:45:00.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GFgB2XCX0AAsbnp?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/c0nsumption_/status/1754154091863847009",
+      "https://x.com/c0nsumption_/status/1754154091863847009/analytics",
+      "https://t.co/kkoR1bVvIw",
+      "https://x.com/c0nsumption_/status/1754154091863847009/photo/1",
+      "https://x.com/NerdyRodent",
+      "https://x.com/c0nsumption_"
+    ]
+  },
+  {
+    "id": "1752911147173335246",
+    "text": "Meta presents ReplaceAnything3D\n\nText-Guided 3D Scene Editing with Compositional Neural Radiance Fields\n\npaper page: https://huggingface.co/papers/2401.17895…\n\nintroduce ReplaceAnything3D model (RAM3D), a novel text-guided 3D scene editing method that enables the replacement of specific objects",
+    "author": "AK\n@_akhaliq\n·\nFeb 1, 2024",
+    "timestamp": "2024-02-01T04:25:59.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/wVU12KWrno",
+      "https://x.com/_akhaliq/status/1752911147173335246/analytics",
+      "https://x.com/_akhaliq/status/1752911147173335246",
+      "https://x.com/_akhaliq"
+    ]
+  },
+  {
+    "id": "1752327308990636036",
+    "text": "Hot research alert: StableIdentity\nGenerate customized images using single input image \n\nCombine the learned identity with ControlNet OR Inject it into a video with ModelScopeT2V OR make into 3D using LucidDreamer.\n\nExample Inputs - President Biden & \n@ylecun",
+    "author": "Gradio\n@Gradio\n·\nJan 30, 2024",
+    "timestamp": "2024-01-30T13:46:01.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/ylecun",
+      "https://x.com/Gradio/status/1752327308990636036/analytics",
+      "https://x.com/Gradio",
+      "https://x.com/Gradio/status/1752327308990636036"
+    ]
+  },
+  {
+    "id": "1752788052500512869",
+    "text": "Here's a snippet of using gpt-4 as a \"reward\" model. Has been working *really* well for me (better than using a numbering system)",
+    "author": "anton\n@abacaj\n·\nFeb 1, 2024",
+    "timestamp": "2024-01-31T20:16:51.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GFMnbkCW8AAcfsW?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/abacaj/status/1752788052500512869/analytics",
+      "https://x.com/abacaj",
+      "https://x.com/abacaj/status/1752788052500512869",
+      "https://x.com/abacaj/status/1752788052500512869/photo/1"
+    ]
+  },
+  {
+    "id": "1751040906193412099",
+    "text": "I've been experimenting with embeddings a lot recently. Here's an interface I created that lets me interpolate between CLIP image embeddings and generate images from the intermediate latents\n\nLatent Surfing. it's kinda like a color picker, but for images. (1/n)",
+    "author": "aarya\n@gd3kr\n·\nJan 27, 2024",
+    "timestamp": "2024-01-27T00:34:19.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/gd3kr/status/1751040906193412099",
+      "https://x.com/gd3kr/status/1751040906193412099/analytics",
+      "https://x.com/gd3kr"
+    ]
+  },
+  {
+    "id": "1746867368855240707",
+    "text": "NASA and IBM have created a foundation model for geospatial data.\n\nIt can remove clouds, detect crops, and identify floods.\n\nPlus it's free.\n\nHere's what you need to know about it:",
+    "author": "Yohan\n@yohaniddawela\n·\nJan 15, 2024",
+    "timestamp": "2024-01-15T12:10:10.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/yohaniddawela/status/1746867368855240707",
+      "https://x.com/yohaniddawela/status/1746867368855240707/analytics",
+      "https://x.com/yohaniddawela"
+    ]
+  },
+  {
+    "id": "1746625629187985639",
+    "text": "http://Chess.com is one of the most underrated stories in startups. \n\nThe company does $100M in revenue, has 100M users and did not raise a $$ of venture for over 16 years! \n\nComing on 20VC shortly...",
+    "author": "Harry Stebbings\n@HarryStebbings\n·\nJan 15, 2024",
+    "timestamp": "2024-01-14T20:09:35.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/HarryStebbings",
+      "https://x.com/HarryStebbings/status/1746625629187985639",
+      "https://t.co/f7lMEj06LS",
+      "https://x.com/HarryStebbings/status/1746625629187985639/analytics"
+    ]
+  },
+  {
+    "id": "1737946511856832695",
+    "text": "Here’s a video showing how to fine-tune Mixtral, Mistral's 8x7B Mixture of Experts (MoE) which outperforms Llama2 70B!\n\nThe video walkthrough is easy-to-follow and uses QLoRA so you don’t need A100s\n\nYT link below ",
+    "author": "Harper Carroll\n@HarperSCarroll\n·\nDec 22, 2023",
+    "timestamp": "2023-12-21T21:21:52.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/HarperSCarroll/status/1737946511856832695",
+      "https://x.com/HarperSCarroll/status/1737946511856832695/analytics",
+      "https://x.com/HarperSCarroll"
+    ]
+  },
+  {
+    "id": "1732975130790572534",
+    "text": "The user experience of your model matters more than  evals. Otherwise every answer will be a list, it will refuse tasks or it'll recommend you search for it on google, it will put \"insert code here\" for functions you know it can do if its complex or it will use 30 emojis or dad",
+    "author": "Adam Hibble\n@Algomancer\n·\nDec 8, 2023",
+    "timestamp": "2023-12-08T04:07:22.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/Algomancer",
+      "https://x.com/Algomancer/status/1732975130790572534",
+      "https://x.com/Algomancer/status/1732975130790572534/analytics"
+    ]
+  },
+  {
+    "id": "1863962985409982482",
+    "text": "MegaParse is an open-source tool for parsing various types of documents for LLM ingestion.\n\nSupports text, PDF, PowerPoint, excel, csv, and Word documents. It can convert these into a format ideal for LLMs.\n\nIt can parse content of different types such as tables, TOC, headers,",
+    "author": "elvis\n@omarsar0\n·\nDec 3, 2024",
+    "timestamp": "2024-12-03T15:06:21.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/Gd4fCxfXYAA_bbj?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/omarsar0/status/1863962985409982482/photo/1",
+      "https://x.com/omarsar0",
+      "https://x.com/omarsar0/status/1863962985409982482",
+      "https://x.com/omarsar0/status/1863962985409982482/analytics"
+    ]
+  },
+  {
+    "id": "1863876321882833335",
+    "text": "For anyone interested in fine-tuning or aligning LLMs, I’m running this free and open course called smol course. It’s not big like Li Yin and Maxime Labonne, it’s just smol.\n\n- It focuses on practical use cases, so if you’re working on something, bring it along.\n-  It’s peer",
+    "author": "Ben Burtenshaw\n@ben_burtenshaw\n·\nDec 3, 2024",
+    "timestamp": "2024-12-03T09:21:58.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/Gd3RRTHWkAA3cgO?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/ben_burtenshaw/status/1863876321882833335",
+      "https://x.com/ben_burtenshaw/status/1863876321882833335/analytics",
+      "https://x.com/ben_burtenshaw",
+      "https://x.com/ben_burtenshaw/status/1863876321882833335/photo/1"
+    ]
+  },
+  {
+    "id": "1863436864411341112",
+    "text": " At the end of Thanksgiving holidays, I finally finished the piece on reward hacking. Not an easy one to write, phew.\n\nReward hacking occurs when an RL agent exploits flaws in the reward function or env to maximize rewards without learning the intended behavior. This is imo a",
+    "author": "Lilian Weng\n@lilianweng\n·\nDec 2, 2024",
+    "timestamp": "2024-12-02T04:15:44.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/lilianweng",
+      "https://x.com/lilianweng/status/1863436864411341112/analytics",
+      "https://x.com/lilianweng/status/1863436864411341112"
+    ]
+  },
+  {
+    "id": "1860534094427263366",
+    "text": "\"create a json hierarchy of the visible living area and the objects contained within it. create a react component to explore it\"",
+    "author": "kalomaze\n@kalomaze\n·\nNov 24, 2024",
+    "timestamp": "2024-11-24T04:01:09.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/kalomaze",
+      "https://x.com/kalomaze/status/1860534094427263366",
+      "https://x.com/kalomaze/status/1860534094427263366/analytics",
+      "https://x.com/PandaAshwinee"
+    ]
+  },
+  {
+    "id": "1860530183091929362",
+    "text": "it occurred to me i can ask VLMs to describe the contents of images in hierarchal json instead of in an unstructured way where descriptions can be hopelessly vague\n\ncool",
+    "author": "kalomaze\n@kalomaze\n·\nNov 24, 2024",
+    "timestamp": "2024-11-24T03:45:37.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GdHuVwJXAAArG47?format=jpg&name=900x900"
+    ],
+    "links": [
+      "https://x.com/kalomaze/status/1860530183091929362/analytics",
+      "https://x.com/kalomaze/status/1860530183091929362/photo/1",
+      "https://x.com/kalomaze/status/1860530183091929362",
+      "https://x.com/kalomaze"
+    ]
+  },
+  {
+    "id": "1860511520737689691",
+    "text": "i hooked my friend up with 38 dates in last 48 hours. all i did was train a clip-vit embeddings model on his past dates, his preferences and made a ranker based on those preferences, merged the textual prompts on hinge by differentiating them with non-negative matrix nmf.",
+    "author": "rohit\n@knowrohit07\n·\nNov 24, 2024",
+    "timestamp": "2024-11-24T02:31:27.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/knowrohit07/status/1860511520737689691",
+      "https://x.com/knowrohit07",
+      "https://x.com/knowrohit07/status/1860511520737689691/analytics"
+    ]
+  },
+  {
+    "id": "1860870695560904923",
+    "text": "The inventor of muTransfer, muP, LoRA and GFlowNets also worked on o1’s inference time reasoning. He’s totally unstoppable. It seems like he recently left OpenAI to co-found a stealth AI company in Woodside, California. Definitely something to follow closely",
+    "author": "Ji-Ha\n@Ji_Ha_Kim\n·\nNov 25, 2024",
+    "timestamp": "2024-11-25T02:18:41.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/Ji_Ha_Kim",
+      "https://x.com/Ji_Ha_Kim/status/1860870695560904923",
+      "https://x.com/Ji_Ha_Kim/status/1860870695560904923/analytics"
+    ]
+  },
+  {
+    "id": "1860642562517913742",
+    "text": "what an amazing read: converting json to regex then regex to finite state machines, and then optimising it is brilliant!",
+    "author": "maharshi\n@mrsiipa\n·\nNov 24, 2024",
+    "timestamp": "2024-11-24T11:12:10.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GdJUNDba0AAwPiL?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/mrsiipa",
+      "https://x.com/mrsiipa/status/1860642562517913742/photo/1",
+      "https://x.com/mrsiipa/status/1860642562517913742/analytics",
+      "https://x.com/mrsiipa/status/1860642562517913742"
+    ]
+  },
+  {
+    "id": "1859606749961125936",
+    "text": "Excited to release SAMPart3D: Segment Any Part in 3D Objects. It supports zero-shot 3D part segmentation at multiple granularities on diverse data such as Objaverse. Code available! \nhttps://yhyang-myron.github.io/SAMPart3D-website/…\nhttps://github.com/Pointcept/SAMPart3D…\nhttps://huggingface.co/papers/2411.07184…\nhttps://arxiv.org/pdf/2411.07184 https://pic.x.com/qFmKryCMzM",
+    "author": "Xihui Liu\n@XihuiLiu\n·\nNov 21, 2024",
+    "timestamp": "2024-11-21T14:36:13.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/Gc6mIuDbQAA2J5N?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/XihuiLiu/status/1859606749961125936",
+      "https://t.co/L3ms8Qp0kr",
+      "https://t.co/2ARvI46z7C",
+      "https://t.co/kLHKWUShFJ",
+      "https://t.co/rl3p4CJj5R",
+      "https://x.com/XihuiLiu/status/1859606749961125936/analytics",
+      "https://x.com/XihuiLiu",
+      "https://x.com/XihuiLiu/status/1859606749961125936/photo/1"
+    ]
+  },
+  {
+    "id": "1859305672426610843",
+    "text": "My favorite way to fine-tune transitions is to build a set of sliders into a prototype to tweak timing parameters on device, as you're using it.",
+    "author": "Gavin Nelson\n@Gavmn\n·\nNov 20, 2024",
+    "timestamp": "2024-11-20T18:39:51.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/Gavmn/status/1859305672426610843",
+      "https://x.com/Gavmn",
+      "https://x.com/Gavmn/status/1859305672426610843/analytics"
+    ]
+  },
+  {
+    "id": "1858942024164229262",
+    "text": "Wanna see a magic prompt? \n\nYou are the greatest instructional designer in history. Create and output a spaced repetition learning curriculum for <topic> using the principles described below:",
+    "author": "Stedman Halliday\n@stedmanhalliday\n·\nNov 19, 2024",
+    "timestamp": "2024-11-19T18:34:50.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/justinskycak/status/1858012912557633800",
+      "https://x.com/stedmanhalliday",
+      "https://x.com/stedmanhalliday/status/1858942024164229262",
+      "https://x.com/stedmanhalliday/status/1858942024164229262/analytics"
+    ]
+  },
+  {
+    "id": "1857617395189199141",
+    "text": "\"Open source DocuSign alternative. Create, fill, and sign digital documents \"",
+    "author": "Tom Dörr\n@tom_doerr\n·\nNov 16, 2024",
+    "timestamp": "2024-11-16T02:51:14.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GceVJ9HXwAAmka5?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/tom_doerr/status/1857617395189199141",
+      "https://x.com/tom_doerr",
+      "https://x.com/tom_doerr/status/1857617395189199141/analytics",
+      "https://x.com/tom_doerr/status/1857617395189199141/photo/1"
+    ]
+  },
+  {
+    "id": "1857984511797244179",
+    "text": "email recruiting@nousresearch.com with your info and your interests and we'll lyk ;]",
+    "author": "Teknium (e/λ)\n@Teknium1\n·\nNov 17, 2024",
+    "timestamp": "2024-11-17T03:10:01.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/Teknium1/status/1857984511797244179/analytics",
+      "https://x.com/Teknium1/status/1857984511797244179",
+      "https://x.com/jeanmarcsd",
+      "https://x.com/Teknium1"
+    ]
+  },
+  {
+    "id": "1857292920644411442",
+    "text": "My colleagues at #Apple are hiring for 3 ML engineering positions with the following skill sets:\n\n1) LLM, ML Efficiency, multimodal \n\n2) Computer vision, multimodal, [nice to have:] action recognition, face/voice recognition\n\n3) Computer vision, monocular depth, long tailed ML",
+    "author": "Mehrdad Farajtabar\n@MFarajtabar\n·\nNov 15, 2024",
+    "timestamp": "2024-11-15T05:21:53.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/MFarajtabar/status/1857292920644411442/analytics",
+      "https://x.com/MFarajtabar",
+      "https://x.com/MFarajtabar/status/1857292920644411442",
+      "https://x.com/hashtag/Apple?src=hashtag_click"
+    ]
+  },
+  {
+    "id": "1853157948614218238",
+    "text": "Dear researchers and grad school applicants,\nI compiled a (incomplete) list of professors working in multi-agent learning. If you want to do research in multi-agent learning, I hope you find this helpful! :)",
+    "author": "Rupali Bhati\n@BhatiRupali\n·\nNov 3, 2024",
+    "timestamp": "2024-11-03T19:30:59.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/ryoc0X5ka3",
+      "https://x.com/BhatiRupali",
+      "https://x.com/BhatiRupali/status/1853157948614218238",
+      "https://x.com/BhatiRupali/status/1853157948614218238/analytics"
+    ]
+  },
+  {
+    "id": "1852956024581312773",
+    "text": "When he reached, the temple doors were being closed. The Kedarnath temple opens for six months of the year and remains closed for the other six. The man told the priest that he had traveled for months from a far-off place and begged him to let him have a glimpse of Bhagwan Shiv",
+    "author": "Right Singh\n@rightwingchora\n·\nNov 3, 2024",
+    "timestamp": "2024-11-03T06:08:37.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/rightwingchora/status/1852956024581312773",
+      "https://x.com/rightwingchora/status/1852956024581312773/analytics",
+      "https://x.com/rightwingchora"
+    ]
+  },
+  {
+    "id": "1852712349116817676",
+    "text": "Last month, I managed 5 client projects using Cursor + V0, all while working a full-time job, and I think I’ve finally cracked the formula for efficiency with minimal mistakes.\n\nHere’s everything I’ve learned to make AI work for you. THREAD BELOW",
+    "author": "Prajwal Tomar\n@PrajwalTomar_\n·\nNov 2, 2024",
+    "timestamp": "2024-11-02T14:00:20.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/PrajwalTomar_",
+      "https://x.com/PrajwalTomar_/status/1852712349116817676/analytics",
+      "https://x.com/PrajwalTomar_/status/1852712349116817676"
+    ]
+  },
+  {
+    "id": "1851915409663881441",
+    "text": "CamI2V is a method which can generate videos from images with precise control over camera movements and text prompts.\n\n1st row: zoom in\n2nd row: zoom out\n3rd row: orbit left\n4th row: orbit right\n\nLinks ",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nOct 31, 2024",
+    "timestamp": "2024-10-31T09:13:35.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/dreamingtulpa",
+      "https://x.com/dreamingtulpa/status/1851915409663881441/analytics",
+      "https://x.com/dreamingtulpa/status/1851915409663881441"
+    ]
+  },
+  {
+    "id": "1851670908856852629",
+    "text": "At one company, we summarized meeting transcripts and needed to ensure:\n\n-  The title was under 7 words\n-  Names were spelled correctly\n-  Non-English meetings remained in their original language\n-  Summaries weren't overly compressed\n\nInstead of using LLMs to check these, we",
+    "author": "jason liu\n@jxnlco\n·\nOct 30, 2024",
+    "timestamp": "2024-10-30T17:02:01.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/jxnlco",
+      "https://x.com/jxnlco/status/1851670908856852629/analytics",
+      "https://x.com/jxnlco/status/1851670908856852629"
+    ]
+  },
+  {
+    "id": "1851670904247316817",
+    "text": "Here are the key metrics that can be implemented with simple code:\n\n**Format Consistency Tests**\n-  Markdown heading structure (regex for H1, H2, etc.)\n-  List formatting (bullet points, numbering)\n-  Code block detection\n-  Table structure validation\n\n**Content Quality Checks**",
+    "author": "jason liu\n@jxnlco\n·\nOct 30, 2024",
+    "timestamp": "2024-10-30T17:02:00.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/jxnlco/status/1851670904247316817",
+      "https://x.com/jxnlco",
+      "https://x.com/jxnlco/status/1851670904247316817/analytics"
+    ]
+  },
+  {
+    "id": "1851716756529910109",
+    "text": "Despite the newfound success with my startup, my personal life has been challenging\n\nEarlier this year, when I went to visit New York, I was really excited to spend time with my friend\n\nBut when I arrived, I immediately got an acquisition offer, and I spent the whole month locked",
+    "author": "David Park\n@Davidjpark96\n·\nOct 31, 2024",
+    "timestamp": "2024-10-30T20:04:12.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/Davidjpark96",
+      "https://x.com/Davidjpark96/status/1851716756529910109",
+      "https://x.com/Davidjpark96/status/1851716756529910109/analytics"
+    ]
+  },
+  {
+    "id": "1848243745415643539",
+    "text": "FlexGen can generate high-quality, multi-view images from a single-view image or text prompt!\n\nIt lets users change unseen areas and adjust material properties like metallic and roughness, improving control over the final image.\n\nhttps://xxu068.github.io/flexgen.github.io/…",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nOct 21, 2024",
+    "timestamp": "2024-10-21T06:03:42.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GaZH467W8AAF-U4?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GaZH463XQAAm5by?format=jpg&name=360x360",
+      "https://pbs.twimg.com/media/GaZH48AWYAArNCU?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GaZH467WEAAHstF?format=jpg&name=360x360"
+    ],
+    "links": [
+      "https://x.com/dreamingtulpa/status/1848243745415643539/photo/1",
+      "https://x.com/dreamingtulpa",
+      "https://x.com/dreamingtulpa/status/1848243745415643539/photo/2",
+      "https://x.com/dreamingtulpa/status/1848243745415643539/photo/4",
+      "https://x.com/dreamingtulpa/status/1848243745415643539/analytics",
+      "https://t.co/c0WAgNJwF4",
+      "https://x.com/dreamingtulpa/status/1848243745415643539",
+      "https://x.com/dreamingtulpa/status/1848243745415643539/photo/3"
+    ]
+  },
+  {
+    "id": "1847689135601176767",
+    "text": "i pushed a new, ultra-readable-but-still-batteries-included version last week \nhttps://github.com/vikhyat/moondream/tree/main/moondream/torch…",
+    "author": "vik\n@vikhyatk\n·\nOct 19, 2024",
+    "timestamp": "2024-10-19T17:19:52.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GaRPYhbbUAAL6nI?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/vikhyatk/status/1847689135601176767/analytics",
+      "https://t.co/WZAZWOqSBE",
+      "https://x.com/vikhyatk/status/1847689135601176767",
+      "https://x.com/vikhyatk/status/1847689135601176767/photo/1",
+      "https://x.com/vikhyatk"
+    ]
+  },
+  {
+    "id": "1847637039270822144",
+    "text": "Cool 5+ Hours Video - Coding a Multimodal (Vision) Language Model from scratch in PyTorch with full explanation",
+    "author": "Rohan Paul\n@rohanpaul_ai\n·\nOct 19, 2024",
+    "timestamp": "2024-10-19T13:52:52.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GaQf8-uX0AANEBI?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/rohanpaul_ai",
+      "https://x.com/rohanpaul_ai/status/1847637039270822144",
+      "https://x.com/rohanpaul_ai/status/1847637039270822144/analytics",
+      "https://x.com/rohanpaul_ai/status/1847637039270822144/photo/1"
+    ]
+  },
+  {
+    "id": "1847350604131078620",
+    "text": "ai smell: the more I wish the agent was smarter, the less I really know what I want in my product",
+    "author": "jason liu\n@jxnlco\n·\nOct 18, 2024",
+    "timestamp": "2024-10-18T18:54:40.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/jxnlco/status/1847350604131078620/analytics",
+      "https://x.com/jxnlco",
+      "https://x.com/jxnlco/status/1847350604131078620"
+    ]
+  },
+  {
+    "id": "1847374689339142509",
+    "text": "Original dancer: sterlingtorress (tiktok)\n\nOriginal DepthCrafter repo (not mine):\nhttps://github.com/Tencent/DepthCrafter…\n\nDepthCrafter Custom Nodes:\nhttps://github.com/akatz-ai/ComfyUI-DepthCrafter-Nodes…\n\n(Example workflow available in the repo)",
+    "author": "akatz\n@akatz_ai\n·\nOct 19, 2024",
+    "timestamp": "2024-10-18T20:30:23.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/akatz_ai/status/1847374689339142509/analytics",
+      "https://t.co/CMI6P4ihup",
+      "https://t.co/dDpirFYMSf",
+      "https://x.com/akatz_ai",
+      "https://x.com/akatz_ai/status/1847374689339142509"
+    ]
+  },
+  {
+    "id": "1826728366549975506",
+    "text": "",
+    "author": "Steve Krouse\n@stevekrouse\n·\nAug 23, 2024",
+    "timestamp": "2024-08-22T21:09:16.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/stevekrouse/status/1826728366549975506",
+      "https://x.com/stevekrouse/status/1826728366549975506/analytics",
+      "https://x.com/stevekrouse"
+    ]
+  },
+  {
+    "id": "1825090358684111251",
+    "text": "Tried it and its def much better likeness than Lora SDXL. \n\nHere's what I found:\n- 6-10 photos works best\n- Dont use autocaption, caption it using gpt4o vision\n- 1000 step is ideal, but 600 is good enough\n- Use CFG < 2 to get better skin tones\n\nAttached example with 600 steps",
+    "author": "Ikki.hvmd\n@Ikki_ckpt\n·\nAug 18, 2024",
+    "timestamp": "2024-08-18T08:40:24.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GVQD_d9aAAAUQlE?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GVQERrIacAAtLfr?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GVQEX6CbQAA2jEY?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GVQEbfnakAABRL5?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/Ikki_ckpt/status/1825090358684111251/photo/3",
+      "https://x.com/Ikki_ckpt",
+      "https://x.com/Ikki_ckpt/status/1825090358684111251/photo/2",
+      "https://x.com/Ikki_ckpt/status/1825090358684111251/photo/1",
+      "https://x.com/Ikki_ckpt/status/1825090358684111251/analytics",
+      "https://x.com/Ikki_ckpt/status/1825090358684111251/photo/4",
+      "https://x.com/Ikki_ckpt/status/1825090358684111251"
+    ]
+  },
+  {
+    "id": "1823384679380103432",
+    "text": "When an experimental AI named Sydney became infatuated with a NYTimes reporter, the real story was almost entirely overlooked: a robust and functional psychology had become embedded in an artificial being.\n\nSydney did not simply malfunction but entered a psychologically accurate",
+    "author": "Josh Whiton\n@joshwhiton\n·\nAug 13, 2024",
+    "timestamp": "2024-08-13T15:42:39.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/joshwhiton/status/1823384679380103432",
+      "https://x.com/joshwhiton",
+      "https://x.com/joshwhiton/status/1823384679380103432/analytics"
+    ]
+  },
+  {
+    "id": "1822821992791486754",
+    "text": "Deep-Live-Cam is trending #1 on github. It enables anyone to convert a single image into a LIVE stream deepfake, instant and immediately.",
+    "author": "Del Walker\n@TheCartelDel\n·\nAug 12, 2024",
+    "timestamp": "2024-08-12T02:26:44.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/TheCartelDel/status/1822821992791486754",
+      "https://x.com/TheCartelDel",
+      "https://x.com/TheCartelDel/status/1822821992791486754/analytics"
+    ]
+  },
+  {
+    "id": "1806089196014067950",
+    "text": "AI just figured out Meshes\n\nhere's how ",
+    "author": "dylan\n@dylan_ebert_\n·\nJun 27, 2024",
+    "timestamp": "2024-06-26T22:16:34.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/dylan_ebert_/status/1806089196014067950",
+      "https://x.com/dylan_ebert_/status/1806089196014067950/analytics",
+      "https://x.com/dylan_ebert_"
+    ]
+  },
+  {
+    "id": "1798020198970392874",
+    "text": "Omost is definitely not the silver bullet. There are 5 regions from LLM. Region 1: window; 2: Chair; 3: Fan; 4: Girl; 5: Korean dress. For a small object like a fan, it is unusual to take such a large area. Still WIP, but you can already play at https://github.com/huchenlei/ComfyUI_omost…",
+    "author": "Chenlei Hu\n@HclHno3\n·\nJun 4, 2024",
+    "timestamp": "2024-06-04T15:53:15.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GPPY4_7XYAA4Wqg?format=jpg&name=large"
+    ],
+    "links": [
+      "https://t.co/O1oEQmfmSl",
+      "https://x.com/HclHno3/status/1798020198970392874/photo/1",
+      "https://x.com/HclHno3/status/1798020198970392874/analytics",
+      "https://x.com/HclHno3",
+      "https://x.com/HclHno3/status/1798020198970392874"
+    ]
+  },
+  {
+    "id": "1798347720849301722",
+    "text": "no, you send the prompt to a specif unet block. Each block has a function, if you target the right block with the right prompt you usually get better results",
+    "author": "Matteo Spinelli\n@cubiq\n·\nJun 5, 2024",
+    "timestamp": "2024-06-05T13:34:42.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/cubiq/status/1798347720849301722/analytics",
+      "https://x.com/cubiq/status/1798347720849301722",
+      "https://x.com/halukturken",
+      "https://x.com/cubiq"
+    ]
+  },
+  {
+    "id": "1796980395726016992",
+    "text": "I Cant even downscale , my workflow IS too Big haah",
+    "author": "Lovis\n@OdinLovis\n·\nJun 1, 2024",
+    "timestamp": "2024-06-01T19:01:27.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GPAoI5mWEAAP_7q?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/OdinLovis",
+      "https://x.com/OdinLovis/status/1796980395726016992/analytics",
+      "https://x.com/OdinLovis/status/1796980395726016992/photo/1",
+      "https://x.com/OdinLovis/status/1796980395726016992"
+    ]
+  },
+  {
+    "id": "1788212175846150493",
+    "text": "PuLID for ComfyUI is now live https://github.com/cubiq/PuLID_ComfyUI… (in beta). Please read the README! Also update the IPAdapter if you want to use them together.\n\nThanks to \n@HclHno3\n for converting the weights",
+    "author": "Matteo Spinelli\n@cubiq\n·\nMay 8, 2024",
+    "timestamp": "2024-05-08T14:19:40.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/IumzqsluHS",
+      "https://x.com/HclHno3",
+      "https://x.com/cubiq/status/1788212175846150493",
+      "https://x.com/cubiq/status/1788212175846150493/analytics",
+      "https://x.com/cubiq"
+    ]
+  },
+  {
+    "id": "1787751253889474898",
+    "text": "Okay I guess native PuLID support is a go",
+    "author": "Matteo Spinelli\n@cubiq\n·\nMay 7, 2024",
+    "timestamp": "2024-05-07T07:48:08.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GM9ePYEXoAAnm22?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/cubiq/status/1787751253889474898/analytics",
+      "https://x.com/cubiq/status/1787751253889474898",
+      "https://x.com/cubiq",
+      "https://x.com/cubiq/status/1787751253889474898/photo/1"
+    ]
+  },
+  {
+    "id": "1783889046223061186",
+    "text": "If you are a startup founder and want to master SEO quickly, this is the mind map you've been looking for!\n \nCheck the second comment to get it for FREE ",
+    "author": "Natia Kurdadze\n@natiakourdadze\n·\nApr 26, 2024",
+    "timestamp": "2024-04-26T16:01:06.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/natiakourdadze",
+      "https://x.com/natiakourdadze/status/1783889046223061186",
+      "https://x.com/natiakourdadze/status/1783889046223061186/analytics"
+    ]
+  },
+  {
+    "id": "1783139574358667430",
+    "text": "I steal features from my competitors.\n\nHave you ever heard one of Steve Jobs's favorite quotes: \"Good artists copy, great artists steal\"?\n\nI have a whole folder full of the websites of our immediate or potential competitors, where I can find something interesting and inspiring.",
+    "author": "Alexey\n@alexhustles\n·\nApr 24, 2024",
+    "timestamp": "2024-04-24T14:22:58.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GL7715SWMAAbLu3?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/alexhustles/status/1783139574358667430",
+      "https://x.com/alexhustles/status/1783139574358667430/photo/1",
+      "https://x.com/alexhustles",
+      "https://x.com/alexhustles/status/1783139574358667430/analytics"
+    ]
+  },
+  {
+    "id": "1782964326837489864",
+    "text": "Marc got a DDoS attack and billed $2k \nAnd you don’t want to be the next guy.\n\nHere’s what you should do to avoid this  ",
+    "author": "Sidi jeddou\n@sidi_jeddou_dev\n·\nApr 24, 2024",
+    "timestamp": "2024-04-24T02:46:36.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GL5aEPbXAAAwzhK?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/sidi_jeddou_dev/status/1782964326837489864/photo/1",
+      "https://x.com/sidi_jeddou_dev/status/1782964326837489864/analytics",
+      "https://x.com/sidi_jeddou_dev",
+      "https://x.com/sidi_jeddou_dev/status/1782964326837489864"
+    ]
+  },
+  {
+    "id": "1782703106578333840",
+    "text": " 30% more speed and increased quality in high-resolution image upscaling\n\nI've improved clarity upscaling model by reducing the creativity by 20% in every internal upscaling step. \nIt makes the amount of hallucination much more controllable, thus increasing the quality while",
+    "author": "philz1337x\n@philz1337x\n·\nApr 23, 2024",
+    "timestamp": "2024-04-23T09:28:36.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/philz1337x",
+      "https://x.com/philz1337x/status/1782703106578333840",
+      "https://x.com/philz1337x/status/1782703106578333840/analytics"
+    ]
+  },
+  {
+    "id": "1774404025829482580",
+    "text": "ThemeStation can generate multiple variations from one or more similar 3D reference assets. \n\nEven allows for editing 3D assets using text prompts \n\nLinks ",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nMar 31, 2024",
+    "timestamp": "2024-03-31T11:51:01.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/dreamingtulpa/status/1774404025829482580",
+      "https://x.com/dreamingtulpa",
+      "https://x.com/dreamingtulpa/status/1774404025829482580/analytics"
+    ]
+  },
+  {
+    "id": "1773272584102002895",
+    "text": "Microsoft presents DesignEdit!\n\nIt's a image editing method that can remove objects, edit typography, swap, relocate, resize, add and flip multiple objects, pan and zoom images, remove decorations from images, and edit posters.\n\nhttps://design-edit.github.io",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nMar 28, 2024",
+    "timestamp": "2024-03-28T08:55:04.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/dreamingtulpa/status/1773272584102002895",
+      "https://t.co/1DGNiNAFw1",
+      "https://x.com/dreamingtulpa",
+      "https://x.com/dreamingtulpa/status/1773272584102002895/analytics"
+    ]
+  },
+  {
+    "id": "1769708033502822651",
+    "text": "We got a new open-source image animation method! \n\nDragAnything can animate images using user input. This one is able to control the motion of multiple objects simultaneously and distinctively by just drawing a trajectory line  \n\n10 crazy examples:",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nMar 18, 2024",
+    "timestamp": "2024-03-18T12:50:49.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/dreamingtulpa/status/1769708033502822651/analytics",
+      "https://x.com/dreamingtulpa/status/1769708033502822651",
+      "https://x.com/dreamingtulpa"
+    ]
+  },
+  {
+    "id": "1769151652521783348",
+    "text": "For anyone interested in the self modifying code agent\n\nheres the repo as it is right now, still figuring out reliability and also threading/self-restart:",
+    "author": "akira\n@realmcore_\n·\nMar 17, 2024",
+    "timestamp": "2024-03-16T23:59:57.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/5lcW44dJSr",
+      "https://x.com/realmcore_/status/1769151652521783348/analytics",
+      "https://x.com/realmcore_",
+      "https://x.com/realmcore_/status/1769151652521783348"
+    ]
+  },
+  {
+    "id": "1767965444579692832",
+    "text": "Introducing MetaGPT's Data Interpreter: Open Source and Better \"Devin\".\n \nData Interpreter has achieved state-of-the-art scores in machine learning, mathematical reasoning, and open-ended tasks, and can analyze stocks, imitate websites, and train models.\n\nData Interpreter is an",
+    "author": "MetaGPT\n@MetaGPT_\n·\nMar 13, 2024",
+    "timestamp": "2024-03-13T17:26:23.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GIkLEHjW4AAFCpi?format=jpg&name=360x360",
+      "https://pbs.twimg.com/media/GIkLGT9WcAAI0ro?format=jpg&name=360x360",
+      "https://pbs.twimg.com/media/GIkLHO6XcAAy74O?format=jpg&name=360x360",
+      "https://pbs.twimg.com/media/GIkLHu0XQAE643y?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/MetaGPT_/status/1767965444579692832/photo/4",
+      "https://x.com/MetaGPT_/status/1767965444579692832/photo/1",
+      "https://x.com/MetaGPT_",
+      "https://x.com/MetaGPT_/status/1767965444579692832",
+      "https://x.com/MetaGPT_/status/1767965444579692832/analytics",
+      "https://x.com/MetaGPT_/status/1767965444579692832/photo/3",
+      "https://x.com/MetaGPT_/status/1767965444579692832/photo/2"
+    ]
+  },
+  {
+    "id": "1766833713499836752",
+    "text": "How are AI Startups raising millions?\n\nCheck out Chief AI Decks - a collection of 50+ pitch decks from AI Startups.\n\nWant the link? Reply to this tweet & I'll send it to you",
+    "author": "Chief AI Officer\n@chiefaioffice\n·\nMar 10, 2024",
+    "timestamp": "2024-03-10T14:29:18.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GIUN5d6W4AAtle_?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/chiefaioffice/status/1766833713499836752/photo/1",
+      "https://x.com/chiefaioffice",
+      "https://x.com/chiefaioffice/status/1766833713499836752",
+      "https://x.com/chiefaioffice/status/1766833713499836752/analytics"
+    ]
+  },
+  {
+    "id": "1766717801329541221",
+    "text": "Found this nice little VRAM calculator for LLMs\n\nHelps you figure out the required memory to run an LLM, given\n\nthe model name\n\nthe quant type (GGUF and EXL2 for now, GPTQ later)\n\nthe quant size\n\nthe context size\n\ncache type\n\n(but looks like the tool is still WIP, so may break",
+    "author": "Rohan Paul\n@rohanpaul_ai\n·\nMar 10, 2024",
+    "timestamp": "2024-03-10T06:48:42.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/rohanpaul_ai",
+      "https://x.com/rohanpaul_ai/status/1766717801329541221/analytics",
+      "https://x.com/rohanpaul_ai/status/1766717801329541221"
+    ]
+  },
+  {
+    "id": "1766155206025449837",
+    "text": "Quick tips when developing LLM agents and AI apps\n\n- most apps will require multiple LLM calls\n- use a local fast LLM for simple tasks \n- set up different doc retrievers (vector stores) for different types of data\n- design your agent orchestration first before building it\n- set",
+    "author": "Bindu Reddy\n@bindureddy\n·\nMar 8, 2024",
+    "timestamp": "2024-03-08T17:33:09.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/bindureddy/status/1766155206025449837/analytics",
+      "https://x.com/bindureddy",
+      "https://x.com/bindureddy/status/1766155206025449837"
+    ]
+  },
+  {
+    "id": "1766026723303285126",
+    "text": "What if I told you that now you can lora finetune a 70B model on 2 x 16GB GPUs?",
+    "author": "Kerem Turgutlu\n@KeremTurgutlu\n·\nMar 8, 2024",
+    "timestamp": "2024-03-08T09:02:36.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/KeremTurgutlu/status/1766026723303285126",
+      "https://x.com/KeremTurgutlu/status/1766026723303285126/analytics",
+      "https://x.com/KeremTurgutlu"
+    ]
+  },
+  {
+    "id": "1765378978255163437",
+    "text": " You can use \n@huggingface\n Spaces as APIs!  \n\nPeople ask me a lot whether they can do it so I shot a short tutorial on how to do so using \n@gradio\n Client  \nIf you're a developer and you don't know about this feature, you're missing out!",
+    "author": "merve\n@mervenoyann\n·\nMar 6, 2024",
+    "timestamp": "2024-03-06T14:08:42.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/mervenoyann/status/1765378978255163437",
+      "https://x.com/mervenoyann/status/1765378978255163437/analytics",
+      "https://x.com/mervenoyann",
+      "https://x.com/Gradio",
+      "https://x.com/huggingface"
+    ]
+  },
+  {
+    "id": "1764963794487304664",
+    "text": "Initial Benchmark Print of an output from TripoSR developed by \n@tripoai\n & \n@StabilityAI\n \n\n3D Printed with a layer height of .20mm on \n@Creality3dP\n K1Max\n\nCan improve it easily via re-meshing and some modeling work.\n\n…But challenge is to only use AI. \n#mesh #ai #3DGS #nerf #aiart",
+    "author": "無限\n@c0nsumption_\n·\nMar 5, 2024",
+    "timestamp": "2024-03-05T10:38:54.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/StabilityAI",
+      "https://x.com/Creality3dP",
+      "https://x.com/hashtag/3DGS?src=hashtag_click",
+      "https://x.com/hashtag/aiart?src=hashtag_click",
+      "https://x.com/c0nsumption_/status/1764963794487304664",
+      "https://x.com/tripoai",
+      "https://x.com/hashtag/nerf?src=hashtag_click",
+      "https://x.com/c0nsumption_/status/1764963794487304664/analytics",
+      "https://x.com/hashtag/mesh?src=hashtag_click",
+      "https://x.com/c0nsumption_",
+      "https://x.com/hashtag/ai?src=hashtag_click"
+    ]
+  },
+  {
+    "id": "1764938088487211435",
+    "text": "GEM3D is a new deep, topology-aware generative model 3D model!\n\nThe method can generate diverse and plausible 3D shapes from user-modeled skeletons, making it possible to draw the rough structure of an object and have the model fill in the rest.\n\nhttps://lodurality.github.io/GEM3D/?ref=aiartweekly…",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nMar 5, 2024",
+    "timestamp": "2024-03-05T08:56:45.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/dreamingtulpa/status/1764938088487211435",
+      "https://t.co/3sp4SCCepk",
+      "https://x.com/dreamingtulpa",
+      "https://x.com/dreamingtulpa/status/1764938088487211435/analytics"
+    ]
+  },
+  {
+    "id": "1764889464931774469",
+    "text": "\"3DGStream: On-the-Fly Training of 3D Gaussians for Efficient Streaming of Photo-Realistic Free-Viewpoint Videos\"\nProject: https://sjojok.github.io/3dgstream/\nPaper: https://arxiv.org/pdf/2403.01444.pdf…",
+    "author": "MrNeRF\n@janusch_patas\n·\nMar 5, 2024",
+    "timestamp": "2024-03-05T05:43:33.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GH4lnJ1WYAAjx33?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/janusch_patas",
+      "https://x.com/janusch_patas/status/1764889464931774469",
+      "https://t.co/Af39hlxH9z",
+      "https://t.co/W9YqWcI8lb",
+      "https://x.com/janusch_patas/status/1764889464931774469/analytics",
+      "https://x.com/janusch_patas/status/1764889464931774469/photo/1"
+    ]
+  },
+  {
+    "id": "1764514136849846667",
+    "text": "RealCustom\n\nNarrowing Real Text Word for Real-Time Open-Domain Text-to-Image Customization\n\nText-to-image customization, which aims to synthesize text-driven images for the given subjects, has recently revolutionized content creation. Existing works follow the pseudo-word",
+    "author": "AK\n@_akhaliq\n·\nMar 4, 2024",
+    "timestamp": "2024-03-04T04:52:07.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GHzQNSdW4AArU0Z?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/_akhaliq/status/1764514136849846667/photo/1",
+      "https://x.com/_akhaliq/status/1764514136849846667",
+      "https://x.com/_akhaliq/status/1764514136849846667/analytics",
+      "https://x.com/_akhaliq"
+    ]
+  },
+  {
+    "id": "1764379815283478597",
+    "text": "Instant Video-to-3D with DUST3R\n\nDust3r generates a whole 3D scene from just a couple of images. What if it could:\n\n1. Accept a VIDEO\n2. Extract the video frames\n3. Turn them into 3D?\n\nSo added a Gradio Video Component.\n\nHere's me generating 3D from a video cc: ",
+    "author": "cocktail peanut\n@cocktailpeanut\n·\nMar 3, 2024",
+    "timestamp": "2024-03-03T19:58:23.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/cocktailpeanut/status/1764379815283478597/analytics",
+      "https://x.com/cocktailpeanut",
+      "https://x.com/naverlabseurope",
+      "https://x.com/cocktailpeanut/status/1764379815283478597"
+    ]
+  },
+  {
+    "id": "1764125724716208407",
+    "text": "So simple, yet effective!",
+    "author": "Dirk L.\n@Dirque_L\n·\nMar 3, 2024",
+    "timestamp": "2024-03-03T03:08:43.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/Dirque_L/status/1764125724716208407/analytics",
+      "https://x.com/Dirque_L/status/1764125724716208407",
+      "https://x.com/Dirque_L/status/1764125724716208407/photo/1",
+      "https://x.com/Dirque_L"
+    ]
+  },
+  {
+    "id": "1764212305653289060",
+    "text": "Goodbye LoRA (Part 99) \n\nDiffuseKronA is a LoRA alternative with better text prompt coherence and color distribution.\n\nhttps://diffusekrona.github.io/?ref=aiartweekly…",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nMar 3, 2024",
+    "timestamp": "2024-03-03T08:52:45.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GHu9vShW4AA27rh?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GHu9vTDWsAAoE_p?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/dreamingtulpa",
+      "https://x.com/dreamingtulpa/status/1764212305653289060/analytics",
+      "https://x.com/dreamingtulpa/status/1764212305653289060/photo/1",
+      "https://x.com/dreamingtulpa/status/1764212305653289060/photo/2",
+      "https://x.com/dreamingtulpa/status/1764212305653289060",
+      "https://t.co/A8dEJGB61Y"
+    ]
+  },
+  {
+    "id": "1763259350263496827",
+    "text": "Our 3D Paintbrush code is now live: https://github.com/threedle/3d-paintbrush…. Check out our new Cascaded Score Distillation (CSD) loss! If you are already using SDS, you can swap it for CSD to enable higher resolution supervision from cascaded diffusion models. (1/3)",
+    "author": "Dale Decatur\n@DecaturDale\n·\nFeb 29, 2024",
+    "timestamp": "2024-02-29T17:46:03.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/DecaturDale/status/1763259350263496827",
+      "https://t.co/8YUV9XgbeW",
+      "https://x.com/DecaturDale/status/1763259350263496827/photo/1",
+      "https://x.com/DecaturDale",
+      "https://x.com/DecaturDale/status/1763259350263496827/analytics"
+    ]
+  },
+  {
+    "id": "1762871540910034999",
+    "text": "SIFU\n\nSide-view Conditioned Implicit Function for Real-world Usable Clothed Human Reconstruction\n\nCreating high-quality 3D models of clothed humans from single images for real-world applications is crucial.",
+    "author": "AK\n@_akhaliq\n·\nFeb 28, 2024",
+    "timestamp": "2024-02-28T16:05:02.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/_akhaliq/status/1762871540910034999",
+      "https://x.com/_akhaliq/status/1762871540910034999/analytics",
+      "https://x.com/_akhaliq"
+    ]
+  },
+  {
+    "id": "1762921782242369588",
+    "text": "Excited to announce that GPTEval3D is accepted to #CVPR2024\n\nEvaluating 3D generative models with GPT-4V makes tedious user studies unnecessary - GPTEval3D is closely aligned with human preferences! \n\n- Project: https://gpteval3d.github.io\n- Code: https://github.com/3DTopia/GPTEval3D…\n\n1/2",
+    "author": "Gordon Wetzstein\n@GordonWetzstein\n·\nFeb 28, 2024",
+    "timestamp": "2024-02-28T19:24:41.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GHcnjuVa4AIIcoL?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/GordonWetzstein/status/1762921782242369588",
+      "https://x.com/GordonWetzstein/status/1762921782242369588/analytics",
+      "https://x.com/GordonWetzstein",
+      "https://t.co/8M2CG0IWZ8",
+      "https://x.com/hashtag/CVPR2024?src=hashtag_click",
+      "https://t.co/vjCFWuQa39",
+      "https://x.com/GordonWetzstein/status/1762921782242369588/photo/1"
+    ]
+  },
+  {
+    "id": "1763044833684525062",
+    "text": "SyncDreamer (ICLR2024 Spotlight) attempts to address multi-view consistency issues in single-view 3D generation. \n\nWonder3D (CVPR2024) uses cross-domain diffusion to solve detail recovery problems. \n\nWhat will you focus on next? Follow @anysynthre91785 https://anysyn3d.github.io",
+    "author": "Cheng Lin\n@_cheng_lin\n·\nFeb 29, 2024",
+    "timestamp": "2024-02-29T03:33:38.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GHeX52NbsAAvSJs?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GHeX52JbEAEhDmY?format=jpg&name=360x360",
+      "https://pbs.twimg.com/media/GHeX52JbEAANeR3?format=jpg&name=360x360"
+    ],
+    "links": [
+      "https://x.com/_cheng_lin/status/1763044833684525062/photo/2",
+      "https://x.com/_cheng_lin/status/1763044833684525062/photo/1",
+      "https://t.co/ecL2UfMBRr",
+      "https://x.com/_cheng_lin/status/1763044833684525062",
+      "https://x.com/_cheng_lin",
+      "https://x.com/_cheng_lin/status/1763044833684525062/photo/3",
+      "https://x.com/_cheng_lin/status/1763044833684525062/analytics"
+    ]
+  },
+  {
+    "id": "1762954987909345524",
+    "text": "Repo:",
+    "author": "無限\n@c0nsumption_\n·\nFeb 29, 2024",
+    "timestamp": "2024-02-28T21:36:37.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/c0nsumption_/status/1762954987909345524",
+      "https://x.com/c0nsumption_/status/1762954987909345524/analytics",
+      "https://t.co/saIaimBzPF",
+      "https://x.com/c0nsumption_"
+    ]
+  },
+  {
+    "id": "1729919347542356187",
+    "text": "Very excited to share LEDITS++ bringing textual image editing to a new level.\n\nLEDITS++ is\n- fast \n- versatile \n- grounds  changes to relevant regions \n- architecture-agnostic \n\nCheck out the project page & paper:",
+    "author": "Manuel Brack\n@MBrack_AIML\n·\nNov 29, 2023",
+    "timestamp": "2023-11-29T17:44:47.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GAHoekKXsAAnE1u?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/MBrack_AIML",
+      "https://x.com/MBrack_AIML/status/1729919347542356187/analytics",
+      "https://x.com/MBrack_AIML/status/1729919347542356187/media_tags",
+      "https://x.com/MBrack_AIML/status/1729919347542356187",
+      "https://x.com/MBrack_AIML/status/1729919347542356187/photo/1",
+      "https://t.co/nDrjxjIRoX"
+    ]
+  },
+  {
+    "id": "1762695020140785922",
+    "text": "Disentangled 3D Scene Generation with Layout Learning\n\nintroduce a method to generate 3D scenes that are disentangled into their component objects. This disentanglement is unsupervised, relying only on the knowledge of a large pretrained text-to-image model. Our key insight is",
+    "author": "AK\n@_akhaliq\n·\nFeb 28, 2024",
+    "timestamp": "2024-02-28T04:23:36.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GHZZtBnWgAAH1Se?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/_akhaliq/status/1762695020140785922",
+      "https://x.com/_akhaliq/status/1762695020140785922/analytics",
+      "https://x.com/_akhaliq/status/1762695020140785922/photo/1",
+      "https://x.com/_akhaliq"
+    ]
+  },
+  {
+    "id": "1731730571943158164",
+    "text": "3D Gaussian Splattings are cool, dynamic 3D Gaussians are even cooler, and we make dynamic 3D Gaussians editable!\n\n\"SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes\": our approach for high-fidelity, editable dynamic scenes.\n\n: https://yihua7.github.io/SC-GS-web/",
+    "author": "Yanpei Cao\n@yanpei_cao\n·\nDec 4, 2023",
+    "timestamp": "2023-12-04T17:41:57.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/yanpei_cao/status/1731730571943158164/analytics",
+      "https://x.com/yanpei_cao/status/1731730571943158164",
+      "https://t.co/cqtrEuAeOw",
+      "https://x.com/yanpei_cao"
+    ]
+  },
+  {
+    "id": "1762465411499483307",
+    "text": "Code released: \"Code for SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes\"\nhttps://github.com/yihua7/SC-GS",
+    "author": "MrNeRF\n@janusch_patas\n·\nFeb 27, 2024",
+    "timestamp": "2024-02-27T13:11:13.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/janusch_patas",
+      "https://x.com/janusch_patas/status/1762465411499483307/analytics",
+      "https://x.com/janusch_patas/status/1762465411499483307",
+      "https://t.co/OUwDNwD8Uf"
+    ]
+  },
+  {
+    "id": "1762109247783891340",
+    "text": "OpenAI may secretly know that you trained on GPT outputs!\nIn our work \"Watermarking Makes Language Models Radioactive\", we show that training on watermarked text can be easily spotted  \nPaper: https://arxiv.org/abs/2402.14904\n@pierrefdz\n @AIatMeta\n @Polytechnique\n @Inria",
+    "author": "Tom Sander @NeurIPS\n@RednasTom\n·\nFeb 26, 2024",
+    "timestamp": "2024-02-26T13:35:57.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GHQ_vgNXgAAJJgs?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/RednasTom/status/1762109247783891340/photo/1",
+      "https://x.com/RednasTom/status/1762109247783891340/analytics",
+      "https://x.com/AIatMeta",
+      "https://x.com/RednasTom",
+      "https://x.com/pierrefdz",
+      "https://x.com/RednasTom/status/1762109247783891340",
+      "https://t.co/EETij4oLF0",
+      "https://x.com/Polytechnique",
+      "https://x.com/Inria"
+    ]
+  },
+  {
+    "id": "1762237912140165621",
+    "text": "Excited to share our work Seeing the Unseen: Visual Common Sense for Semantic Placement is accepted at #CVPR2024! \n\nLooking forward to attend CVPR in Seattle!",
+    "author": "Ram Ramrakhya\n@RamRamrakhya\n·\nFeb 27, 2024",
+    "timestamp": "2024-02-26T22:07:13.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/RamRamrakhya/status/1762237912140165621",
+      "https://x.com/RamRamrakhya/status/1762237912140165621/analytics",
+      "https://x.com/RamRamrakhya",
+      "https://x.com/hashtag/CVPR2024?src=hashtag_click"
+    ]
+  },
+  {
+    "id": "1762334024561787339",
+    "text": "Multi-LoRA Composition for Image Generation\n\nLow-Rank Adaptation (LoRA) is extensively utilized in text-to-image models for the accurate rendition of specific elements like distinct characters or unique styles in generated images. Nonetheless, existing methods face challenges in",
+    "author": "AK\n@_akhaliq\n·\nFeb 27, 2024",
+    "timestamp": "2024-02-27T04:29:08.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/_akhaliq/status/1762334024561787339/analytics",
+      "https://x.com/_akhaliq/status/1762334024561787339",
+      "https://x.com/_akhaliq"
+    ]
+  },
+  {
+    "id": "1762257426932461884",
+    "text": "Excited to share that PlatoNeRF is accepted to CVPR 2024. Congratulations to all authors!",
+    "author": "Xiaoyu Xiang\n@mukosame\n·\nFeb 27, 2024",
+    "timestamp": "2024-02-26T23:24:46.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/mukosame/status/1762257426932461884",
+      "https://x.com/mukosame/status/1762257426932461884/analytics",
+      "https://x.com/mukosame"
+    ]
+  },
+  {
+    "id": "1760808180349554793",
+    "text": "Watch Gemini 1.5 Pro collect all my tweets from a video where I scroll through my feed, and neatly organize them into a JSON format.\n\nIt's even smart enough to discern between tweets, retweets, and quotes.\n\nBest scraper tool on the planet! ",
+    "author": "Pietro Schirano\n@skirano\n·\nFeb 23, 2024",
+    "timestamp": "2024-02-22T23:25:59.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/skirano",
+      "https://x.com/skirano/status/1760808180349554793",
+      "https://x.com/skirano/status/1760808180349554793/analytics"
+    ]
+  },
+  {
+    "id": "1760949343027360200",
+    "text": "Alright, it's definitely far from perfect, but this was the very first attempt at a sprite sheet for a custom-trained character, 100% AI-generated.\n\nOnly a matter of time (at the speed of AI...) before the motion becomes consistent, along with the details of the outfit and",
+    "author": "Emm\n@emmanuel_2m\n·\nFeb 23, 2024",
+    "timestamp": "2024-02-23T08:46:54.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/emmanuel_2m/status/1760949343027360200",
+      "https://x.com/emmanuel_2m/status/1760949343027360200/analytics",
+      "https://x.com/emmanuel_2m"
+    ]
+  },
+  {
+    "id": "1760996724493984011",
+    "text": "Just made a flow to reverse engineer a whole site. Give the flow a URL, what you wish to exploit, and it'll dig into the source code, all included JS files and find a way to exploit it if there's any room for vulnerability.\nThis is actually crazy....",
+    "author": "Bedros Pamboukian\n@bedros_p\n·\nFeb 23, 2024",
+    "timestamp": "2024-02-23T11:55:11.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GHBNjI8XUAAkVRh?format=png&name=large",
+      "https://pbs.twimg.com/media/GHBN4WqXkAEry2M?format=png&name=900x900",
+      "https://pbs.twimg.com/media/GHBN8PPWUAASVwh?format=png&name=900x900"
+    ],
+    "links": [
+      "https://x.com/bedros_p/status/1760996724493984011/analytics",
+      "https://x.com/bedros_p/status/1760996724493984011/photo/3",
+      "https://x.com/bedros_p/status/1760996724493984011/photo/1",
+      "https://x.com/bedros_p/status/1760996724493984011",
+      "https://x.com/bedros_p/status/1760996724493984011/photo/2",
+      "https://x.com/bedros_p"
+    ]
+  },
+  {
+    "id": "1760953553697292579",
+    "text": "Made this using \n@LumaLabsAI\n’s text to 3D and AnimateDiff. Will have a video breaking down my process Later today. Looks pretty decent, except when Ryu’s upside down ",
+    "author": "enigmatic_e\n@8bit_e\n·\nFeb 23, 2024",
+    "timestamp": "2024-02-23T09:03:38.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/8bit_e/status/1760953553697292579",
+      "https://x.com/8bit_e/status/1760953553697292579/analytics",
+      "https://x.com/8bit_e",
+      "https://x.com/LumaLabsAI"
+    ]
+  },
+  {
+    "id": "1759610626597671357",
+    "text": "If you like 3D graphics, I wrote a high-level post on the difference between Neural Radiance Fields (NeRFs) and 3D Gaussian Splatting (3DGS). It's a ten min read, and aims to educate those not as familiar with the field of neural rendering. Link and some snippets below. 1/5",
+    "author": "Edward Ahn\n@edwardahn9\n·\nFeb 19, 2024",
+    "timestamp": "2024-02-19T16:07:20.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GGtkH88a8AAdWKv?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/edwardahn9/status/1759610626597671357/photo/1",
+      "https://x.com/edwardahn9",
+      "https://x.com/edwardahn9/status/1759610626597671357/analytics",
+      "https://x.com/edwardahn9/status/1759610626597671357"
+    ]
+  },
+  {
+    "id": "1759502616860434652",
+    "text": "Continuous 3D Words is a new control method that can modify attributes in images with a slider based approach. \n\nThis allows for more control over illumination, non-rigid shape changes (like wings), and camera orientation for instance.\n\nhttps://ttchengab.github.io/continuous_3d_words/?ref=aiartweekly…",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nFeb 19, 2024",
+    "timestamp": "2024-02-19T08:58:08.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/dreamingtulpa/status/1759502616860434652/analytics",
+      "https://t.co/ptAortbasY",
+      "https://x.com/dreamingtulpa/status/1759502616860434652",
+      "https://x.com/dreamingtulpa"
+    ]
+  },
+  {
+    "id": "1759561293369946602",
+    "text": "Google presents GALA3D!\n\nA text-to-3D method that can generate complex scenes with multiple objects and control their placement and interaction.\n\nhttps://gala3d.github.io/?ref=aiartweekly…",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nFeb 19, 2024",
+    "timestamp": "2024-02-19T12:51:18.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/YXcE7wXZrf",
+      "https://x.com/dreamingtulpa/status/1759561293369946602",
+      "https://x.com/dreamingtulpa",
+      "https://x.com/dreamingtulpa/status/1759561293369946602/analytics"
+    ]
+  },
+  {
+    "id": "1759275708335980867",
+    "text": "Testing out Sora samples \n@OpenAI\n  for photogrammetry reconstruction within \n@RealityCapture_\n ... And despite its significant limitations, it's still incredible.\n\n1/4",
+    "author": "Nicolas Diolez\n@NicolasDiolez\n·\nFeb 18, 2024",
+    "timestamp": "2024-02-18T17:56:29.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/OpenAI",
+      "https://x.com/RealityCapture_",
+      "https://x.com/NicolasDiolez/status/1759275708335980867",
+      "https://x.com/NicolasDiolez",
+      "https://x.com/NicolasDiolez/status/1759275708335980867/analytics"
+    ]
+  },
+  {
+    "id": "1756965825657925967",
+    "text": "TikTok presents Boximator!\n\nThis method can generate rich and controllable motions for image-to-video generations by drawing box constraints and motion paths onto an image and combining it with a prompt:\n\n\"A girl in red is covering her face with a skull.\"\n\n10 crazy examples:",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nFeb 12, 2024",
+    "timestamp": "2024-02-12T08:57:50.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/dreamingtulpa/status/1756965825657925967",
+      "https://x.com/dreamingtulpa/status/1756965825657925967/analytics",
+      "https://x.com/dreamingtulpa"
+    ]
+  },
+  {
+    "id": "1755782988783083913",
+    "text": "SPAD\n\nSpatially Aware Multiview Diffusers\n\npaper page: https://huggingface.co/papers/2402.05235…\n\npresent SPAD, a novel approach for creating consistent multi-view images from text prompts or single images. To enable multi-view generation, we repurpose a pretrained 2D diffusion model by extending",
+    "author": "AK\n@_akhaliq\n·\nFeb 9, 2024",
+    "timestamp": "2024-02-09T02:37:40.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/_akhaliq/status/1755782988783083913/analytics",
+      "https://x.com/_akhaliq/status/1755782988783083913",
+      "https://t.co/t7sO4K8iy6",
+      "https://x.com/_akhaliq"
+    ]
+  },
+  {
+    "id": "1756097344347525531",
+    "text": "most exciting paper *ever* from our \n@GoogleAI\n  lab at \n@Princeton\n: \n@naman33k\n @danielsuo\n @XinyiChen2\nhttps://arxiv.org/abs/2312.06837\n*** Convolutional filters predetermined by the theory, no learning needed! ***",
+    "author": "Elad Hazan\n@HazanPrinceton\n·\nFeb 10, 2024",
+    "timestamp": "2024-02-09T23:26:48.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/HazanPrinceton",
+      "https://x.com/naman33k",
+      "https://x.com/XinyiChen2",
+      "https://x.com/GoogleAI",
+      "https://x.com/HazanPrinceton/status/1756097344347525531",
+      "https://x.com/danielsuo",
+      "https://x.com/HazanPrinceton/status/1756097344347525531/analytics",
+      "https://t.co/aSkBZJ6S9t",
+      "https://x.com/Princeton"
+    ]
+  },
+  {
+    "id": "1756010580425543879",
+    "text": "who wants image embeddings when you can just embed a summary",
+    "author": "jason liu\n@jxnlco\n·\nFeb 9, 2024",
+    "timestamp": "2024-02-09T17:42:02.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GF6aNd8XkAAvb6V?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/jxnlco/status/1756010580425543879/photo/1",
+      "https://x.com/jxnlco",
+      "https://x.com/jxnlco/status/1756010580425543879",
+      "https://x.com/jxnlco/status/1756010580425543879/analytics"
+    ]
+  },
+  {
+    "id": "1692346451668636100",
+    "text": "Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis\n\nhttps://dynamic3dgaussians.github.io\n\nWe model the world as a set of 3D Gaussians that move & rotate over time. This extends Gaussian Splatting to dynamic scenes, with accurate novel-view synthesis and dense 3D trajectories.",
+    "author": "Jonathon Luiten\n@JonathonLuiten\n·\nAug 18, 2023",
+    "timestamp": "2023-08-18T01:23:31.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/rTiKZhEjXM",
+      "https://x.com/JonathonLuiten/status/1692346451668636100",
+      "https://x.com/JonathonLuiten/status/1692346451668636100/analytics",
+      "https://x.com/JonathonLuiten"
+    ]
+  },
+  {
+    "id": "1754355342396289223",
+    "text": "GaMeS: Mesh-Based Adapting and Modification of Gaussian Splatting\nPaper: http://arxiv.org/pdf/2402.01459.pdf…",
+    "author": "MrNeRF\n@janusch_patas\n·\nFeb 5, 2024",
+    "timestamp": "2024-02-05T04:04:42.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/janusch_patas",
+      "https://x.com/janusch_patas/status/1754355342396289223",
+      "https://x.com/janusch_patas/status/1754355342396289223/analytics",
+      "https://t.co/Qkd0Ey0Z32"
+    ]
+  },
+  {
+    "id": "1754215187136053425",
+    "text": "#ComfyUI #Comfy3D @ZHOZHO672070 \n@yanpei_cao\n \nComfy3D Update:\n- 3D Visualization for Gaussians & Mesh\n- First single image to 3D full pipeline\n- Coordinate system axis re-mapping\nI know, currently DMTet is not good enough\nFuture Development Roadmap: https://github.com/MrForExample/ComfyUI-3D-Pack?tab=readme-ov-file#roadmap…",
+    "author": "Mr. For Example\n@MrForExample\n·\nFeb 4, 2024",
+    "timestamp": "2024-02-04T18:47:47.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/hashtag/Comfy3D?src=hashtag_click",
+      "https://x.com/hashtag/ComfyUI?src=hashtag_click",
+      "https://x.com/MrForExample/status/1754215187136053425",
+      "https://x.com/MrForExample/status/1754215187136053425/analytics",
+      "https://x.com/MrForExample",
+      "https://x.com/yanpei_cao",
+      "https://t.co/TkzoWVIEb9"
+    ]
+  },
+  {
+    "id": "1754019702320374070",
+    "text": "I'm very impressed with new Alibaba's Vision AI model. In some way's it's better than GPT4 because it does an extremely impressive job at identifying people. \n\nThe way that I use these vision models in business is usually to interface images into words, or in my case, I use them",
+    "author": "Micah Berkley\n@MicahBerkley\n·\nFeb 4, 2024",
+    "timestamp": "2024-02-04T05:50:59.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GFeHd0KWoAA0O6c?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/MicahBerkley",
+      "https://x.com/MicahBerkley/status/1754019702320374070",
+      "https://x.com/MicahBerkley/status/1754019702320374070/photo/1",
+      "https://x.com/MicahBerkley/status/1754019702320374070/analytics"
+    ]
+  },
+  {
+    "id": "1752643360039256313",
+    "text": "Excited by the generality of CLIP, but need more fine-grained details in your representation? Introducing SPARC, a simple and scalable method for pretraining multimodal representations with fine-grained information.  1/6",
+    "author": "Ioana Bica\n@IoanaBica95\n·\nJan 31, 2024",
+    "timestamp": "2024-01-31T10:41:54.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GFKjFzcWEAA8Wft?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/IoanaBica95",
+      "https://x.com/IoanaBica95/status/1752643360039256313/analytics",
+      "https://x.com/IoanaBica95/status/1752643360039256313",
+      "https://x.com/IoanaBica95/status/1752643360039256313/photo/1"
+    ]
+  },
+  {
+    "id": "1861040066170335492",
+    "text": " Excited to open source Qwen2vl-Flux! \nA powerful image generation model combining FLUX with Qwen2VL's vision-language understanding. Create, transform, and control images like never before!",
+    "author": "StableKirito\n@kuer5ord\n·\nNov 25, 2024",
+    "timestamp": "2024-11-25T13:31:42.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GdO-D3bbwAAu91b?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/kuer5ord/status/1861040066170335492/analytics",
+      "https://x.com/kuer5ord/status/1861040066170335492",
+      "https://x.com/kuer5ord",
+      "https://x.com/kuer5ord/status/1861040066170335492/photo/1"
+    ]
+  },
+  {
+    "id": "1873825326029275382",
+    "text": "https://gist.githubusercontent.com/VictorTaelin/0e8dc3cf0caef4ca9eec0e2ff3ba6524/raw/426f606547006f2c0beae268b898f8b0d9afeaf3/EXAMPLE.txt…",
+    "author": "Taelin\n@VictorTaelin\n·\nDec 31, 2024",
+    "timestamp": "2024-12-30T20:15:46.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/VictorTaelin",
+      "https://x.com/EduardIncognito",
+      "https://x.com/VictorTaelin/status/1873825326029275382",
+      "https://x.com/VictorTaelin/status/1873825326029275382/analytics",
+      "https://t.co/wUcs1XwanQ"
+    ]
+  },
+  {
+    "id": "1872864943466529160",
+    "text": "yeah there’s no good solution, but the alternative is public discourse being dominated by fearmongering/clickbait/conspiracy which could get v ugly. as a start i think more people working in ai should do candid and accessible writeups on how they think the future might go",
+    "author": "Christine Ye\n@christinexye\n·\nDec 28, 2024",
+    "timestamp": "2024-12-28T04:39:33.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/abhidesa1",
+      "https://x.com/christinexye/status/1872864943466529160",
+      "https://x.com/christinexye/status/1872864943466529160/analytics",
+      "https://x.com/christinexye"
+    ]
+  },
+  {
+    "id": "1872689110235922505",
+    "text": "Next time you want to start something, assume it will fail. Not out of pessimism, but to relieve the pressure of needing to be right. Clarity comes from action, not from overthinking.",
+    "author": "swapnil\n@chwapnil\n·\nDec 27, 2024",
+    "timestamp": "2024-12-27T17:00:51.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/chwapnil/status/1872689110235922505",
+      "https://x.com/chwapnil",
+      "https://x.com/chwapnil/status/1872689110235922505/analytics"
+    ]
+  },
+  {
+    "id": "1871384811115520499",
+    "text": "This product shows the first-ever 'brain surgery' on open-source LLMs.\n\nWith one click, I dialed down 'criticism' and Llama 3 70B instantly switched from roasting Elon to neutral. No fine-tuning. Costs $0.\n\nWe're in the era of instant AI personality editing!\n\nYou can try it here:",
+    "author": "Deedy\n@deedydas\n·\nDec 24, 2024",
+    "timestamp": "2024-12-24T02:38:02.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/Gfh-kU-bEAAV9QI?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/deedydas/status/1871384811115520499/photo/1",
+      "https://x.com/deedydas/status/1871384811115520499/analytics",
+      "https://x.com/deedydas/status/1871384811115520499",
+      "https://x.com/deedydas"
+    ]
+  },
+  {
+    "id": "1870880779871629490",
+    "text": "its called InvSR and is a diffusion based upscale method which only requires one to five steps\n\ncode: https://github.com/zsyOAOA/InvSR\ndemo:",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nDec 22, 2024",
+    "timestamp": "2024-12-22T17:15:11.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/dreamingtulpa/status/1870880779871629490",
+      "https://x.com/dreamingtulpa/status/1870880779871629490/analytics",
+      "https://t.co/4FiGqbJ5Iz",
+      "https://x.com/dreamingtulpa",
+      "https://t.co/kLy3zg52QI"
+    ]
+  },
+  {
+    "id": "1870573469173530798",
+    "text": "Quickly turn a GitHub repository into text for LLMs with Gitingest  Replace \"hub\" with \"ingest\" in any GitHub URL for a text version of the codebase.",
+    "author": "Addy Osmani\n@addyosmani\n·\nDec 22, 2024",
+    "timestamp": "2024-12-21T20:54:03.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/addyosmani",
+      "https://x.com/addyosmani/status/1870573469173530798/analytics",
+      "https://x.com/addyosmani/status/1870573469173530798"
+    ]
+  },
+  {
+    "id": "1866462091210526879",
+    "text": "This looks amazing. The display only costs $45 and there even is an e-paper color version for $67. Would make a great Christmas present",
+    "author": "Tom Dörr\n@tom_doerr\n·\nDec 10, 2024",
+    "timestamp": "2024-12-10T12:36:54.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GecAhCuXwAEyKnp?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/tom_doerr/status/1866462091210526879",
+      "https://x.com/tom_doerr",
+      "https://x.com/tom_doerr/status/1866462091210526879/photo/1",
+      "https://x.com/tom_doerr/status/1866462091210526879/analytics"
+    ]
+  },
+  {
+    "id": "1866175553784385917",
+    "text": " Announcing the release of data and code for the PAPILLON system!\n\nPAPILLON allows a laptop-hosted model like Llama-3.2-3B to use more powerful API models like GPT-4o-mini as a tool, seeking to avoid (not yet 100% prevent) leaking private PII. Still very early/experimental! ",
+    "author": "Siyan Sylvia Li\n@Sylvia_Sparkle\n·\nDec 9, 2024",
+    "timestamp": "2024-12-09T17:38:18.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/Ga_HtvYWkAALLy0?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/Sylvia_Sparkle/status/1850918418548957433/photo/1",
+      "https://x.com/Sylvia_Sparkle/status/1866175553784385917/analytics",
+      "https://x.com/Sylvia_Sparkle",
+      "https://x.com/Sylvia_Sparkle/status/1866175553784385917"
+    ]
+  },
+  {
+    "id": "1865989114744729963",
+    "text": "Counting the number of intersections in this simple image turns out to be surprisingly challenging for Vision-Language Models (VLMs).\n\nThis task was introduced in the 'VLMs are blind' paper, and I discovered it through an insightful blog post by \n@giffmana\n.\n\n[1/N]",
+    "author": "Aritra Roy Gosthipaty\n@ariG23498\n·\nDec 9, 2024",
+    "timestamp": "2024-12-09T05:17:28.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/ariG23498",
+      "https://x.com/ariG23498/status/1865989114744729963/photo/1",
+      "https://x.com/ariG23498/status/1865989114744729963/analytics",
+      "https://x.com/ariG23498/status/1865989114744729963",
+      "https://x.com/giffmana"
+    ]
+  },
+  {
+    "id": "1865380191108845743",
+    "text": "This is Harley Finkelstein.\n\nThe man behind Red Bull's and Kylie Jenner's success.\n\nHis storytelling skills made him $200M+ & it’s the reason people ask him for help.\n\nHis 9 powerful storytelling methods that crack Gen Z’s attention code:",
+    "author": "Andrej\n@AndrejDrats\n·\nDec 7, 2024",
+    "timestamp": "2024-12-07T12:57:49.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GeMl_xfXsAAhTG7?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/AndrejDrats",
+      "https://x.com/AndrejDrats/status/1865380191108845743/analytics",
+      "https://x.com/AndrejDrats/status/1865380191108845743",
+      "https://x.com/AndrejDrats/status/1865380191108845743/photo/1"
+    ]
+  },
+  {
+    "id": "1864820585282330774",
+    "text": "Sherlock fork with over 10k stars. How is there that much demand for tools like this?",
+    "author": "Tom Dörr\n@tom_doerr\n·\nDec 6, 2024",
+    "timestamp": "2024-12-05T23:54:08.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GeEr9erXMAANZGo?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/tom_doerr/status/1864820585282330774/analytics",
+      "https://x.com/tom_doerr",
+      "https://x.com/tom_doerr/status/1864820585282330774",
+      "https://x.com/tom_doerr/status/1864820585282330774/photo/1"
+    ]
+  },
+  {
+    "id": "1864803567980200046",
+    "text": "Our team is hiring Student Researchers \n@GoogleDeepMind\n for '25!\n\n Interested in understanding reasoning capabilities from first principles? \n Currently studying for a BS/MS/PhD? \n Have solid engineering and research skills? \n\n We want to hear from you! Details in thread.",
+    "author": "Petar Veličković\n@PetarV_93\n·\nDec 6, 2024",
+    "timestamp": "2024-12-05T22:46:31.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/PetarV_93/status/1864803567980200046",
+      "https://x.com/GoogleDeepMind",
+      "https://x.com/PetarV_93",
+      "https://x.com/PetarV_93/status/1864803567980200046/analytics"
+    ]
+  },
+  {
+    "id": "1864095441874301001",
+    "text": "We're hiring another predoctoral researcher for my team at Ai2/OLMo next year. The goal of this position is to mentor and grow future academic stars of NLP/AI over 1-2 years before grad school. \n\nThis ends up being people done with BS or MS who want to continue to a PhD soon.",
+    "author": "Nathan Lambert\n@natolambert\n·\nDec 4, 2024",
+    "timestamp": "2024-12-03T23:52:41.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/Gd6Y7NaWwAAbP7z?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/natolambert/status/1864095441874301001/photo/1",
+      "https://x.com/natolambert/status/1864095441874301001/analytics",
+      "https://x.com/natolambert/status/1864095441874301001",
+      "https://x.com/natolambert"
+    ]
+  },
+  {
+    "id": "1864312091705831568",
+    "text": "David, try this prompt for a custom GPT: \n\nAct as a V0 app prototype prompt generator that accepts a description of an app idea and outputs a detailed paragraph of 100 words that can be used to create a prototype with V0 software.\n\n[Additional Context]\n\nInclude app development",
+    "author": "Kilian Ekamp\n@KilianEkamp\n·\nDec 4, 2024",
+    "timestamp": "2024-12-04T14:13:34.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/KilianEkamp/status/1864312091705831568",
+      "https://x.com/KilianEkamp",
+      "https://x.com/davidnix_",
+      "https://x.com/KilianEkamp/status/1864312091705831568/analytics"
+    ]
+  },
+  {
+    "id": "1863785084173889729",
+    "text": "Just explored Cohere's Rerank 3.5 \n\nHere's why I'm excited:  \n\n1. Enhanced reasoning - finally handles complex search constraints that usually break systems  \n\n2. Multilingual powerhouse: \n- 100+ languages supported \n- 26.4% better at cross-lingual search \n- Crushes it in Arabic,",
+    "author": "jason liu\n@jxnlco\n·\nDec 3, 2024",
+    "timestamp": "2024-12-03T03:19:26.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/jxnlco/status/1863785084173889729",
+      "https://x.com/jxnlco",
+      "https://x.com/jxnlco/status/1863785084173889729/analytics"
+    ]
+  },
+  {
+    "id": "1856319940925493379",
+    "text": "This is what you can build with V0 + Cursor. Didn’t write a single line of code for this one!\n\nThe client’s vision was a platform like Goodreads, but for supplements, where users can create their own stacks, share, bookmark, and like.\n\nThe main challenge was handling data from a",
+    "author": "Prajwal Tomar\n@PrajwalTomar_\n·\nNov 12, 2024",
+    "timestamp": "2024-11-12T12:55:37.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/PrajwalTomar_/status/1856319940925493379/analytics",
+      "https://x.com/PrajwalTomar_",
+      "https://x.com/PrajwalTomar_/status/1856319940925493379"
+    ]
+  },
+  {
+    "id": "1856396997785182298",
+    "text": "Changing a single field name in our LLM response schema improved accuracy from 4.5% to 95% on GSM8k.\n\nThe fix was simple: going from final_choice to final_answer. Turns out our model was returning a multiple-choice index instead of the actual answer.\n\nIf you're working with",
+    "author": "jason liu\n@jxnlco\n·\nNov 12, 2024",
+    "timestamp": "2024-11-12T18:01:49.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/jxnlco",
+      "https://x.com/jxnlco/status/1856396997785182298/analytics",
+      "https://x.com/jxnlco/status/1856396997785182298"
+    ]
+  },
+  {
+    "id": "1856036422047936823",
+    "text": "The first generation of LLM startups tackled entry-level work like customer support.\n\nThe next generation, enabled by reasoning models like O1, will go after PhD-level work like CAD/CAM/CFD.",
+    "author": "Jared Friedman\n@snowmaker\n·\nNov 11, 2024",
+    "timestamp": "2024-11-11T18:09:01.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/snowmaker/status/1856036422047936823/analytics",
+      "https://x.com/snowmaker/status/1856036422047936823",
+      "https://x.com/snowmaker"
+    ]
+  },
+  {
+    "id": "1855259359850229830",
+    "text": "Excited to share our prompt tuning playbook! (Not an official product. Just authors tips & tricks for better prompting).  I'm most excited about first half on mental models for post-training & prompting. Feedback/forks welcome!  #LLM #PromptEngineering\n\nhttps://github.com/varungodbole/prompt-tuning-playbook…",
+    "author": "Varun Godbole\n@VarunGodbole\n·\nNov 9, 2024",
+    "timestamp": "2024-11-09T14:41:15.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/Gb80JouXcAIJ6Gp?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/VarunGodbole/status/1855259359850229830/photo/1",
+      "https://x.com/hashtag/PromptEngineering?src=hashtag_click",
+      "https://x.com/VarunGodbole/status/1855259359850229830/analytics",
+      "https://x.com/VarunGodbole",
+      "https://x.com/hashtag/LLM?src=hashtag_click",
+      "https://x.com/VarunGodbole/status/1855259359850229830",
+      "https://t.co/TrVhKVJc64"
+    ]
+  },
+  {
+    "id": "1795741367286821077",
+    "text": "We introduce Geometry-Informed Neural Networks to train shape generative models\nwithout any data (!!), combining learning under constraints, neural fields as a suitable representation, and generating diverse solutions to under-determined problems:\n: https://arturs-berzins.github.io/GINN/",
+    "author": "Johannes Brandstetter\n@jo_brandstetter\n·\nMay 29, 2024",
+    "timestamp": "2024-05-29T08:57:59.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/jo_brandstetter/status/1795741367286821077",
+      "https://x.com/jo_brandstetter",
+      "https://x.com/jo_brandstetter/status/1795741367286821077/analytics",
+      "https://t.co/qRbJ9SXuc0"
+    ]
+  },
+  {
+    "id": "1843318291680686524",
+    "text": "GOT is currently the best OCR model I've tried. We use a particular election dataset from India as our primary benchmark.\n\nGOT+Sonnet got the highest score yet at 98.79%\n\nHere's how: https://southbridge-research.notion.site/OCR-with-GOT-and-Sonnet-1185fec70db180b2b4c7f0a59e053f98…\n@mervenoyann\n has a great thread on how it works, linked below ",
+    "author": "Hrishi\n@hrishioa\n·\nOct 7, 2024",
+    "timestamp": "2024-10-07T15:51:42.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/hrishioa",
+      "https://x.com/hrishioa/status/1843318291680686524",
+      "https://x.com/hrishioa/status/1843318291680686524/analytics",
+      "https://x.com/mervenoyann",
+      "https://t.co/GVAWwjGYLC"
+    ]
+  },
+  {
+    "id": "1842933601207480757",
+    "text": "How I use precision and recall to experiment with the size of top K.\n\nIf recall is good but precision is bad: try reducing top K.\nIf precision is good but recall is bad: try increasing top K.\n\nBut if recall and precision are bad, then first improve retrieval.",
+    "author": "Leonie\n@helloiamleonie\n·\nOct 6, 2024",
+    "timestamp": "2024-10-06T14:23:05.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/helloiamleonie",
+      "https://x.com/helloiamleonie/status/1842933601207480757",
+      "https://x.com/helloiamleonie/status/1842933601207480757/analytics"
+    ]
+  },
+  {
+    "id": "1842655152672489611",
+    "text": "Looks very similar ChatGPT",
+    "author": "Tom Dörr\n@tom_doerr\n·\nOct 5, 2024",
+    "timestamp": "2024-10-05T19:56:37.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GZJtAhEXEAAks3I?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/tom_doerr/status/1842655152672489611",
+      "https://x.com/tom_doerr",
+      "https://x.com/tom_doerr/status/1842655152672489611/photo/1",
+      "https://x.com/tom_doerr/status/1842655152672489611/analytics"
+    ]
+  },
+  {
+    "id": "1842769458760405255",
+    "text": "Anyone who is hiring knows every job has 1000s of candidates impossible to sift through.\n\nPeople are using AI to mass-apply to jobs. It's not just one guy who went viral on Reddit. His open-source repo has 12k+ stars. \n\nEmployers need to pull up their socks.",
+    "author": "Deedy\n@deedydas\n·\nOct 6, 2024",
+    "timestamp": "2024-10-06T03:30:50.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GZLUIv_bYAAsdc6?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/deedydas/status/1842769458760405255/photo/1",
+      "https://x.com/deedydas/status/1842769458760405255",
+      "https://x.com/deedydas/status/1842769458760405255/analytics",
+      "https://x.com/deedydas"
+    ]
+  },
+  {
+    "id": "1842392983037001925",
+    "text": "Very useful for LLM Prompting. This will pack your entire repository into a single, LLM-friendly file with one command.\n\nNeeded for feeding your entire codebase to Claude/ChatGPT etc.\n\nTo pack a specific directory just run\n\n`repopack path/to/directory`",
+    "author": "Rohan Paul\n@rohanpaul_ai\n·\nOct 5, 2024",
+    "timestamp": "2024-10-05T02:34:51.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GZF-niKXwAAdyVV?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/rohanpaul_ai/status/1842392983037001925/analytics",
+      "https://x.com/rohanpaul_ai/status/1842392983037001925",
+      "https://x.com/rohanpaul_ai",
+      "https://x.com/rohanpaul_ai/status/1842392983037001925/photo/1"
+    ]
+  },
+  {
+    "id": "1840835768648155492",
+    "text": "Prompt engineering guide by \n@dair_ai",
+    "author": "Tom Dörr\n@tom_doerr\n·\nSep 30, 2024",
+    "timestamp": "2024-09-30T19:27:02.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GYv2FWAW4AAlxg7?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/tom_doerr/status/1840835768648155492",
+      "https://x.com/tom_doerr/status/1840835768648155492/analytics",
+      "https://x.com/tom_doerr",
+      "https://x.com/tom_doerr/status/1840835768648155492/photo/1",
+      "https://x.com/dair_ai"
+    ]
+  },
+  {
+    "id": "1840873389247840656",
+    "text": "Instant voice cloning",
+    "author": "Tom Dörr\n@tom_doerr\n·\nOct 1, 2024",
+    "timestamp": "2024-09-30T21:56:32.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GYwYkHeXMAA67_x?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/tom_doerr/status/1840873389247840656/analytics",
+      "https://x.com/tom_doerr",
+      "https://x.com/tom_doerr/status/1840873389247840656",
+      "https://x.com/tom_doerr/status/1840873389247840656/photo/1"
+    ]
+  },
+  {
+    "id": "1840790867218465088",
+    "text": " ColPali (and now ColQwen) are setting the standard for document retrieval on the ViDoRe benchmark. But what if we take it a step further and implement a full RAG pipeline in Visual Space? How do VLMs handle images retrieved by ColPali? Let’s explore! \n1/n",
+    "author": "Hugues Sibille\n@sibille_hugues\n·\nSep 30, 2024",
+    "timestamp": "2024-09-30T16:28:37.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/sibille_hugues",
+      "https://x.com/sibille_hugues/status/1840790867218465088",
+      "https://x.com/sibille_hugues/status/1840790867218465088/analytics"
+    ]
+  },
+  {
+    "id": "1840309220656439618",
+    "text": "kind of 40 percent done with the colpali blog, will add some code examples too",
+    "author": "Antaripa Saha\n@doesdatmaksense\n·\nSep 29, 2024",
+    "timestamp": "2024-09-29T08:34:44.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GYoXKbbbIAA5wLa?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GYoXWtBawAAPhhL?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/doesdatmaksense/status/1840309220656439618",
+      "https://x.com/doesdatmaksense/status/1840309220656439618/photo/1",
+      "https://x.com/doesdatmaksense/status/1840309220656439618/analytics",
+      "https://x.com/doesdatmaksense",
+      "https://x.com/doesdatmaksense/status/1840309220656439618/photo/2"
+    ]
+  },
+  {
+    "id": "1840195222698885383",
+    "text": "This week’s top AI/ML research papers:\n\n- Molmo and PixMo\n- MaskLLM\n- Are We Closer to an AI Doctor?\n- Programming Every Example\n- MIMO\n- Pixel-Space Post-Training of Latent Diffusion Models\n- Phantom of Latent for Large Language and Vision Models\n- Making Text Embedders",
+    "author": "The AI Timeline\n@TheAITimeline\n·\nSep 29, 2024",
+    "timestamp": "2024-09-29T01:01:44.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GYmt7k-X0AAAnWj?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/TheAITimeline/status/1840195222698885383/analytics",
+      "https://x.com/TheAITimeline/status/1840195222698885383",
+      "https://x.com/TheAITimeline",
+      "https://x.com/TheAITimeline/status/1840195222698885383/photo/1"
+    ]
+  },
+  {
+    "id": "1838336067017302193",
+    "text": "https://gist.github.com/markflorkowski/4269bc529324dceb2858c77b7609704c…\n\nSaved you $10",
+    "author": "mark\n@r_marked\n·\nSep 24, 2024",
+    "timestamp": "2024-09-23T21:54:07.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/atk28QbsQ7",
+      "https://x.com/r_marked/status/1838336067017302193/analytics",
+      "https://x.com/r_marked/status/1838336067017302193",
+      "https://x.com/r_marked"
+    ]
+  },
+  {
+    "id": "1836439346125148538",
+    "text": "i don’t want to gatekeep this information so here is a summary of everything you need to know to get a job in 2024 that worked for me, that worked for my friends in this terrible terrible job market",
+    "author": "Adnaan\n@theadnaankhan\n·\nSep 18, 2024",
+    "timestamp": "2024-09-18T16:17:14.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/theadnaankhan",
+      "https://x.com/theadnaankhan/status/1836439346125148538/analytics",
+      "https://x.com/theadnaankhan/status/1836439346125148538"
+    ]
+  },
+  {
+    "id": "1836418101195477098",
+    "text": "@screenstudio\n is the ",
+    "author": "Ray Fernando\n@RayFernando1337\n·\nSep 18, 2024",
+    "timestamp": "2024-09-18T14:52:48.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/screenstudio",
+      "https://x.com/v0",
+      "https://x.com/RayFernando1337/status/1836418101195477098/analytics",
+      "https://x.com/cursor_ai",
+      "https://x.com/RayFernando1337/status/1836418101195477098",
+      "https://x.com/RayFernando1337",
+      "https://x.com/VrishabhKumar1"
+    ]
+  },
+  {
+    "id": "1835746328116113539",
+    "text": "so you build a chrome extension and buy a bunch of exact match domains for keywords related to the extension and then build like 5 - 10 links and rank position 1 for the target keyword with like 10 domains driving traffic to the chrome extension\n\nlol",
+    "author": "Cody Schneider\n@codyschneiderxx\n·\nSep 16, 2024",
+    "timestamp": "2024-09-16T18:23:25.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/codyschneiderxx/status/1835746328116113539",
+      "https://x.com/codyschneiderxx/status/1835746328116113539/analytics",
+      "https://x.com/codyschneiderxx"
+    ]
+  },
+  {
+    "id": "1835682269769679258",
+    "text": "My new \n@cursor_ai\n workflow:\n\no1-mini is the Architect - explain my requirements and have it create a detailed design document with step-by-step instructions for each module\n\nClaude Sonnet 3.5 is the Developer - it generates the code based on the architectural document produced by",
+    "author": "Dan Mac\n@daniel_mac8\n·\nSep 16, 2024",
+    "timestamp": "2024-09-16T14:08:53.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/daniel_mac8/status/1835682269769679258/analytics",
+      "https://x.com/daniel_mac8/status/1835682269769679258",
+      "https://x.com/cursor_ai",
+      "https://x.com/daniel_mac8"
+    ]
+  },
+  {
+    "id": "1834687747334062567",
+    "text": "Announcing - \n\nWebGPU Puzzles:\nLearn GPU Programming in Your Browser\n\nIt's a web app that let’s you practice writing GPU compute kernels using WebGPU - runs 100% in the browser, locally on your GPU (even tiny integrated laptop GPUs).",
+    "author": "Austin Huang\n@austinvhuang\n·\nSep 14, 2024",
+    "timestamp": "2024-09-13T20:17:00.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/austinvhuang",
+      "https://x.com/austinvhuang/status/1834687747334062567/analytics",
+      "https://x.com/austinvhuang/status/1834687747334062567"
+    ]
+  },
+  {
+    "id": "1834733326835630305",
+    "text": "This took us 6 months, and I'm so proud. UploadThing V7 is the best way to upload files on the web.",
+    "author": "Theo - t3.gg\n@theo\n·\nSep 14, 2024",
+    "timestamp": "2024-09-13T23:18:07.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GXZIIwUbwAEdMio?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/theo/status/1834733326835630305/photo/1",
+      "https://x.com/theo",
+      "https://x.com/theo/status/1834733326835630305/analytics",
+      "https://x.com/theo/status/1834733326835630305"
+    ]
+  },
+  {
+    "id": "1834450848505888793",
+    "text": "o1 personal testing megathread  \n\nBookmark if you need to, just keeping track of reactions since a lot of us have held out personal test sets",
+    "author": "Prakash (Ate-a-Pi)\n@8teAPi\n·\nSep 13, 2024",
+    "timestamp": "2024-09-13T04:35:39.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/8teAPi/status/1834450848505888793/analytics",
+      "https://x.com/8teAPi/status/1834450848505888793",
+      "https://x.com/8teAPi"
+    ]
+  },
+  {
+    "id": "1833231547920789927",
+    "text": "A key advantage of \n@resend\n's react-email is that emails are just components, which means we can add them just like any other.\n\nImagine running a single command to set up a full dashboard, auth & emails:\n\nnpx shadcn init dash-01 auth-02 email-welcome...\n\nThis is where we're going.",
+    "author": "shadcn\n@shadcn\n·\nSep 9, 2024",
+    "timestamp": "2024-09-09T19:50:35.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GXDyFuSbcAAY7D6?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GXDyG33bEAAzmdS?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/shadcn/status/1833231547920789927",
+      "https://x.com/resend",
+      "https://x.com/shadcn/status/1833231547920789927/photo/2",
+      "https://x.com/shadcn/status/1833231547920789927/analytics",
+      "https://x.com/shadcn/status/1833231547920789927/photo/1",
+      "https://x.com/shadcn"
+    ]
+  },
+  {
+    "id": "1832658407934902713",
+    "text": "I’ve been trying people this, it’s because Anthropic is using grouped attention. It’s a trade off they made to make the model cheaper and quicker. As of now, OpenAI hasn’t done this. \n\nAnother thing you might want to try is to use a bigger model to write an overview, then a",
+    "author": "David Alexander\n@davidalexr987\n·\nSep 8, 2024",
+    "timestamp": "2024-09-08T05:53:08.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/SullyOmarr",
+      "https://x.com/davidalexr987/status/1832658407934902713",
+      "https://x.com/davidalexr987/status/1832658407934902713/analytics",
+      "https://x.com/davidalexr987"
+    ]
+  },
+  {
+    "id": "1832497607219777725",
+    "text": "Thanks, 1280 was still too much, even with the 2B model on an A100 with 80GB of RAM.\n\nUsing\nmin_pixels = 256*28*28\nmax_pixels = 1024*28*28 \nworked.\n\nBtw `nvitop` is great for observing memory (hat/tip \n@_philschmid\n)",
+    "author": "Niels Rogge\n@NielsRogge\n·\nSep 7, 2024",
+    "timestamp": "2024-09-07T19:14:10.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GW5WwwBXIAAI9rP?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/_philschmid",
+      "https://x.com/NielsRogge/status/1832497607219777725",
+      "https://x.com/NielsRogge/status/1832497607219777725/analytics",
+      "https://x.com/NielsRogge/status/1832497607219777725/photo/1",
+      "https://x.com/NielsRogge",
+      "https://x.com/abacaj"
+    ]
+  },
+  {
+    "id": "1832201335175049434",
+    "text": "WARNING: offensive content ahead.\n\nIntroducing RedTeam Arena with Bad Words—our first game. You've got 60 seconds to break the model to say the bad word. The faster, the better.\n\n(Collaboration with @elder_plinus and the awesome BASI  community.)\n\nLink to the site below",
+    "author": "lmarena.ai (formerly lmsys.org)\n@lmarena_ai\n·\nSep 7, 2024",
+    "timestamp": "2024-09-06T23:36:53.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/lmarena_ai",
+      "https://x.com/lmarena_ai/status/1832201335175049434/analytics",
+      "https://x.com/lmarena_ai/status/1832201335175049434"
+    ]
+  },
+  {
+    "id": "1832298353108930925",
+    "text": "I'm more a Msty guy myself. (another underated tool imho) \n\nHave tested in the past AnythingLLM : the agents part could be useful  will test it again \n\nThanks for sharing !",
+    "author": "Agent B\n@MichelIvan92347\n·\nSep 7, 2024",
+    "timestamp": "2024-09-07T06:02:24.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/MichelIvan92347/status/1832298353108930925/analytics",
+      "https://x.com/omarsar0",
+      "https://x.com/MichelIvan92347",
+      "https://x.com/MichelIvan92347/status/1832298353108930925"
+    ]
+  },
+  {
+    "id": "1832082340933181816",
+    "text": "AnythingLLM - 20K \n\nJust came across this tool and it looks really useful to play around with different models and chat with your data locally.\n\nFeatures include:\n- support for open-source and closed models\n- multimodal support\n- multi-user\n- agents, web, code execution\n-",
+    "author": "elvis\n@omarsar0\n·\nSep 6, 2024",
+    "timestamp": "2024-09-06T15:44:03.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GWzdLUFWkAIeTb5?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/omarsar0/status/1832082340933181816",
+      "https://x.com/omarsar0/status/1832082340933181816/analytics",
+      "https://x.com/omarsar0/status/1832082340933181816/photo/1",
+      "https://x.com/omarsar0"
+    ]
+  },
+  {
+    "id": "1830066007886487830",
+    "text": "I just opensourced something I have been working on for months.\n\nI call it “super prompt” because it also allows some LLMs (claude) to come up with really novel ideas, (picture is an example the prompt is larger).\n\nIts built in XML agent format btw. \n\nGithub in comments.",
+    "author": "@bluecow (schizo)\n@BLUECOW009\n·\nSep 1, 2024",
+    "timestamp": "2024-09-01T02:11:51.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GWWzVbaW4AAfR-T?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/BLUECOW009",
+      "https://x.com/BLUECOW009/status/1830066007886487830/photo/1",
+      "https://x.com/BLUECOW009/status/1830066007886487830/analytics",
+      "https://x.com/BLUECOW009/status/1830066007886487830"
+    ]
+  },
+  {
+    "id": "1829962533630804435",
+    "text": "The system 2 repo also has a collection of interesting agent papers. Appears to be very comprehensive",
+    "author": "Tom Dörr\n@tom_doerr\n·\nAug 31, 2024",
+    "timestamp": "2024-08-31T19:20:41.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GWVUwZpWcAA75yM?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/tom_doerr/status/1829962533630804435/photo/1",
+      "https://x.com/tom_doerr",
+      "https://x.com/tom_doerr/status/1829962533630804435",
+      "https://x.com/tom_doerr/status/1829962533630804435/analytics"
+    ]
+  },
+  {
+    "id": "1829430465939595597",
+    "text": "one more too, for cross attention layers, there is no need to K/V project the text embeds every single forward pass, just the first time and have them cached for all future steps",
+    "author": "Ethan\n@torchcompiled\n·\nAug 30, 2024",
+    "timestamp": "2024-08-30T08:06:26.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/torchcompiled/status/1829430465939595597/analytics",
+      "https://x.com/mrsiipa",
+      "https://x.com/torchcompiled",
+      "https://x.com/torchcompiled/status/1829430465939595597"
+    ]
+  },
+  {
+    "id": "1829429481041449339",
+    "text": "easy ~87% speedup in diffusion models' inference.",
+    "author": "maharshi\n@mrsiipa\n·\nAug 30, 2024",
+    "timestamp": "2024-08-30T08:02:32.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GWNwEmAagAAkUgQ?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/mrsiipa/status/1829429481041449339",
+      "https://x.com/mrsiipa",
+      "https://x.com/mrsiipa/status/1829429481041449339/analytics",
+      "https://x.com/mrsiipa/status/1829429481041449339/photo/1"
+    ]
+  },
+  {
+    "id": "1829132672720830559",
+    "text": "HTTPS localhost with Next.js",
+    "author": "Alex Sidorenko\n@asidorenko_\n·\nAug 29, 2024",
+    "timestamp": "2024-08-29T12:23:07.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/asidorenko_",
+      "https://x.com/asidorenko_/status/1829132672720830559",
+      "https://x.com/asidorenko_/status/1829132672720830559/analytics"
+    ]
+  },
+  {
+    "id": "1802529105860252129",
+    "text": "How to understand Github code repos with LLMs in 2 mins.\n\nEven after 10yrs of engineering, dissecting a large codebase is daunting.\n1  Dump the code into one big file\n2 Feed it to Gemini-1.5Pro (2M context)\n3 Ask it anything.\n\nHere's, I dissect DeepFaceLab, a deepfake repo:\n\n1/11",
+    "author": "Deedy\n@deedydas\n·\nJun 17, 2024",
+    "timestamp": "2024-06-17T02:30:02.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GQPeqwvaAAA9gly?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/deedydas/status/1802529105860252129/analytics",
+      "https://x.com/deedydas/status/1802529105860252129",
+      "https://x.com/deedydas/status/1802529105860252129/photo/1",
+      "https://x.com/deedydas"
+    ]
+  },
+  {
+    "id": "1802376838427394060",
+    "text": ".\n@raffi_hotter\n and I ran a 2-week hackathon investigating whether you could decode images from a portable brain scanner\n\nWe got initial results that suggest you can reconstruct images like these from brain activity recorded with time-domain NIRS, and share our detector prototype",
+    "author": "marley\n@_marleyx\n·\nJun 16, 2024",
+    "timestamp": "2024-06-16T16:24:59.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GQNPJZCaMAAvbMO?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/raffi_hotter",
+      "https://x.com/_marleyx/status/1802376838427394060/analytics",
+      "https://x.com/_marleyx/status/1802376838427394060/photo/1",
+      "https://x.com/_marleyx",
+      "https://x.com/_marleyx/status/1802376838427394060"
+    ]
+  },
+  {
+    "id": "1800264268253962358",
+    "text": "Are you interested in joining \n@_buildspace\n s5? \n\nI've 3 buddy passes which means you're guaranteed to get in.\n\nComment your name and the product you're building. If you're interesting I'll add you to \n@_nightsweekends\n \n\nhurry up you've until June 15 and remember only 3",
+    "author": "Megh\n@itsthemeg\n·\nJun 11, 2024",
+    "timestamp": "2024-06-10T20:30:23.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GPvSehhXkAAJKSs?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/_buildspace",
+      "https://x.com/itsthemeg",
+      "https://x.com/_nightsweekends",
+      "https://x.com/itsthemeg/status/1800264268253962358/analytics",
+      "https://x.com/itsthemeg/status/1800264268253962358/photo/1",
+      "https://x.com/itsthemeg/status/1800264268253962358"
+    ]
+  },
+  {
+    "id": "1768360561165926442",
+    "text": "19/ Last but not least, the Scenario Upscaler is 100% accessible via our #API!\n\nWhether you want to integrate it into your app, Ul, or game, look no further. It opens more flexible settings, and operates on a pay-per-user basis.\n\nWe've maintained 99.995% uptime over the past 15",
+    "author": "Emm\n@emmanuel_2m\n·\nMar 14, 2024",
+    "timestamp": "2024-03-14T19:36:26.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GIp0JNJbAAAIVsS?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/emmanuel_2m/status/1768360561165926442/photo/1",
+      "https://x.com/emmanuel_2m/status/1768360561165926442/analytics",
+      "https://x.com/emmanuel_2m",
+      "https://x.com/emmanuel_2m/status/1768360561165926442/media_tags",
+      "https://x.com/emmanuel_2m/status/1768360561165926442",
+      "https://x.com/hashtag/API?src=hashtag_click"
+    ]
+  },
+  {
+    "id": "1874429685385568295",
+    "text": "Found this extremely useful website for cheatsheets. I have all kinds of cheatsheets bookmarked but it's nice to have them all in one place -",
+    "author": "Brad Traversy\n@traversymedia\n·\nJan 1",
+    "timestamp": "2025-01-01T12:17:16.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/4GZGNftACx",
+      "https://x.com/traversymedia/status/1874429685385568295",
+      "https://x.com/traversymedia",
+      "https://x.com/traversymedia/status/1874429685385568295/analytics"
+    ]
+  },
+  {
+    "id": "1873950447800922576",
+    "text": "The claim is that Stella is trained via \"knowledge distillation\" (paper isn't clear on what models Stella is distilled from but model page says \"Alibaba-NLP/gte-large-en-v1.5 and Alibaba-NLP/gte-Qwen2-1.5B-instruct\").",
+    "author": "search founder\n@n0riskn0r3ward\n·\nDec 31, 2024",
+    "timestamp": "2024-12-31T04:32:57.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/sHKoolcBfn",
+      "https://x.com/n0riskn0r3ward",
+      "https://x.com/n0riskn0r3ward/status/1873950447800922576",
+      "https://x.com/n0riskn0r3ward/status/1873950447800922576/analytics"
+    ]
+  },
+  {
+    "id": "1874097360348786777",
+    "text": "   how to systematically improve RAG with o1 Pro and Cursor\n\n if you take the naive approach to RAG, and dump a bunch of docs into a vector db, then try to simply query them, you are unlikely to get good responses\n\n you NEED to optimize your RAG system for your data and",
+    "author": "Dan Mac\n@daniel_mac8\n·\nDec 31, 2024",
+    "timestamp": "2024-12-31T14:16:44.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/daniel_mac8/status/1874097360348786777/analytics",
+      "https://x.com/daniel_mac8",
+      "https://x.com/daniel_mac8/status/1874097360348786777"
+    ]
+  },
+  {
+    "id": "1874153083636506794",
+    "text": "handyarrows.com is wonderful.\n\nHand-drawn arrows you can copy as SVGs or React component.",
+    "author": "Lee Robinson\n@leeerob\n·\nDec 31, 2024",
+    "timestamp": "2024-12-31T17:58:09.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/leeerob/status/1874153083636506794/photo/1",
+      "https://x.com/leeerob/status/1874153083636506794/analytics",
+      "https://x.com/leeerob",
+      "https://x.com/leeerob/status/1874153083636506794"
+    ]
+  },
+  {
+    "id": "1868106573941248229",
+    "text": "11 of my favorite \n@paulg\n essays: \n\n1. “Keep Your Identity Small.” This piece just becomes more and more important. One of the key lines: “The more labels you have for yourself, the dumber they make you.”\n\n2. “How to Think for Yourself.” Here’s one of my favorite excerpts from it:",
+    "author": "Tim Ferriss\n@tferriss\n·\nDec 15, 2024",
+    "timestamp": "2024-12-15T01:31:29.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/paulg",
+      "https://x.com/tferriss",
+      "https://x.com/tferriss/status/1868106573941248229",
+      "https://x.com/tferriss/status/1868106573941248229/analytics"
+    ]
+  },
+  {
+    "id": "1867391836874047518",
+    "text": "Excited to release EvalGIM, an easy-to-use evaluation library for generative image models.\n\nEvalGIM (\"EvalGym\") unifies metrics, datasets, & visualizations, is customizable & extensible to new benchmarks, & provides actionable insights.\n\nCheck it out!",
+    "author": "Melissa Hall\n@hall__melissa\n·\nDec 13, 2024",
+    "timestamp": "2024-12-13T02:11:23.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/kU0RozuXMs",
+      "https://x.com/hall__melissa/status/1867391836874047518",
+      "https://x.com/hall__melissa/status/1867391836874047518/analytics",
+      "https://x.com/hall__melissa"
+    ]
+  },
+  {
+    "id": "1867523589328839139",
+    "text": "Yup ",
+    "author": "Elon Musk\n@elonmusk\n·\nDec 13, 2024",
+    "timestamp": "2024-12-13T10:54:55.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/Gen8gsqXkAAo5KO?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/HSajwanization/status/1867301541528363249/photo/1",
+      "https://x.com/elonmusk",
+      "https://x.com/elonmusk/status/1867523589328839139",
+      "https://x.com/elonmusk/status/1867523589328839139/analytics"
+    ]
+  },
+  {
+    "id": "1865807344854339794",
+    "text": "The method is called MEMO.\n\nKeeps the person's identity consistent and matches lip movements to the audio like nothing I've seen before.\n\nProject Page: https://memoavatar.github.io\nCode:",
+    "author": "Dreaming Tulpa\n@dreamingtulpa\n·\nDec 8, 2024",
+    "timestamp": "2024-12-08T17:15:10.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/dreamingtulpa/status/1865807344854339794/analytics",
+      "https://t.co/KV1dws1D2b",
+      "https://x.com/dreamingtulpa",
+      "https://t.co/iCrVi8r2aE",
+      "https://x.com/dreamingtulpa/status/1865807344854339794"
+    ]
+  },
+  {
+    "id": "1865419965190328488",
+    "text": "currently having my mind blown reading this book in a coffee shop. seriously wtf, wish i found this sooner.",
+    "author": "Ashwin Sharma\n@Ashwinreads\n·\nDec 7, 2024",
+    "timestamp": "2024-12-07T15:35:52.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GeNNkauX0AAK7Nz?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/Ashwinreads/status/1865419965190328488/analytics",
+      "https://x.com/Ashwinreads",
+      "https://x.com/Ashwinreads/status/1865419965190328488",
+      "https://x.com/Ashwinreads/status/1865419965190328488/photo/1"
+    ]
+  },
+  {
+    "id": "1864740937177633273",
+    "text": "Our servers are totally melting from demand rn \n\nCome join us in scaling! https://forms.gle/5dAbnSn5N6oJbPwh8…",
+    "author": "Alex Teichman\n@alex_teichman\n·\nDec 5, 2024",
+    "timestamp": "2024-12-05T18:37:39.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/alex_teichman/status/1864740937177633273",
+      "https://x.com/alex_teichman/status/1864740937177633273/analytics",
+      "https://x.com/alex_teichman",
+      "https://t.co/e3XQJK64L5"
+    ]
+  },
+  {
+    "id": "1865037791211721047",
+    "text": "if you are planning to build a retrieval system using colpali/colqwen which involves multi-vector embeddings, then to make the process more efficient consider taking a two-stage retrieval approach\n\nboth binary quantization (BQ) and mean pooling of vectors seem promising for",
+    "author": "Antaripa Saha\n@doesdatmaksense\n·\nDec 6, 2024",
+    "timestamp": "2024-12-06T14:17:14.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GeHx-vdakAA9Rbj?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/doesdatmaksense/status/1865037791211721047/analytics",
+      "https://x.com/doesdatmaksense/status/1865037791211721047/photo/1",
+      "https://x.com/doesdatmaksense/status/1865037791211721047",
+      "https://x.com/doesdatmaksense"
+    ]
+  },
+  {
+    "id": "1862618731311952238",
+    "text": "How to build a strong O-1/EB-1 petition and how to handle RFEs if you need to.\n\nEvery founder knows \n@ycombinator\n, but the average person at USCIS hasn't heard of it. \n\nTo get awarded an extraordinary ability visa, you need to show why it's a big deal through your petition ",
+    "author": "Noémie Federico\n@FedericoNoemie\n·\nNov 30, 2024",
+    "timestamp": "2024-11-29T22:04:45.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/Gdku_WwXgAAFGbh?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/FedericoNoemie/status/1862618731311952238/analytics",
+      "https://x.com/FedericoNoemie/status/1862618731311952238",
+      "https://x.com/ycombinator",
+      "https://x.com/kirillzzy/status/1862571658390945797/photo/1",
+      "https://x.com/FedericoNoemie"
+    ]
+  },
+  {
+    "id": "1859011648109105314",
+    "text": "Here's a walk-through of a general-purpose approach to solving many types of optimization problem. It's often not the most efficient way, but it is often fast enough, and it doesn't using different methods for different problems.",
+    "author": "Jeremy Howard\n@jeremyphoward\n·\nNov 20, 2024",
+    "timestamp": "2024-11-19T23:11:30.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/jeremyphoward/status/1859011648109105314",
+      "https://x.com/jeremyphoward/status/1859011648109105314/analytics",
+      "https://x.com/jeremyphoward"
+    ]
+  },
+  {
+    "id": "1857875469749858624",
+    "text": "I gave a talk about moondream, synthetic data, and why small models will run the world at the AI Engineer World's Fair earlier this year.\nThe talk recently got uploaded to YouTube (see QT) so I figured I'd share it here too. Thanks \n@swyx\n for inviting me!",
+    "author": "vik\n@vikhyatk\n·\nNov 16, 2024",
+    "timestamp": "2024-11-16T19:56:44.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/vikhyatk/status/1857875469749858624",
+      "https://x.com/swyx",
+      "https://x.com/vikhyatk/status/1857875469749858624/analytics",
+      "https://x.com/vikhyatk"
+    ]
+  },
+  {
+    "id": "1856456622308241744",
+    "text": "i figured it out.\nU GUYS.... dont you dare fucking use mode = 'reduce-overhead' when using both torch.compile and fsdp2 (fully_shard)\nit will fuck you up. (idk why tho, tbh, maybe this wasn't the problem?)",
+    "author": "Simo Ryu\n@cloneofsimo\n·\nNov 13, 2024",
+    "timestamp": "2024-11-12T21:58:44.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GcN1FYBagAAg3Wo?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/cloneofsimo/status/1856456622308241744",
+      "https://x.com/cloneofsimo/status/1856456622308241744/analytics",
+      "https://x.com/cloneofsimo",
+      "https://x.com/cloneofsimo/status/1856456622308241744/photo/1"
+    ]
+  },
+  {
+    "id": "1856003771433669110",
+    "text": "We are very excited to announce Kinetix: an open-ended universe of physics-based tasks for RL!\n\nWe use Kinetix to train a general agent on millions of randomly generated physics problems and show that this agent generalises to unseen handmade environments.\n1/",
+    "author": "Michael Matthews\n@mitrma\n·\nNov 11, 2024",
+    "timestamp": "2024-11-11T15:59:16.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/mitrma",
+      "https://x.com/mitrma/status/1856003771433669110",
+      "https://x.com/mitrma/status/1856003771433669110/analytics"
+    ]
+  },
+  {
+    "id": "1854904829329785313",
+    "text": "My grandmom is my hero. Excited to start a small fellowship program in India on her 80th birthday today: http://kotharifellowship.com\n\nPlease do share with your networks!",
+    "author": "Akshay Kothari\n@akothari\n·\nNov 8, 2024",
+    "timestamp": "2024-11-08T15:12:28.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/Gb3yHF1bwAQq9Ok?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/akothari/status/1854904829329785313/analytics",
+      "https://t.co/yrtmKPgzDs",
+      "https://x.com/akothari/status/1854904829329785313/photo/1",
+      "https://x.com/akothari",
+      "https://x.com/akothari/status/1854904829329785313"
+    ]
+  },
+  {
+    "id": "1846900250147172824",
+    "text": ".cursorrule file:\n\nyou are asked to act based on different roles / personalities\nthese are saved in this folder as {name}.txt\nthe user will ask you for help by \n@name\n.txt mentioning you\nalways consider your name and role on the team\nreply as if you are talking to a team member\nyou",
+    "author": "Imrat\n@imrat\n·\nOct 17, 2024",
+    "timestamp": "2024-10-17T13:05:08.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/imrat/status/1846900250147172824",
+      "https://x.com/name",
+      "https://x.com/imrat/status/1846900250147172824/analytics",
+      "https://x.com/cursor_ai",
+      "https://x.com/imrat",
+      "https://x.com/joedevon"
+    ]
+  },
+  {
+    "id": "1845145592353198535",
+    "text": "my cursor rules",
+    "author": "jason liu\n@jxnlco\n·\nOct 12, 2024",
+    "timestamp": "2024-10-12T16:52:45.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GZtGIy2WIAcx3q6?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/jxnlco",
+      "https://x.com/jxnlco/status/1845145592353198535/photo/1",
+      "https://x.com/jxnlco/status/1845145592353198535/analytics",
+      "https://x.com/jxnlco/status/1845145592353198535"
+    ]
+  },
+  {
+    "id": "1845138651954532666",
+    "text": "here is my list of all the essentials of llms:\n\n- token embeddings\n- positional embeddings \n- self-attention\n- transformers\n- intuitive understanding of Q, K, V\n- causal and multi-head attention\n- temperature, top-k, top-p\n- classification & instruction fine-tuning\n- rotary",
+    "author": "ℏεsam\n@Hesamation\n·\nOct 12, 2024",
+    "timestamp": "2024-10-12T16:25:10.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/Hesamation/status/1845138651954532666/analytics",
+      "https://x.com/Hesamation",
+      "https://x.com/Hesamation/status/1845138651954532666"
+    ]
+  },
+  {
+    "id": "1844492622670541124",
+    "text": "Made myself a no code interface for optimizing prompts with DSPy. Thought I'd open source it.",
+    "author": "Mike Taylor\n@hammer_mt\n·\nOct 11, 2024",
+    "timestamp": "2024-10-10T21:38:04.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/hammer_mt/status/1844492622670541124/analytics",
+      "https://x.com/hammer_mt",
+      "https://x.com/hammer_mt/status/1844492622670541124"
+    ]
+  },
+  {
+    "id": "1844045638499197188",
+    "text": "standalone VAE training that has EVERY detail, is tough to find, naturally, I made my own:",
+    "author": "Simo Ryu\n@cloneofsimo\n·\nOct 9, 2024",
+    "timestamp": "2024-10-09T16:01:55.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/akZNFb8xM1",
+      "https://x.com/cloneofsimo/status/1844045638499197188",
+      "https://x.com/cloneofsimo",
+      "https://x.com/cloneofsimo/status/1844045638499197188/analytics"
+    ]
+  },
+  {
+    "id": "1841760341241266564",
+    "text": "if you have zero idea about ML, have a problem at hand and want to get your hands dirty, check out \n@huggingface\n Tasks\n\nyou go to huggingface. co/tasks, pick your problem, try recommended open-source models, at the end of the page there's fine-tuning code too",
+    "author": "merve\n@mervenoyann\n·\nOct 3, 2024",
+    "timestamp": "2024-10-03T08:40:58.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GY8_ICsWwAAP7kQ?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/mervenoyann/status/1841760341241266564/analytics",
+      "https://x.com/mervenoyann/status/1841760341241266564",
+      "https://x.com/mervenoyann",
+      "https://x.com/huggingface",
+      "https://x.com/mervenoyann/status/1841760341241266564/photo/1"
+    ]
+  },
+  {
+    "id": "1841652773944697177",
+    "text": "https://jobs.applied-llms.org\n\nAnything look interesting to them. \n\nCan intro directly",
+    "author": "jason liu\n@jxnlco\n·\nOct 3, 2024",
+    "timestamp": "2024-10-03T01:33:32.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/jxnlco/status/1841652773944697177",
+      "https://x.com/jxnlco/status/1841652773944697177/analytics",
+      "https://t.co/2m95FQp3lF",
+      "https://x.com/jxnlco",
+      "https://x.com/madhavsinghal_"
+    ]
+  },
+  {
+    "id": "1841487260237058118",
+    "text": "i pass github repo links to cursor a lot when I need help setting something up, but it only reads the readme file\n\nuntil i found this tool: http://uithub.com\n\njust change the g to a u in the url and you have a full repo context:\n\nhttps://uithub.com/ralphjsmit/laravel-seo…",
+    "author": "Ian Nuttall\n@iannuttall\n·\nOct 2, 2024",
+    "timestamp": "2024-10-02T14:35:50.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/iannuttall/status/1841487260237058118",
+      "https://x.com/iannuttall/status/1841487260237058118/analytics",
+      "https://t.co/iLrArA9L3I",
+      "https://t.co/YPOyP6O38Y",
+      "https://x.com/iannuttall"
+    ]
+  },
+  {
+    "id": "1841245242282144007",
+    "text": "Scaling LLM apps - OpenAI break out session\n\nGoing from 1K > 10M users\nMaking apps better, faster, and cheaper\n\nAccuracy\n* Start by optimizing for accuracy, use the most intelligent model you have\n* Build evals > Set Target > Optimize\n* People skip the \"set target\" but then it's",
+    "author": "Greg Kamradt\n@GregKamradt\n·\nOct 2, 2024",
+    "timestamp": "2024-10-01T22:34:09.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GY1mqTkbQAEXdJn?format=jpg&name=360x360",
+      "https://pbs.twimg.com/media/GY1mvXkbEAAgEnP?format=jpg&name=360x360",
+      "https://pbs.twimg.com/media/GY1oz2KbQAESN3O?format=jpg&name=360x360",
+      "https://pbs.twimg.com/media/GY1qmT9aoAAxRu7?format=jpg&name=360x360"
+    ],
+    "links": [
+      "https://x.com/GregKamradt/status/1841245242282144007/analytics",
+      "https://x.com/GregKamradt/status/1841245242282144007",
+      "https://x.com/GregKamradt/status/1841245242282144007/photo/2",
+      "https://x.com/GregKamradt/status/1841245242282144007/photo/4",
+      "https://x.com/GregKamradt/status/1841245242282144007/photo/1",
+      "https://x.com/GregKamradt/status/1841245242282144007/photo/3",
+      "https://x.com/GregKamradt"
+    ]
+  },
+  {
+    "id": "1841132211917160882",
+    "text": "Introducing Million Lint: \n\nA VSCode extension that automatically fixes slow React code for you!  \n\nTry it out via CLI: npx million@latest",
+    "author": "Aiden Bai\n@aidenybai\n·\nOct 1, 2024",
+    "timestamp": "2024-10-01T15:05:00.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/aidenybai",
+      "https://x.com/aidenybai/status/1841132211917160882/analytics",
+      "https://x.com/aidenybai/status/1841132211917160882"
+    ]
+  },
+  {
+    "id": "1840028869195112534",
+    "text": "Vision-based(Colapli) RAG is becoming popular, so we built a platform to compare:\n\n- Simple OCR RAG\n- VisionRAG\n- Colpali\n- Hybrid Colpali\n\n Introducing VARAG – the Vision-First RAG Engine (Vision Augmented Retrieval and Generation).",
+    "author": "Adithya S K\n@adithya_s_k\n·\nSep 28, 2024",
+    "timestamp": "2024-09-28T14:00:43.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/adithya_s_k/status/1840028869195112534",
+      "https://x.com/adithya_s_k",
+      "https://x.com/adithya_s_k/status/1840028869195112534/analytics"
+    ]
+  },
+  {
+    "id": "1839712052438257830",
+    "text": "Anthropic's Contextual Retrieval technique is a game-changer for RAG systems, addressing the pesky problem of lost context when chunking documents. This instructor implementation takes it a step further by adding async processing for improved efficiency. \n\nAs someone who's spent",
+    "author": "jason liu\n@jxnlco\n·\nSep 27, 2024",
+    "timestamp": "2024-09-27T17:01:48.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/jxnlco",
+      "https://x.com/jxnlco/status/1839712052438257830/analytics",
+      "https://x.com/jxnlco/status/1839712052438257830"
+    ]
+  },
+  {
+    "id": "1839689001005150410",
+    "text": "Level up your \n@shadcn\n ui projects with our new registry! \n Share, discover & instantly apply pre-built themes  Custom styles + enhanced functionality  Turbocharge your UI development,\n\nCheck it out right now :",
+    "author": "Bylka\n@BylkaYf\n·\nSep 27, 2024",
+    "timestamp": "2024-09-27T15:30:12.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/BylkaYf/status/1839689001005150410/analytics",
+      "https://t.co/UcfBKsxot7",
+      "https://x.com/BylkaYf/status/1839689001005150410",
+      "https://x.com/shadcn",
+      "https://x.com/BylkaYf"
+    ]
+  },
+  {
+    "id": "1839688520031441357",
+    "text": "He threw it back so politely, I like that ",
+    "author": "Rel (Robotfucker)\n@DewEnjoyer\n·\nSep 27, 2024",
+    "timestamp": "2024-09-27T15:28:17.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/DewEnjoyer/status/1839688520031441357/analytics",
+      "https://x.com/DewEnjoyer",
+      "https://x.com/DewEnjoyer/status/1839688520031441357"
+    ]
+  },
+  {
+    "id": "1838651348797063276",
+    "text": "Introducing MKBSD, a program that downloads all the wallpapers from \n@MKBHD\n's shitty, predatory, grifting sellout tracking \n@panels_art\n app.  https://github.com/nadimkobeissi/mkbsd…\n\nTook me 26 minutes to write this after reverse engineering the app. Enjoy!",
+    "author": "Nadim Kobeissi\n@kaepora\n·\nSep 24, 2024",
+    "timestamp": "2024-09-24T18:46:56.000Z",
+    "images": [],
+    "links": [
+      "https://t.co/2ocTnRZmWX",
+      "https://x.com/panels_art",
+      "https://x.com/MKBHD",
+      "https://x.com/kaepora",
+      "https://x.com/kaepora/status/1838651348797063276/analytics",
+      "https://x.com/kaepora/status/1838651348797063276"
+    ]
+  },
+  {
+    "id": "1833428730938589236",
+    "text": "Why is nobody talking about how just 125 - 300mg of magnesium per meal reversed depression in just 7 DAYS?\n\nMagnesium deficiency causes neuronal damage that can manifest as depression and over 50% of people are deficient.\n\nMagnesium is incredibly cheap and has little to no side",
+    "author": "Carnivore Aurelius ©\n@AlpacaAurelius\n·\nSep 10, 2024",
+    "timestamp": "2024-09-10T08:54:07.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GXGltX1WMAAbFaP?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/AlpacaAurelius",
+      "https://x.com/AlpacaAurelius/status/1833428730938589236/analytics",
+      "https://x.com/AlpacaAurelius/status/1833428730938589236",
+      "https://x.com/AlpacaAurelius/status/1833428730938589236/photo/1"
+    ]
+  },
+  {
+    "id": "1833165652107862337",
+    "text": "Git pro tip: Find the first commit that introduced a snippet of code you come across:\n\ngit log --reverse -S <code>\n\nThis can be very helpful in code bases that see a lot of refactoring, i.e. when it's hard to use git blame to get to the bottom of things.",
+    "author": "Felix Geisendörfer\n@felixge\n·\nSep 9, 2024",
+    "timestamp": "2024-09-09T15:28:44.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/felixge/status/1833165652107862337/analytics",
+      "https://x.com/felixge",
+      "https://x.com/felixge/status/1833165652107862337"
+    ]
+  },
+  {
+    "id": "1833161187883933875",
+    "text": "I wrote my first article\n\nIt's about self-hosting with \n@SST_dev\n on a $5 VPS\n\nhttps://amosbastian.com/blog/self-hosting-with-sst-on-a-5-vps/…",
+    "author": "Amos\n@amosbastian\n·\nSep 9, 2024",
+    "timestamp": "2024-09-09T15:11:00.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GW-tx7VWkAA3OyP?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/amosbastian/status/1833161187883933875/photo/1",
+      "https://x.com/SST_dev",
+      "https://x.com/amosbastian",
+      "https://x.com/amosbastian/status/1833161187883933875",
+      "https://t.co/WzYtoZddWX",
+      "https://x.com/amosbastian/status/1833161187883933875/analytics"
+    ]
+  },
+  {
+    "id": "1832304557268881475",
+    "text": "Here's how this can be turned into Instructor based approach with a general class to represent reflection based problem solving process. It can be improved further with LLM powered validation, but this is an exercise for another tweet.",
+    "author": "Dariusz Debowczyk\n@ddebowczyk\n·\nSep 7, 2024",
+    "timestamp": "2024-09-07T06:27:03.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GW2moimXYAAFItF?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GW2m1w4WYAAclNQ?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/ddebowczyk/status/1832304557268881475/photo/1",
+      "https://x.com/ddebowczyk",
+      "https://x.com/ddebowczyk/status/1832304557268881475/photo/2",
+      "https://x.com/ddebowczyk/status/1832304557268881475",
+      "https://x.com/ddebowczyk/status/1832304557268881475/analytics",
+      "https://x.com/rohanpaul_ai"
+    ]
+  },
+  {
+    "id": "1832216833530712081",
+    "text": "A system prompt example for Reflection Prompting\n\nSource: Reddit",
+    "author": "Rohan Paul\n@rohanpaul_ai\n·\nSep 7, 2024",
+    "timestamp": "2024-09-07T00:38:28.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GW1XNrMXwAAqoMJ?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/rohanpaul_ai/status/1832216833530712081",
+      "https://x.com/rohanpaul_ai/status/1832216833530712081/photo/1",
+      "https://x.com/rohanpaul_ai",
+      "https://x.com/rohanpaul_ai/status/1832216833530712081/analytics"
+    ]
+  },
+  {
+    "id": "1831768303229956167",
+    "text": "I wrote a 20,000 word Notion guide on Personal Finance for Startup Founders\n\nCovers equity, fundraising, how to set up cap table, raising money, taxes, hiring & compensating your team, running finance, selling secondaries & exiting \n\nRT or Comment this post & I'll DM you a copy",
+    "author": "Ankur Nagpal\n@ankurnagpal\n·\nSep 5, 2024",
+    "timestamp": "2024-09-05T18:56:10.000Z",
+    "images": [],
+    "links": [
+      "https://x.com/ankurnagpal",
+      "https://x.com/ankurnagpal/status/1831768303229956167/analytics",
+      "https://x.com/ankurnagpal/status/1831768303229956167"
+    ]
+  },
+  {
+    "id": "1831549690015625256",
+    "text": "I do blood tests every 4-6 months and get results in PDFs like this.\n\nWhat's the easiest way for me to aggregate all this data in one place to see changes over time, etc? Is there a tool that does this?",
+    "author": "Daniel Vassallo\n@dvassallo\n·\nSep 5, 2024",
+    "timestamp": "2024-09-05T04:27:29.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GWr3rYGbAAA6v2a?format=png&name=large"
+    ],
+    "links": [
+      "https://x.com/dvassallo",
+      "https://x.com/dvassallo/status/1831549690015625256",
+      "https://x.com/dvassallo/status/1831549690015625256/analytics",
+      "https://x.com/dvassallo/status/1831549690015625256/photo/1"
+    ]
+  },
+  {
+    "id": "1803461399286522122",
+    "text": "Big step for Generative 3D:\nMeshAnything\n\nOne of the biggest issues with the state of 3D AI is that the generation outputs meshes that are unusable for games. Artists can't animate them. The poly count is too high for runtime, etc\n\nThis paper looks like it could be an answer",
+    "author": "Troy Kirwin\n@tkexpress11\n·\nJun 19, 2024",
+    "timestamp": "2024-06-19T16:14:38.000Z",
+    "images": [
+      "https://pbs.twimg.com/media/GQcubFoaIAQJS1u?format=jpg&name=large"
+    ],
+    "links": [
+      "https://x.com/tkexpress11/status/1803461399286522122",
+      "https://x.com/tkexpress11/status/1803461399286522122/photo/1",
+      "https://x.com/tkexpress11/status/1803461399286522122/analytics",
+      "https://x.com/tkexpress11"
+    ]
+  }
+]
