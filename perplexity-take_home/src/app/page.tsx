@@ -5,12 +5,13 @@ import { ThinkingAnimation } from '../components/thinking-animation'
 import { SearchBar } from '../components/search-bar'
 import QuestionCard from '@/components/question-card'
 import { ResponseCard } from '@/components/response-card'
-import { createClient } from '@supabase/supabase-js'
-import { Message}  from './types'
+import { Message}  from '../lib/types'
 import { useRouter } from 'next/navigation'
 import { useSearchParams } from 'next/navigation'
 import { useEffect } from 'react'
 import { createConversation, createMessage, updateConversation, loadMessages } from './services/supabase'
+
+import clsx from 'clsx'
 
 export default function SearchEngineInterface() {
   const router = useRouter()
@@ -53,7 +54,15 @@ export default function SearchEngineInterface() {
     updateConversation(currentConvId!)
 
     setIsLoading(true)
-    const response = `This is a sample response for "${searchQuery}". In a real application, this would be replaced with actual API response data.`
+    const res = await fetch("/rag", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ query: searchQuery}),
+    })
+    const data = await res.json()
+    const response = data.posts.join("\n")
 
     // Save response
     const responseMsg = await createMessage(currentConvId!, response, 'response', messages.length + 1)
@@ -96,9 +105,10 @@ export default function SearchEngineInterface() {
 
         {/* Search bar section */}
         <div 
-          className={`fixed ${
+          className={clsx(
+            'fixed left-1/2 -translate-x-1/2 w-full max-w-3xl',
             isFirstSearch ? 'top-1/2 -translate-y-1/2' : 'bottom-8'
-          } left-1/2 -translate-x-1/2 w-full max-w-3xl`}
+          )}
         >
           <SearchBar 
             searchQuery={searchQuery}
