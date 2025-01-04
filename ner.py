@@ -4,7 +4,12 @@ from typing import List, Dict
 import numpy as np
 from collections import defaultdict
 import re
-from sentence_transformers import SentenceTransformer
+from openai import OpenAI
+import os
+import dotenv
+
+dotenv.load_dotenv()
+
 
 def load_bookmarks(file_path: str) -> List[Dict]:
     with open(file_path, 'r', encoding='utf-8') as f:
@@ -14,7 +19,7 @@ class ContextualChunker:
     def __init__(self, max_chunk_size: int = 512, embedding_model: str = "all-mpnet-base-v2"):
         self.nlp = spacy.load("en_core_web_sm")
         self.max_chunk_size = max_chunk_size
-        self.embedding_model = SentenceTransformer(embedding_model)
+        self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         
     def extract_entities(self, text: str) -> Dict:
         """Extract named entities and technical terms from text."""
@@ -103,7 +108,8 @@ class ContextualChunker:
             'text': text,
             'context': {
                 'original_id': bookmark.get('id'),
-                'author': bookmark.get('author_name'),
+                'author_name': bookmark.get('author_name'),
+                'author_handle': bookmark.get('author_handle'),
                 'timestamp': bookmark.get('timestamp'),
                 'entities': entities,
                 'has_images': len(media_context.get('images', [])) > 0,
@@ -131,9 +137,12 @@ class ContextualChunker:
                     text_parts.append(f"{entity_type}: {' '.join(entity_texts)}")
         
         rich_text = " | ".join(text_parts)
-        embedding = self.embedding_model.encode(rich_text)
-        
-        chunk['embedding'] = embedding.tolist()
+        response = self.client.embeddings.create(
+            model="text-embedding-ada-002",
+            input=rich_text
+        )
+        embedding = response.data[0].embedding
+        chunk['embedding'] = embedding
         return chunk
 
 def process_bookmarks(bookmarks: List[Dict]) -> List[Dict]:

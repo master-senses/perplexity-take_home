@@ -48,7 +48,8 @@ def store_chunk(chunk):
         'embedding': chunk['embedding'],  # Now it's a list
         'context': {
             'original_id': chunk['context']['original_id'],
-            'author': chunk['context']['author'],
+            'author_name': chunk['context']['author_name'],
+            'author_handle': chunk['context']['author_handle'],
             'timestamp': chunk['context']['timestamp'],
             'entities': chunk['context']['entities'],
             'has_images': chunk['context']['has_images'],
@@ -83,12 +84,16 @@ bookmarks = load_bookmarks('processed_chunks.json')
 
 
 cont = ContextualChunker()
-query = "are there any new advances in gaussian splatting"
-embedding = cont.embedding_model.encode(query)
+query = "what should I include in my .cursorrules file"
+response = cont.client.embeddings.create(
+            model="text-embedding-ada-002",
+            input=query
+        )
+embedding = response.data[0].embedding
 # Call hybrid_search Postgres function via RPC
 response = supabase.rpc('hybrid_search', {
     'query_text': query,
-    'query_embedding': embedding.tolist(),
+    'query_embedding': embedding,
     'full_text_weight': 0.2,
     'semantic_weight': 1,
     'match_count': 5,
@@ -99,7 +104,7 @@ response = supabase.rpc('hybrid_search', {
 documents = response.data
 
 for i in range(len(documents)):
-    print(f"{i + 1}th text: ", documents[i]["text"], " | ", documents[i]["context"]["author"], " | ", documents[i]["context"]["media"]["link_to_post"])
+    print(f"{i + 1}th text: ", documents[i]["text"], " | ", documents[i]["context"]["author_handle"], " | ", documents[i]["context"]["media"]["link_to_post"])
 
 # print(json.dumps(documents))
 
