@@ -11,6 +11,9 @@ importers:
       '@ai-sdk/groq':
         specifier: ^1.0.9
         version: 1.0.9(zod@3.21.4)
+      '@ai-sdk/openai':
+        specifier: ^1.0.13
+        version: 1.0.13(zod@3.21.4)
       '@huggingface/transformers':
         specifier: ^3.2.4
         version: 3.2.4
@@ -92,6 +95,12 @@ packages:
 
   '@ai-sdk/groq@1.0.9':
     resolution: {integrity: sha512-FmvurMYRC6cCtQEZYUiqoMyLumOFzV6mYqj/iEkInVH2D7SQMXQZwsaLVU/JbVWA/Vf7nLvRnP+TPbrC7Jh7Fw==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      zod: ^3.0.0
+
+  '@ai-sdk/openai@1.0.13':
+    resolution: {integrity: sha512-kuSLNM6nFy+lgEd6d0X9Bp4hXjPbEwtUbnIrI4jqa9uZZupHc9vh8rOF6XO8s6ZhrWYjnuYZmhvK0S4k+sHrsg==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.0.0
@@ -3751,6 +3760,12 @@ packages:
 snapshots:
 
   '@ai-sdk/groq@1.0.9(zod@3.21.4)':
+    dependencies:
+      '@ai-sdk/provider': 1.0.3
+      '@ai-sdk/provider-utils': 2.0.5(zod@3.21.4)
+      zod: 3.21.4
+
+  '@ai-sdk/openai@1.0.13(zod@3.21.4)':
     dependencies:
       '@ai-sdk/provider': 1.0.3
       '@ai-sdk/provider-utils': 2.0.5(zod@3.21.4)

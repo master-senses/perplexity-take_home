@@ -35,7 +35,13 @@ export async function POST(request: Request) {
     match_count: 5,
   })
 
+  let context = ""
+
+  for (const post of posts) {
+    context += `@${post["context"]["author_handle"]}: ${post["text"]}\n`
+  }
+
   return NextResponse.json({
-    posts: posts.map((post: any) => post["text"])
+    context: context
   })
 }

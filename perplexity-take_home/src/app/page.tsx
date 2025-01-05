@@ -39,13 +39,31 @@ export default function SearchEngineInterface() {
 
 
 
-  const { completion, complete } = useCompletion({
+  const { complete } = useCompletion({
     api: '/api/llm',
+    onResponse: async (response) => {
+      const reader = response.body?.getReader()
+      if (!reader) return
+      let chunk = await reader.read()
+      let combinedText = ''
+      while (!chunk.done) {
+        combinedText += new TextDecoder().decode(chunk.value)
+        setMessages(prev =>
+          !responseIdRef.current
+            ? prev
+            : prev.map(msg =>
+                msg.id === responseIdRef.current
+                  ? { ...msg, content: combinedText }
+                  : msg
+              )
+        )
+        chunk = await reader.read()
+      }
+    },
     onFinish: async (prompt, completion) => {
       console.log("the current completion is: ", completion)
       console.log("the current prompt is: ", prompt)
       if (!responseIdRef.current) return;
-      // Update final message in database
       await updateMessage(responseIdRef.current, completion)
       setMessages(prev => prev.map(msg => 
         msg.id === responseIdRef.current
@@ -60,6 +78,7 @@ export default function SearchEngineInterface() {
   });
 
   const handleSearch = async () => {
+    // setCompletion('')
     if (!searchQuery.trim()) return
 
     let currentConvId = conversationId
@@ -94,18 +113,21 @@ export default function SearchEngineInterface() {
     console.log("The current messages are: ", messages)
 
     // Get context and start streaming
-    // const res = await fetch("/api/semantic_search", {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify({ query: searchQuery}),
-    // })
-    // const data = await res.json()
-    // const context = data.posts.join("\n")
+    const res = await fetch("/api/semantic_search", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ query: searchQuery}),
+    })
+    const data = await res.json()
+    const stuff = data.context
 
     // Start streaming completion
-    complete(searchQuery)
+    complete(searchQuery, { body: { prompt: searchQuery, context: stuff } })
+
+
+    setTimeout(() => {}, 300)
 
     setIsLoading(false)
     setSearchQuery('')
@@ -120,11 +142,11 @@ export default function SearchEngineInterface() {
       ) : (
         <ResponseCard 
           key={message.id} 
-          content={message.id === responseIdRef.current ? completion || '' : message.content} 
+          content={message.content} 
         />
       )
       
-    )), [messages, completion, responseIdRef.current]
+    )), [messages, responseIdRef.current]
   )
 
   return (
