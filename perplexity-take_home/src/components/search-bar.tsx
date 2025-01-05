@@ -1,6 +1,6 @@
 'use client'
 
-import { useRef, useEffect, useState } from 'react'
+import { useRef, useState } from 'react'
 import { Search } from 'lucide-react'
 import { motion, useAnimate } from 'framer-motion'
 import clsx from 'clsx'
@@ -19,19 +19,15 @@ export function SearchBar({
   onChange,
 }: SearchBarProps) {
   const inputRef = useRef<HTMLInputElement>(null)
-  const [scope, animate] = useAnimate()
+  const [scope] = useAnimate()
   const [isHovered, setIsHovered] = useState(false)
-
-  useEffect(() => {
-    animate(scope.current, { y: [20, 0], opacity: [0, 1], scale: [0.9, 1] }, { duration: 0.3, ease: "easeOut" })
-  }, [])
 
   return (
     <motion.div
       ref={scope}
       className={clsx(
         'w-full max-w-2xl flex items-center justify-center transition-all duration-300',
-        !isFirstSearch && 'fixed bottom-8 w-full max-w-2xl'
+        !isFirstSearch && 'fixed bottom-8 w-full max-w-2xl items-center'
       )}
     >
       <div

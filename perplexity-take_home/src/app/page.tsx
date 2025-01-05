@@ -1,30 +1,27 @@
 'use client'
 
-import { useState, useMemo, useRef } from 'react'
+import { useState, useMemo, useRef, Suspense } from 'react'
 import { ThinkingAnimation } from '../components/thinking-animation'
 import { SearchBar } from '../components/search-bar'
 import QuestionCard from '@/components/question-card'
 import { ResponseCard } from '@/components/response-card'
 import { Message}  from '../lib/types'
-import { useRouter } from 'next/navigation'
-import { useSearchParams } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { useEffect } from 'react'
 import { createConversation, createMessage, updateConversation, loadMessages, updateMessage } from './services/supabase'
-import { useCompletion } from 'ai/react';
-
+import { useCompletion } from 'ai/react'
 import clsx from 'clsx'
 
-export default function SearchEngineInterface() {
+function SearchEngineContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const conversationId = searchParams.get('conversation')
-  const responseIdRef = useRef<string>('')
+  const isFirstSearch = !searchParams.has('conversation')
 
   const [isLoading, setIsLoading] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
-  const [isFirstSearch, setIsFirstSearch] = useState(true)
   const [messages, setMessages] = useState<Message[]>([])
-  // const [currentResponseId, setCurrentResponseId] = useState<string>('')
+  const responseIdRef = useRef<string>('')
 
   useEffect(() => {
     if (conversationId) {
@@ -33,11 +30,8 @@ export default function SearchEngineInterface() {
         setMessages(data)
       }
       loadData()
-      setIsFirstSearch(false)       // Moves search bar to bottom
     }
-  }, [conversationId])  // Runs when conversationId changes
-
-
+  }, [conversationId])
 
   const { complete } = useCompletion({
     api: '/api/llm',
@@ -59,26 +53,11 @@ export default function SearchEngineInterface() {
         )
         chunk = await reader.read()
       }
-    },
-    onFinish: async (prompt, completion) => {
-      console.log("the current completion is: ", completion)
-      console.log("the current prompt is: ", prompt)
-      if (!responseIdRef.current) return;
-      await updateMessage(responseIdRef.current, completion)
-      setMessages(prev => prev.map(msg => 
-        msg.id === responseIdRef.current
-          ? {...msg, content: completion}
-          : msg
-      ))
-
-      setIsLoading(false)
-      setSearchQuery('')
-      setIsFirstSearch(false)
+      await updateMessage(responseIdRef.current, combinedText)
     }
   });
 
   const handleSearch = async () => {
-    // setCompletion('')
     if (!searchQuery.trim()) return
 
     let currentConvId = conversationId
@@ -97,22 +76,14 @@ export default function SearchEngineInterface() {
     // Create and save query message
     const queryMsg = await createMessage(currentConvId!, searchQuery, 'query', messages.length)
     setMessages(prev => [...prev, queryMsg])
-    console.log("I have added ",  queryMsg.content)
     await updateConversation(currentConvId!)
 
     setIsLoading(true)
 
-    // Create empty response message
-    // const  response = "hey this is a sample response for " + searchQuery
     const responseMsg = await createMessage(currentConvId!, '', 'response', messages.length + 1)
     responseIdRef.current = responseMsg.id
-    // setCurrentResponseId(responseMsg.id)
     setMessages(prev => [...prev, responseMsg])
-    console.log("The message id is: ", responseMsg.id, "The response id is set to: ", responseIdRef.current)
-    // console.log("I have added ",  responseMsg.content)
-    console.log("The current messages are: ", messages)
 
-    // Get context and start streaming
     const res = await fetch("/api/semantic_search", {
       method: "POST",
       headers: {
@@ -122,16 +93,10 @@ export default function SearchEngineInterface() {
     })
     const data = await res.json()
     const stuff = data.context
-
-    // Start streaming completion
-    complete(searchQuery, { body: { prompt: searchQuery, context: stuff } })
-
-
-    setTimeout(() => {}, 300)
+    await complete(searchQuery, { body: { prompt: searchQuery, context: stuff } })
 
     setIsLoading(false)
     setSearchQuery('')
-    setIsFirstSearch(false)
   }
 
   // Memoize message components
@@ -145,8 +110,7 @@ export default function SearchEngineInterface() {
           content={message.content} 
         />
       )
-      
-    )), [messages, responseIdRef.current]
+    )), [messages]
   )
 
   return (
@@ -182,5 +146,13 @@ export default function SearchEngineInterface() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function SearchEngineInterface() {
+  return (
+    <Suspense fallback={<ThinkingAnimation />}>
+      <SearchEngineContent />
+    </Suspense>
   )
 }

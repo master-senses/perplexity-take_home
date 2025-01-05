@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid'
 import { createClient } from '@supabase/supabase-js'
-import { Conversation, Message } from '../../lib/types'
+import { Conversation } from '../../lib/types'
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_KEY
@@ -8,7 +8,7 @@ const supabase = createClient(supabaseUrl!, supabaseKey!)
 
 export async function updateConversation(convId: string) {
     try {
-        const { data: conv, error } = await supabase
+        await supabase
             .from('conversations')
             .update({ updated_at: new Date().toISOString() })
             .eq('id', convId)

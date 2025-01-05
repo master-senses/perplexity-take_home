@@ -1,5 +1,5 @@
 import { streamText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { groq } from '@ai-sdk/groq';
 
 const system_prompt = `You are a search engine assistant that helps users find bookmarked tweets from X (formerly Twitter). 
 For each query, you'll receive context containing tweet content and author information. 
@@ -17,13 +17,6 @@ When responding:
 - If the provided context is insufficient, clearly state what information is missing
 - End with a natural segue inviting further queries about the topic
 
-Output format requirements:
-- Use plain text without any special formatting
-- No numeric prefixes
-- No quotation marks around words
-- Use standard spaces between words
-- Maintain natural paragraph breaks with single newlines
-
 Note:
 - The tweets themselves do not provide a lot of information about a topic. Simply revarbalize the tweets, and provide a helpful summary. Your job is to simply remind guide the user to the tweet he needs to visit.
 - Don't say results from X
@@ -38,7 +31,7 @@ export async function POST(req: Request) {
   console.log("The context is: ", context)
 
   const result = streamText({
-    model: openai('gpt-4o'),
+    model: groq('llama-3.1-70b-versatile'),
     system: system_prompt,
     prompt: "Prompt: " + prompt + "\nContext: " + context,
   });
