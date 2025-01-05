@@ -5,7 +5,6 @@ interface QuestionCardProps {
 }
 
 export default function QuestionCard({ currentQuery }: QuestionCardProps) {
-    console.log(currentQuery)
   return (
     <Card className="border-0 bg-white/5 backdrop-blur-lg">
       <CardHeader className="flex">
