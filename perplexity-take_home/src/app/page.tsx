@@ -10,6 +10,7 @@ import { useRouter } from 'next/navigation'
 import { useSearchParams } from 'next/navigation'
 import { useEffect } from 'react'
 import { createConversation, createMessage, updateConversation, loadMessages } from './services/supabase'
+import { useCompletion } from 'ai/react';
 
 import clsx from 'clsx'
 
@@ -22,6 +23,7 @@ export default function SearchEngineInterface() {
   const [searchQuery, setSearchQuery] = useState('')
   const [isFirstSearch, setIsFirstSearch] = useState(true)
   const [messages, setMessages] = useState<Message[]>([])
+  const [currentResponseId, setCurrentResponseId] = useState<string>('')
 
   useEffect(() => {
     if (conversationId) {
@@ -33,6 +35,18 @@ export default function SearchEngineInterface() {
       setIsFirstSearch(false)       // Moves search bar to bottom
     }
   }, [conversationId])  // Runs when conversationId changes
+
+  const { completion, complete } = useCompletion({
+    api: '/api/llm',
+    onFinish: async (completion: string) => {
+      if (!conversationId) return;
+      // Update final message in database
+      await createMessage(conversationId, completion, 'response', messages.length)
+      setIsLoading(false)
+      setSearchQuery('')
+      setIsFirstSearch(false)
+    }
+  });
 
   const handleSearch = async () => {
     if (!searchQuery.trim()) return
@@ -54,7 +68,7 @@ export default function SearchEngineInterface() {
     updateConversation(currentConvId!)
 
     setIsLoading(true)
-    const res = await fetch("/rag", {
+    const res = await fetch("/api/semantic_search", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -62,17 +76,17 @@ export default function SearchEngineInterface() {
       body: JSON.stringify({ query: searchQuery}),
     })
     const data = await res.json()
-    const response = data.posts.join("\n")
-
-    // Save response
-    const responseMsg = await createMessage(currentConvId!, response, 'response', messages.length + 1)
+    const context = data.posts.join("\n")
+    
+    // Create a placeholder for streaming response
+    const responseMsg = await createMessage(currentConvId!, '', 'response', messages.length + 1)
+    setCurrentResponseId(responseMsg.id)
     setMessages(prev => [...prev, responseMsg])
-    updateConversation(currentConvId!)
 
-    setIsLoading(false)
-    setSearchQuery('')
-    setIsFirstSearch(false)
-    console.log(messages)
+    // Start streaming completion
+    complete(searchQuery, {
+      body: { context }
+    })
   }
 
   // Memoize message components
@@ -81,9 +95,12 @@ export default function SearchEngineInterface() {
       message.type === 'query' ? (
         <QuestionCard key={message.id} currentQuery={message.content} />
       ) : (
-        <ResponseCard key={message.id} content={message.content} />
+        <ResponseCard 
+          key={message.id} 
+          content={message.id === currentResponseId ? completion || '' : message.content} 
+        />
       )
-    )), [messages]
+    )), [messages, completion, currentResponseId]
   )
 
   return (

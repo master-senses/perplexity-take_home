@@ -39,11 +39,3 @@ export async function POST(request: Request) {
     posts: posts.map((post: any) => post["text"])
   })
 }
-
-
-
-
-
-
-
-

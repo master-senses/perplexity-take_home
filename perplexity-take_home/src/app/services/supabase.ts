@@ -74,3 +74,18 @@ export async function createMessage(convId: string, message: string, type: 'quer
     }
 }
 
+export async function updateMessage(msgId: string, content: string) {
+    const { data: msg, error } = await supabase
+        .from('messages')
+        .update({ content })
+        .eq('id', msgId)
+        .select()
+        .single()
+
+    if (msg && !error) {
+        return msg
+    } else {
+        throw new Error('Failed to update message')
+    }
+}
+
