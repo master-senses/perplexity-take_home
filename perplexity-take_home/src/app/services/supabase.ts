@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid'
 import { createClient } from '@supabase/supabase-js'
-import { Conversation } from '../../lib/types'
+import { Conversation } from '../../types/chat'
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_KEY
@@ -52,7 +52,7 @@ export async function createConversation() : Promise<Conversation> {
     }
 }
 
-export async function createMessage(convId: string, message: string, type: 'query' | 'response', message_length: number) {
+export async function createMessage(convId: string, message: string, type: 'query' | 'response', message_length: number, sources: any) {
     try {
         const { data: queryMsg, error } = await supabase
             .from('messages')
@@ -60,7 +60,8 @@ export async function createMessage(convId: string, message: string, type: 'quer
         conversation_id: convId,
         type: type,
         content: message,
-        order_index: message_length
+        order_index: message_length,
+        sources: sources
       })
       .select()
       .single()
@@ -86,6 +87,21 @@ export async function updateMessage(msgId: string, content: string) {
         return msg
     } else {
         throw new Error('Failed to update message')
+    }
+}
+
+export async function addSources(msgId: string, sources: any) {
+    const { data, error } = await supabase
+        .from('messages')
+        .update({ sources })
+        .eq('id', msgId)
+        .select()
+        .single()
+
+    if (data && !error) {
+        return data
+    } else {
+        throw new Error('Failed to add sources')
     }
 }
 

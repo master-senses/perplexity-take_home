@@ -5,10 +5,10 @@ import { ThinkingAnimation } from '../components/thinking-animation'
 import { SearchBar } from '../components/search-bar'
 import QuestionCard from '@/components/question-card'
 import { ResponseCard } from '@/components/response-card'
-import { Message}  from '../lib/types'
+import { Message}  from '../types/chat'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useEffect } from 'react'
-import { createConversation, createMessage, updateConversation, loadMessages, updateMessage } from './services/supabase'
+import { createConversation, createMessage, updateConversation, loadMessages, updateMessage, addSources } from './services/supabase'
 import { useCompletion } from 'ai/react'
 import clsx from 'clsx'
 
@@ -74,15 +74,11 @@ function SearchEngineContent() {
     }
 
     // Create and save query message
-    const queryMsg = await createMessage(currentConvId!, searchQuery, 'query', messages.length)
+    const queryMsg = await createMessage(currentConvId!, searchQuery, 'query', messages.length, null)
     setMessages(prev => [...prev, queryMsg])
     await updateConversation(currentConvId!)
 
     setIsLoading(true)
-
-    const responseMsg = await createMessage(currentConvId!, '', 'response', messages.length + 1)
-    responseIdRef.current = responseMsg.id
-    setMessages(prev => [...prev, responseMsg])
 
     const res = await fetch("/api/semantic_search", {
       method: "POST",
@@ -92,8 +88,11 @@ function SearchEngineContent() {
       body: JSON.stringify({ query: searchQuery}),
     })
     const data = await res.json()
-    const stuff = data.context
-    await complete(searchQuery, { body: { prompt: searchQuery, context: stuff } })
+    const matches = data.context
+    const responseMsg = await createMessage(currentConvId!, '', 'response', messages.length + 1, matches)
+    responseIdRef.current = responseMsg.id
+    setMessages(prev => [...prev, responseMsg])
+    await complete(searchQuery, { body: { prompt: searchQuery, context: matches } })
 
     setIsLoading(false)
     setSearchQuery('')
@@ -108,13 +107,14 @@ function SearchEngineContent() {
         <ResponseCard 
           key={message.id} 
           content={message.content} 
+          sources={message.sources}
         />
       )
     )), [messages]
   )
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white p-4">
+    <div className="min-h-screen text-white p-4">
       <div className="max-w-3xl mx-auto min-h-screen">
         {/* Messages section */}
         <div className="w-full space-y-6">

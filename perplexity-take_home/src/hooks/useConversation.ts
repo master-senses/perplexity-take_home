@@ -2,7 +2,7 @@
 
 import { useState, useRef } from 'react'
 import { useCompletion } from 'ai/react'
-import { Message } from '@/lib/types'
+import { Message } from '@/types/chat'
 import { updateMessage } from '@/app/services/supabase'
 
 interface UseConversationProps {

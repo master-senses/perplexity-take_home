@@ -1,7 +1,10 @@
+import { Source } from "./tweet"
+
 export interface Message {
     id: string
     type: 'query' | 'response'
     content: string
+    sources: Source[]
   }
   
 export interface Conversation {

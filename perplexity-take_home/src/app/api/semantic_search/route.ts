@@ -35,11 +35,20 @@ export async function POST(request: Request) {
     match_count: 5,
   })
 
-  let context = ""
+  // let context = ""
 
-  for (const post of posts) {
-    context += `@${post["context"]["author_handle"]}: ${post["text"]}\n`
-  }
+  // for (const post of posts) {
+  //   context += `@${post["context"]["author_handle"]}: ${post["text"]}\n`
+  // }
+
+  const context = posts.map((post: any) => ({
+    id: post["id"],
+    text: post["text"],
+    author_handle: post["context"]["author_handle"],
+    author_name: post["context"]["author_name"],
+    created_at: post["context"]["timestamp"],
+    url: post["context"]["media"]["link_to_post"]
+  }))
 
   return NextResponse.json({
     context: context
