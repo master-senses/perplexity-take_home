@@ -168,6 +168,8 @@ Note: I initially used all-mpnet-base-v2 for embeddings, but could not get trans
 ### Why No Vector Database?
 Following [this article](https://t.co/Kr4h6YByff) (and my experiences with RAG at Eli Lilly), I've found that vector databases tend to seperate your actual data with embeddings, and make it difficult to synchronize. Instead, I've opted to use PostgreSQL to store embeddings, treating embeddings as derived data.
 
+## Notable Features
+
 ### Custom Chat Interface
 I've built my own chat interface. I took a lot of inspiration from Perplexity! The LLM answer format and sources cards were inspired by perplexity design. Creating an interface with streaming and minimal rerendering was time-consuming. 
 
