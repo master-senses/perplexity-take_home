@@ -10,7 +10,6 @@ import dotenv
 
 dotenv.load_dotenv()
 
-
 def load_bookmarks(file_path: str) -> List[Dict]:
     with open(file_path, 'r', encoding='utf-8') as f:
         return json.load(f)
@@ -26,7 +25,6 @@ class ContextualChunker:
         doc = self.nlp(text)
         entities = defaultdict(list)
         
-        # Group entities by type
         for ent in doc.ents:
             entities[ent.label_].append({
                 'text': ent.text,
@@ -34,7 +32,6 @@ class ContextualChunker:
                 'end': ent.end_char
             })
         
-        # Extract technical concepts
         concepts = self.extract_technical_concepts(text)
         entities['TECH'] = concepts
 
@@ -44,7 +41,6 @@ class ContextualChunker:
         """Extract general technical concepts."""
         concepts = []
         
-        # Core technical categories
         TECH_PATTERNS = {
             'tools': [r'(?i)\b(git|docker|kubernetes|jenkins|terraform)\b'],
             'programming': [r'(?i)\b(python|javascript|java|rust|go|typescript)\b'],
@@ -54,20 +50,17 @@ class ContextualChunker:
             'ml': [r'(?i)\b(ml|ai|model|training|inference|diffusion|generative)\b']
         }
         
-        # Extract matches from each category
         for category, patterns in TECH_PATTERNS.items():
             for pattern in patterns:
                 matches = re.finditer(pattern, text)
                 concepts.extend(match.group() for match in matches)
         
-        return list(set(concepts)) # set removes duplicates, list cause i can make json
+        return list(set(concepts))
 
     def create_contextual_chunks(self, bookmark: Dict) -> List[Dict]:
         """Create contextual chunks from a bookmark."""
         text = bookmark['text']
         doc = self.nlp(text)
-        
-        # Store entities and their positions for context preservation
         entities = self.extract_entities(text)
         
         chunks = []
@@ -75,8 +68,6 @@ class ContextualChunker:
         current_length = 0
         
         for sent in doc.sents:
-            # If adding this sentence would exceed max_chunk_size,
-            # save current chunk and start new one
             if current_length + len(sent.text) > self.max_chunk_size and current_chunk:
                 chunk_text = ' '.join(current_chunk)
                 chunks.append(self.create_chunk_with_context(
@@ -87,7 +78,6 @@ class ContextualChunker:
             current_chunk.append(sent.text)
             current_length += len(sent.text)
         
-        # Don't forget the last chunk
         if current_chunk:
             chunk_text = ' '.join(current_chunk)
             chunks.append(self.create_chunk_with_context(
@@ -157,19 +147,11 @@ def process_bookmarks(bookmarks: List[Dict]) -> List[Dict]:
         
     return all_chunks
 
-# Usage example:
 if __name__ == "__main__":
     bookmarks = load_bookmarks('data.json')
     chunks = process_bookmarks(bookmarks)
     
-    # Save processed chunks
     with open('processed_chunks.json', 'w', encoding='utf-8') as f:
         json.dump(chunks, f, indent=2)
     
-    # Print some statistics
     print(f"Processed {len(bookmarks)} bookmarks into {len(chunks)} chunks")
-    
-    # Show sample chunk
-    if chunks:
-        print("\nSample chunk structure:")
-        print(json.dumps(chunks[0], indent=2))

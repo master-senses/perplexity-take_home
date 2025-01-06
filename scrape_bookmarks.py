@@ -49,7 +49,6 @@ def get_tweet_id(tweet):
     return None
 
 def aggressive_scroll(driver):
-    # Scroll multiple times with different speeds
     for _ in range(3):
         driver.execute_script("window.scrollBy(0, 1000);")
         time.sleep(0.5)
@@ -61,7 +60,7 @@ def reset_page(driver):
     print("\nResetting page to refresh content...")
     current_url = driver.current_url
     driver.get(current_url)
-    time.sleep(5)  # Wait for page to fully load
+    time.sleep(5)
 
 def scrape_bookmarks():
     driver = setup_driver()
@@ -109,7 +108,6 @@ def scrape_bookmarks():
             if len(bookmarks) == initial_bookmark_count:
                 stuck_count += 1
                 if stuck_count >= 3:
-                    # If we're stuck and haven't reset recently
                     if len(bookmarks) - last_reset > 20:
                         reset_page(driver)
                         last_reset = len(bookmarks)
@@ -120,7 +118,6 @@ def scrape_bookmarks():
             else:
                 stuck_count = 0
             
-            # Save progress periodically
             if len(bookmarks) % 50 == 0:
                 with open('bookmarks_backup.json', 'w', encoding='utf-8') as f:
                     json.dump(bookmarks, f, indent=2, ensure_ascii=False)

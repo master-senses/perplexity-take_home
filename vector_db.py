@@ -1,4 +1,3 @@
-# from supabase import create_client
 import numpy as np
 from typing import List, Dict
 import json
@@ -19,7 +18,6 @@ def load_bookmarks(file_path: str) -> List[Dict]:
     with open(file_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-# Create table with vector column
 """
 create extension vector;
 
@@ -36,9 +34,8 @@ using ivfflat (embedding vector_cosine_ops)
 with (lists = 100);
 """
 
-# Insert
+
 def store_chunk(chunk):
-    # Convert numpy array to list if it exists
     if isinstance(chunk['embedding'], np.ndarray):
         chunk['embedding'] = chunk['embedding'].tolist()
 
@@ -58,7 +55,7 @@ def store_chunk(chunk):
         },
         'metadata': chunk['metadata']
     }).execute()
-# Query
+
 def search_similar(query, type):
     chunker = ContextualChunker()
     if type == "technical":
@@ -77,35 +74,36 @@ def search_similar(query, type):
 
 bookmarks = load_bookmarks('processed_chunks.json')
 
+
+# Store chunks in vector db
 # for bookmark in bookmarks:
 #     store_chunk(bookmark)
 
 # print(search_similar("what should I include in my .cursorrules file?", "technical"))
 
+#  Example query
+# cont = ContextualChunker()
+# query = "what should I include in my .cursorrules file"
+# response = cont.client.embeddings.create(
+#             model="text-embedding-ada-002",
+#             input=query
+#         )
+# embedding = response.data[0].embedding
+# # Call hybrid_search Postgres function via RPC
+# response = supabase.rpc('hybrid_search', {
+#     'query_text': query,
+#     'query_embedding': embedding,
+#     'full_text_weight': 0.2,
+#     'semantic_weight': 1,
+#     'match_count': 5,
+#     # 'author_filter': "dreaming tulpa"
 
-cont = ContextualChunker()
-query = "what should I include in my .cursorrules file"
-response = cont.client.embeddings.create(
-            model="text-embedding-ada-002",
-            input=query
-        )
-embedding = response.data[0].embedding
-# Call hybrid_search Postgres function via RPC
-response = supabase.rpc('hybrid_search', {
-    'query_text': query,
-    'query_embedding': embedding,
-    'full_text_weight': 0.2,
-    'semantic_weight': 1,
-    'match_count': 5,
-    # 'author_filter': "dreaming tulpa"
+# }).execute()
 
-}).execute()
+# documents = response.data
 
-documents = response.data
+# for i in range(len(documents)):
+#     print(f"{i + 1}th text: ", documents[i]["text"], " | ", documents[i]["context"]["author_handle"], " | ", documents[i]["context"]["media"]["link_to_post"])
 
-for i in range(len(documents)):
-    print(f"{i + 1}th text: ", documents[i]["text"], " | ", documents[i]["context"]["author_handle"], " | ", documents[i]["context"]["media"]["link_to_post"])
-
-# print(json.dumps(documents))
 
 

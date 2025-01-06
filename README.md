@@ -183,4 +183,10 @@ All information generated is sourced from X posts, whose links are provided in s
 2) Conversation history is stored in Supabase, so you can continue your conversation later
 3) The search bar is a custom component that shrinks when not used, so it's easier to scroll through the chat. It expands when hovered over.
 
+### Future Work
+1) A chat-history feature that allows you to move through conversations through the UI (you can currently do this through the URL)
+2) Image search to sort through bookmarks with images
+3) More sophisticated NER to extract more entities and create more relevant embeddings
+4) Add skeletons to all UI components to improve loading state
+
 

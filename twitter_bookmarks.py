@@ -8,7 +8,7 @@ from urllib.parse import parse_qs, urlparse
 from threading import Thread
 
 load_dotenv()
-os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'  # Allow OAuth without HTTPS for local dev
+os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 
 class CallbackHandler(BaseHTTPRequestHandler):
     callback_url = None
@@ -21,7 +21,6 @@ class CallbackHandler(BaseHTTPRequestHandler):
         self.wfile.write(b"Authorization successful! You can close this window.")
         
     def log_message(self, format, *args):
-        # Suppress logging
         pass
 
 def authenticate():
