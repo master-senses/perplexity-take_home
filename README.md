@@ -26,7 +26,7 @@ python scrape_bookmarks.py
 > python twitter_bookmarks.py
 > ```
 
-This will create a `bookmarks.json` file:
+This will create a `bookmarks.json` file (data in the file will look like this):
 ```json
 {
   "id": "1803461399286522122",
@@ -43,7 +43,7 @@ This will create a `bookmarks.json` file:
 python process_json.py
 ```
 
-This creates `data.json` with cleaned format:
+This creates `data.json` with cleaned format (data in the file will look like this):
 ```json
 {
   "id": "1802376838427394060",
@@ -62,7 +62,7 @@ This creates `data.json` with cleaned format:
 python ner.py
 ```
 
-This creates `processed_chunks.json` with NER entities and embeddings:
+This creates `processed_chunks.json` with NER entities and embeddings (data in the file will look like this):
 ```json
 {
   "id": "1863261954229321873_chunk_5625",
@@ -157,7 +157,7 @@ flowchart LR
 ```
 
 ### Data Preprocessing
-I used a custom dataset of my X bookmarks. I have 286 bookmarks, and scraped them from X and added additional NER entities to it.
+I used a custom dataset of my X bookmarks. I have 286 bookmarks, and scraped them from X and added additional NER entities to it. Please refer to the setup for examples of data. I have also attached json files with embeddings and my NER JSON file
 The Python pipeline handles data collection and preprocessing:
 - `scrape_bookmarks.py`: Scrapes X bookmarks using Selenium
 - `process_json.py`: Cleans and structures the data
