@@ -36,7 +36,7 @@ Format Example:
 export async function POST(req: Request) {
   const { prompt, context } = await req.json();
   let updated_context = ""
-  for (let post of context) {
+  for (const post of context) {
     updated_context += `@${post["author_handle"]}: ${post["text"]}\n`
   }
   console.log("The prompt is: ", prompt)

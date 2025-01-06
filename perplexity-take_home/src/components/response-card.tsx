@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Card, CardContent } from "@/components/ui/card";
 import { SourceList } from "./sources-list";
 import { Source, Tweet } from "@/types/tweet";
@@ -24,9 +25,9 @@ export function ResponseCard({ content, sources }: ResponseCardProps) {
     );
   });
 
-  let sources_list: Source[] = []
-  for (let source of sources) {
-    let tweet: Tweet = {
+  const sources_list: Source[] = []
+  for (const source of sources) {
+    const tweet: Tweet = {
       id: source.id,
       text: source.text,
       author: {

@@ -1,0 +1,35 @@
+export function BookmarkIcon() {
+  return (
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 32" 
+      className="w-24 h-32"
+    >
+      <defs>
+        <style>
+          {`
+            @keyframes drawBookmark {
+              0% { stroke-dashoffset: 100; }
+              100% { stroke-dashoffset: 0; }
+            }
+          `}
+        </style>
+      </defs>
+      <path 
+        className="stroke-white fill-none stroke-[1.5] stroke-round animate-[drawBookmark_1.5s_ease-in-out_infinite_alternate]"
+        style={{ strokeDasharray: 100 }}
+        d="M4 2 L4 30 L12 24 L20 30 L20 2 Q20 1 19 1 L5 1 Q4 1 4 2 Z"
+      />
+      <path 
+        className="stroke-white fill-none stroke-[1.5] stroke-round animate-[drawBookmark_1.5s_ease-in-out_infinite_alternate]"
+        style={{ strokeDasharray: 100 }}
+        d="M8 8 L16 8"
+      />
+      <path 
+        className="stroke-white fill-none stroke-[1.5] stroke-round animate-[drawBookmark_1.5s_ease-in-out_infinite_alternate]"
+        style={{ strokeDasharray: 100 }}
+        d="M8 12 L16 12"
+      />
+    </svg>
+  )
+} 

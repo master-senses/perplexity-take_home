@@ -8,8 +8,9 @@ import { ResponseCard } from '@/components/response-card'
 import { Message}  from '../types/chat'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useEffect } from 'react'
-import { createConversation, createMessage, updateConversation, loadMessages, updateMessage, addSources } from './services/supabase'
+import { createConversation, createMessage, updateConversation, loadMessages, updateMessage } from './services/supabase'
 import { useCompletion } from 'ai/react'
+import { BookmarkIcon } from '@/components/bookmark-icon'
 import clsx from 'clsx'
 
 function SearchEngineContent() {
@@ -130,11 +131,18 @@ function SearchEngineContent() {
           {(messages.length > 0 || isLoading) && <div className="h-52" />}
         </div>
 
+        {/* Initial state SVG */}
+        {isFirstSearch && (
+          <div className="fixed top-1/4 left-1/2 -translate-x-1/2">
+            <BookmarkIcon />
+          </div>
+        )}
+
         {/* Search bar section */}
         <div 
           className={clsx(
             'fixed left-1/2 -translate-x-1/2 w-full max-w-3xl',
-            isFirstSearch ? 'top-1/2 -translate-y-1/2' : 'bottom-8'
+            isFirstSearch ? 'bottom-1/3 -translate-y-1/2 ' : 'bottom-8'
           )}
         >
           <SearchBar 
