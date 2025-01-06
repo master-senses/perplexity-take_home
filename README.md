@@ -121,33 +121,69 @@ Open [http://localhost:3000](http://localhost:3000) to view the app.
 
 ## Architecture
 
-<div align="center">
-  <svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-        <polygon points="0 0, 10 3.5, 0 7" fill="#8b5cf6"/>
-      </marker>
-    </defs>
-    <!-- Data Flow -->
-    <path d="M50,50 L550,50" stroke="#8b5cf6" stroke-width="2" marker-end="url(#arrowhead)"/>
-    <!-- Boxes -->
-    <rect x="50" y="80" width="100" height="50" rx="5" fill="#1e293b" stroke="#8b5cf6"/>
-    <rect x="200" y="80" width="100" height="50" rx="5" fill="#1e293b" stroke="#8b5cf6"/>
-    <rect x="350" y="80" width="100" height="50" rx="5" fill="#1e293b" stroke="#8b5cf6"/>
-    <rect x="500" y="80" width="100" height="50" rx="5" fill="#1e293b" stroke="#8b5cf6"/>
-    <!-- Labels -->
-    <text x="60" y="110" fill="white" font-size="12">Scraper</text>
-    <text x="210" y="110" fill="white" font-size="12">Processor</text>
-    <text x="360" y="110" fill="white" font-size="12">NER</text>
-    <text x="510" y="110" fill="white" font-size="12">Search</text>
-  </svg>
-</div>
+```mermaid
+flowchart LR
+    %% Data Collection & Processing (Vertical subgraph)
+    subgraph Pipeline
+        direction TB
+        X[(X Platform)]
+        scrape[scrape_bookmarks.py]
+        process[process_json.py]
+        ner[ner.py]
+        embed[Embeddings<br>ada-002]
+        X --> scrape
+        scrape --> process
+        process --> ner
+        ner --> embed
+    end
+    
+    %% Client Interaction (Horizontal)
+    user([User]) --> next[Next.js App]
+    next --> user
+    
+    subgraph Supabase PostgreSQL
+        direction LR
+        db[(Database)]
+        conv[(Conversation<br>Storage)]
+    end
+    
+    %% Database Connections
+    embed --> db
+    next --> db
+    db --> search[Hybrid Search]
+    search --> context[Retrieved Context]
+    next --> conv
+    conv --> next
+    conv --> llm
+    
+    %% LLM Processing
+    context --> llm[LLM]
+    next --> llm
+    llm --> next
+    
+    %% Apply bold style to all nodes
+    style X fill:#fff,stroke:#333,color:#000,font-weight:bold
+    style scrape fill:#fff,stroke:#333,color:#000,font-weight:bold
+    style process fill:#fff,stroke:#333,color:#000,font-weight:bold
+    style ner fill:#fff,stroke:#333,color:#000,font-weight:bold
+    style embed fill:#fff,stroke:#333,color:#000,font-weight:bold
+    style user fill:#fff,stroke:#333,color:#000,font-weight:bold
+    style next fill:#f9f9f9,stroke:#333,color:#000,font-weight:bold
+    style search fill:#fff,stroke:#333,color:#000,font-weight:bold
+    style Supabase PostgreSQL fill:#3ECF8E,stroke:#333,color:#000,font-weight:bold
+    style db fill:#fff,stroke:#333,color:#000,font-weight:bold
+    style conv fill:#fff,stroke:#333,color:#000,font-weight:bold
+    style context fill:#fff,stroke:#333,color:#000,font-weight:bold
+    style llm fill:#ff9999,stroke:#333,color:#000,font-weight:bold
+    style Pipeline fill:#f5f5f5,stroke:#333,color:#000,font-weight:bold
+```
 
 ### Data Preprocessing
+I used a custom dataset of my X bookmarks. I have 286 bookmarks, and scraped them from X and added additional NER entities to it.
 The Python pipeline handles data collection and preprocessing:
 - `scrape_bookmarks.py`: Scrapes X bookmarks using Selenium
 - `process_json.py`: Cleans and structures the data
-- `ner.py`: Custom NER pipeline for entity extraction and embeddings
+- `ner.py`: Custom NER pipeline for entity extraction and embedding. <b>It has a custom contextual chunker that chunks data based on context to create better embeddings.</b>
 Note: I initially used all-mpnet-base-v2 for embeddings, but could not get transformers.js working to embed my query, so I used ada-002 for embeddings everywhere instead.
 
 ### Why No Vector Database?
@@ -155,5 +191,8 @@ Following [this article](https://t.co/Kr4h6YByff) (and my experiences with RAG a
 
 ### Custom Chat Interface
 I've built my own chat interface. I took a lot of inspiration from Perplexity! The LLM answer format and sources cards were inspired by perplexity design. Creating an interface with streaming and minimal rerendering was time-consuming. 
+
+### Link to X posts
+All information generated is sourced from X posts, whose links are provided in sources cards.
 
 
