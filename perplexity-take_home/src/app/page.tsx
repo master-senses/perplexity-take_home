@@ -117,7 +117,6 @@ function SearchEngineContent() {
   return (
     <div className="min-h-screen text-white p-4">
       <div className="max-w-3xl mx-auto min-h-screen">
-        {/* Messages section */}
         <div className="w-full space-y-6">
           {MessageList}
           
@@ -127,21 +126,18 @@ function SearchEngineContent() {
             </div>
           )}
 
-          {/* Spacer div that only appears when we have messages or loading */}
           {(messages.length > 0 || isLoading) && <div className="h-52" />}
         </div>
 
-        {/* Initial state SVG */}
         {isFirstSearch && (
-          <div className="fixed top-1/4 left-1/2 -translate-x-1/2">
+          <div className="fixed top-1/4 left-1/2 -translate-x-[100%]">
             <BookmarkIcon />
           </div>
         )}
 
-        {/* Search bar section */}
         <div 
           className={clsx(
-            'fixed left-1/2 -translate-x-1/2 w-full max-w-3xl',
+            'fixed left-1/2 -translate-x-1/2 w-full max-w-3xl -translate-x-[%]' ,
             isFirstSearch ? 'bottom-1/3 -translate-y-1/2 ' : 'bottom-8'
           )}
         >
