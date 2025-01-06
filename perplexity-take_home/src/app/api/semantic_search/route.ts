@@ -27,14 +27,24 @@ export async function POST(request: Request) {
     throw new Error('Invalid embedding response');
   }
   const embedding = responseData.data[0].embedding;
+  let author = null;
+  const atIndex = query.lastIndexOf('@');
+  if (atIndex !== -1) {
+    const afterAt = query.slice(atIndex + 1);
+    const spaceIndex = afterAt.indexOf(' ');
+    author = spaceIndex === -1 ? afterAt : afterAt.slice(0, spaceIndex);
+  }
+  console.log("author: ", author)
   
-  const { data: posts } = await supabase.rpc('hybrid_search', {
+  const { data: posts, error } = await supabase.rpc('hybrid_search', {
     query_text: query,
     query_embedding: embedding,
     full_text_weight: 0.2,
     semantic_weight: 1,
     match_count: 5,
+    author_filter: author
   })
+  console.log(error)
 
   // let context = ""
 

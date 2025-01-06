@@ -1,9 +1,12 @@
 'use client'
 
-import { useRef, useState } from 'react'
+import { useRef, useState, useEffect } from 'react'
 import { Search } from 'lucide-react'
 import { motion, useAnimate } from 'framer-motion'
 import clsx from 'clsx'
+import { MentionList } from './MentionList'
+import { filterMentions } from '@/lib/mention'
+import { Mention } from '@/types/mentions'
 
 interface SearchBarProps {
   searchQuery: string
@@ -21,6 +24,64 @@ export function SearchBar({
   const inputRef = useRef<HTMLInputElement>(null)
   const [scope] = useAnimate()
   const [isHovered, setIsHovered] = useState(false)
+  const [mentionSearch, setMentionSearch] = useState<{
+    isActive: boolean
+    query: string
+    startPosition: number
+  }>({
+    isActive: false,
+    query: '',
+    startPosition: 0
+  })
+  const justSelectedMention = useRef(false)
+
+  useEffect(() => {
+    if (justSelectedMention.current) {
+      justSelectedMention.current = false
+      return
+    }
+
+    // Check for @ mentions
+    const lastAtSymbol = searchQuery.lastIndexOf('@')
+    if (lastAtSymbol !== -1) {
+      const textAfterAt = searchQuery.slice(lastAtSymbol)
+      const spaceAfterAt = textAfterAt.indexOf(' ')
+      const query = spaceAfterAt === -1 ? textAfterAt : textAfterAt.slice(0, spaceAfterAt)
+      
+      setMentionSearch({
+        isActive: true,
+        query,
+        startPosition: lastAtSymbol
+      })
+    } else {
+      setMentionSearch({
+        isActive: false,
+        query: '',
+        startPosition: 0
+      })
+    }
+  }, [searchQuery])
+
+  const handleSelectMention = (mention: Mention) => {
+    const beforeMention = searchQuery.slice(0, mentionSearch.startPosition)
+    const afterMention = searchQuery.slice(mentionSearch.startPosition).split(' ').slice(1).join(' ')
+    const newValue = `${beforeMention}@${mention.name}${afterMention ? ' ' + afterMention : ''}`
+    onChange(newValue)
+    setMentionSearch({ isActive: false, query: '', startPosition: 0 })
+    justSelectedMention.current = true
+    inputRef.current?.focus()
+  }
+
+  const getMentionListPosition = () => {
+    if (!inputRef.current) return {}
+    
+    const caretPosition = mentionSearch.startPosition * 8 // Approximate character width
+    
+    return {
+      bottom: '100%',
+      left: `${caretPosition}px`
+    }
+  }
 
   return (
     <motion.div
@@ -52,10 +113,21 @@ export function SearchBar({
             }`}
           />
         </div>
+
+        {/* Mention list popup */}
+        {mentionSearch.isActive && (
+          <MentionList
+            mentions={filterMentions(mentionSearch.query)}
+            onSelect={handleSelectMention}
+            style={getMentionListPosition()}
+          />
+        )}
       </div>
     </motion.div>
   )
 }
+
+
 
 
 
