@@ -2,10 +2,6 @@
 
 A personalized semantic search engine for your X (Twitter) bookmarks. Search through your bookmarks using natural language and get contextually relevant results.
 
-<div align="center">
-  <img src="public/bookmark-icon.svg" width="100" height="100" />
-</div>
-
 ## Setup
 
 1. Create and activate virtual environment:
