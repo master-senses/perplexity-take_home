@@ -6,24 +6,6 @@ A personalized semantic search engine for your X (Twitter) bookmarks. Search thr
   <img src="public/bookmark-icon.svg" width="100" height="100" />
 </div>
 
-```tsx
-// Animated bookmark icon
-export function BookmarkIcon() {
-  return (
-    <svg 
-      xmlns="http://www.w3.org/2000/svg" 
-      viewBox="0 0 24 32" 
-      className="w-24 h-32"
-    >
-      <path 
-        className="stroke-white fill-none stroke-[1.5] animate-[drawBookmark_1.5s_ease-in-out_infinite_alternate]"
-        d="M4 2 L4 30 L12 24 L20 30 L20 2 Q20 1 19 1 L5 1 Q4 1 4 2 Z"
-      />
-    </svg>
-  )
-}
-```
-
 ## Setup
 
 1. Create and activate virtual environment:
@@ -184,15 +166,21 @@ The Python pipeline handles data collection and preprocessing:
 - `scrape_bookmarks.py`: Scrapes X bookmarks using Selenium
 - `process_json.py`: Cleans and structures the data
 - `ner.py`: Custom NER pipeline for entity extraction and embedding. <b>It has a custom contextual chunker that chunks data based on context to create better embeddings.</b>
-Note: I initially used all-mpnet-base-v2 for embeddings, but could not get transformers.js working to embed my query, so I used ada-002 for embeddings everywhere instead.
+<p>
+Note: I initially used all-mpnet-base-v2 for embeddings, but could not get transformers.js working to embed my query, so I used ada-002 for embeddings everywhere instead. </p>
 
 ### Why No Vector Database?
-Following [this article](https://t.co/Kr4h6YByff) (and my experiences with RAG at Eli Lilly), I've found that vector databases tend to seperate your actual data with embeddings, and make it difficult to synchronize. Instead, I've opted to use PostgreSQL with pgvector, treating embeddings as derived data through indexes.
+Following [this article](https://t.co/Kr4h6YByff) (and my experiences with RAG at Eli Lilly), I've found that vector databases tend to seperate your actual data with embeddings, and make it difficult to synchronize. Instead, I've opted to use PostgreSQL to store embeddings, treating embeddings as derived data.
 
 ### Custom Chat Interface
 I've built my own chat interface. I took a lot of inspiration from Perplexity! The LLM answer format and sources cards were inspired by perplexity design. Creating an interface with streaming and minimal rerendering was time-consuming. 
 
 ### Link to X posts
 All information generated is sourced from X posts, whose links are provided in sources cards.
+
+### Other Features
+1) All conversations have unique URLS and are stored in Supabase, so you can refresh the page and continue your conversation.
+2) Conversation history is stored in Supabase, so you can continue your conversation later
+3) The search bar is a custom component that shrinks when not used, so it's easier to scroll through the chat. It expands when hovered over.
 
 
