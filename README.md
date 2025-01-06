@@ -16,7 +16,7 @@ source venv/bin/activate  # Unix
 pip install -r requirements.txt
 ```
 
-3. Scrape your bookmarks:
+3. Scrape your bookmarks (this will lead you to a browser where you should sign into your X account):
 ```bash
 python scrape_bookmarks.py
 ```
