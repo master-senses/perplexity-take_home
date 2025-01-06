@@ -87,7 +87,88 @@ This creates `processed_chunks.json` with NER entities and embeddings (data in t
 Follow the [Supabase Hybrid Search Guide](https://supabase.com/docs/guides/ai/hybrid-search) to:
 - Create tables with vector columns
 - Setup indexes for full-text and semantic search
-- Implement the hybrid search function 
+Use these commands to setup the following databases:
+conversations
+```sql
+CREATE TABLE conversations (
+  id uuid DEFAULT gen_random_uuid() PRIMARY KEY,  -- Unique identifier for each conversation
+  title text NOT NULL,                             -- Title of the conversation
+  created_at timestamp with time zone DEFAULT timezone('utc', now()) NOT NULL  -- Timestamp of creation
+);
+```
+chunks
+```sql
+CREATE TABLE chunks (
+  id bigint GENERATED ALWAYS AS IDENTITY PRIMARY KEY,  -- Unique identifier for each chunk
+  conversation_id uuid REFERENCES conversations(id) ON DELETE CASCADE,  -- Foreign key to conversations
+  fts tsvector,                                       -- Full-text search vector
+  embedding vector(1536),                              -- Semantic embedding vector
+  context jsonb,                                     -- JSONB field for additional context
+  created_at timestamp with time zone DEFAULT timezone('utc', now()) NOT NULL  -- Timestamp of creation
+);
+```
+messages
+```sql
+CREATE TABLE messages (
+  id uuid DEFAULT gen_random_uuid() PRIMARY KEY,  -- Unique identifier for each message
+  conversation_id uuid REFERENCES conversations(id) ON DELETE CASCADE,  -- Foreign key to conversations
+  type text CHECK (type IN ('query', 'response')),  -- Type of message (query or response)
+  content text,                                     -- Content of the message
+  created_at timestamp with time zone DEFAULT timezone('utc', now()) NOT NULL,  -- Timestamp of creation
+  order_index integer                                -- Order index for messages in the conversation
+  sources jsonb
+);
+```
+To create the hybrid search function, use this:
+```sql
+CREATE OR REPLACE FUNCTION hybrid_search(
+  query_text text,
+  query_embedding vector(768),  -- Updated to 768 dimensions
+  match_count int,
+  author_filter text DEFAULT NULL,  -- New parameter for filtering by author
+  full_text_weight float DEFAULT 0.7,
+  semantic_weight float DEFAULT 1,
+  rrf_k int DEFAULT 50
+)
+RETURNS SETOF chunks
+LANGUAGE sql
+AS $$
+WITH full_text AS (
+  SELECT
+    id,
+    row_number() OVER (ORDER BY ts_rank_cd(fts, websearch_to_tsquery(query_text)) DESC) AS rank_ix
+  FROM
+    chunks
+  WHERE
+    fts @@ websearch_to_tsquery(query_text)
+    AND (author_filter IS NULL OR context::jsonb ->> 'author_handle' ILIKE '%' || author_filter || '%')  -- Filter by author_handle
+  ORDER BY rank_ix
+  LIMIT LEAST(match_count, 30) * 2
+),
+semantic AS (
+  SELECT
+    id,
+    row_number() OVER (ORDER BY embedding <#> query_embedding) AS rank_ix
+  FROM
+    chunks
+  WHERE
+    (author_filter IS NULL OR context::jsonb ->> 'author_handle' ILIKE '%' || author_filter || '%')  -- Filter by author_handle
+  ORDER BY rank_ix
+  LIMIT LEAST(match_count, 30) * 2
+)
+SELECT
+  chunks.*
+FROM
+  full_text
+  FULL OUTER JOIN semantic ON full_text.id = semantic.id
+  JOIN chunks ON COALESCE(full_text.id, semantic.id) = chunks.id
+ORDER BY
+  COALESCE(1.0 / (rrf_k + full_text.rank_ix), 0.0) * full_text_weight +
+  COALESCE(1.0 / (rrf_k + semantic.rank_ix), 0.0) * semantic_weight DESC
+LIMIT
+  LEAST(match_count, 30);
+$$;
+```
 
 7. Run the Next.js app (make sure to put in the required .env variables):
 ```bash
