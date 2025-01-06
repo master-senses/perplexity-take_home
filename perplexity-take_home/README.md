@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bookmark Brain 🧠
 
-## Getting Started
+A personalized semantic search engine for your X (Twitter) bookmarks. Search through your bookmarks using natural language and get contextually relevant results.
 
-First, run the development server:
+<div align="center">
+  <img src="public/bookmark-icon.svg" width="100" height="100" />
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```tsx
+// Animated bookmark icon
+export function BookmarkIcon() {
+  return (
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 32" 
+      className="w-24 h-32"
+    >
+      <path 
+        className="stroke-white fill-none stroke-[1.5] animate-[drawBookmark_1.5s_ease-in-out_infinite_alternate]"
+        d="M4 2 L4 30 L12 24 L20 30 L20 2 Q20 1 19 1 L5 1 Q4 1 4 2 Z"
+      />
+    </svg>
+  )
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Create and activate virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # Unix
+.\venv\Scripts\activate   # Windows
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install requirements:
+```bash
+pip install -r requirements.txt
+```
 
-## Learn More
+3. Scrape your bookmarks:
+```bash
+python scrape_bookmarks.py
+```
 
-To learn more about Next.js, take a look at the following resources:
+> **Note**: If you have X API Premium access, you can alternatively use:
+> ```bash
+> python twitter_bookmarks.py
+> ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This will create a `bookmarks.json` file (your data should look like this):
+```json
+{
+  "id": "1803461399286522122",
+  "text": "Big step for Generative 3D:\nMeshAnything...",
+  "author": "Troy Kirwin\n@tkexpress11",
+  "timestamp": "2024-06-19T16:14:38.000Z",
+  "images": ["https://pbs.twimg.com/media/GQcubFoaIAQJS1u?format=jpg&name=large"],
+  "links": ["https://x.com/tkexpress11/status/1803461399286522122"]
+}
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Process the data:
+```bash
+python process_json.py
+```
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This creates `data.json` with cleaned format:
+```json
+{
+  "id": "1802376838427394060",
+  "text": ". @raffi_hotter and I ran a 2-week hackathon...",
+  "timestamp": "2024-06-16T16:24:59.000Z",
+  "images": ["https://pbs.twimg.com/media/GQNPJZCaMAAvbMO?format=jpg&name=large"],
+  "links": ["https://x.com/raffi_hotter"],
+  "link_to_post": "https://twitter.com/i/web/status/1802376838427394060",
+  "author_name": "marley",
+  "author_handle": "@_marleyx"
+}
+```
