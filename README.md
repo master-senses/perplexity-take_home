@@ -3,7 +3,7 @@
 A personalized semantic search engine for your X (Twitter) bookmarks. Search through your bookmarks using natural language and get contextually relevant results.
 
 <div align="center">
-  <img src="/perplexity-take_home/public/bookmark-icon.svg" width="100" height="100" />
+  <img src="/perplexity-take_home/public/bookmark.svg" width="100" height="100" />
 </div>
 
 ```tsx
