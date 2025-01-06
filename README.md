@@ -178,6 +178,9 @@ I've built my own chat interface. I took a lot of inspiration from Perplexity! T
 ### Link to X posts
 All information generated is sourced from X posts, whose links are provided in sources cards.
 
+### Mention authors of tweets
+Using the @ symbol in the search bar will filter the search results to only include bookmarks from the author.
+
 ### Other Features
 1) All conversations have unique URLS and are stored in Supabase, so you can refresh the page and continue your conversation.
 2) Conversation history is stored in Supabase, so you can continue your conversation later
